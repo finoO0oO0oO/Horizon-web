@@ -3,7 +3,7 @@
   <title>Fino 的晨间地平线 - 中文摘要</title>
   <link href="https://finoo0oo0oo.github.io/Horizon-web/feed-zh.xml" rel="self"/>
   <link href="https://finoo0oo0oo.github.io/Horizon-web/"/>
-  <updated>2026-11-18T20:29:34+09:00</updated>
+  <updated>2026-11-18T20:43:10+09:00</updated>
   <id>https://finoo0oo0oo.github.io/Horizon-web/</id>
   
   
@@ -52,6 +52,14 @@
 <p><a id="item-agent-dev-1"></a></p>
 <h3 id="simon-willison-的外部沙箱方案保障-ai-编码代理安全执行代码-️-8010"><a href="https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/">Simon Willison 的外部沙箱方案保障 AI 编码代理安全执行代码</a> ⭐️ 8.0/10</h3>
 
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/" target="_blank" rel="noopener noreferrer">
+<img src="https://static.simonwillison.net/static/2026/sandbox-proxy.png" alt="Simon Willison 的外部沙箱方案保障 AI 编码代理安全执行代码：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
 <p>Simon Willison 介绍了一种外部沙箱模式，用于安全地运行由 AI 编码代理执行的代码。该模式将代码执行隔离在专用沙箱中，而代理本身运行在沙箱之外，降低了因错误或提示注入攻击导致的风险。为演示该模式，作者与 Prime Radiant 合作发布了三种开源沙箱服务器实现，分别基于 v86 的 WebAssembly Alpine Linux、Apple Containers 中的 Alpine Linux 以及微软 Quicksand 沙箱库，均提供统一的本地 API 接口。此外，这些沙箱支持 HTTP/HTTPS 允许列表代理和凭证替换机制，方便控制网络访问和安全调用认证接口。该方案适用于本地 AI 模型和编码代理的安全代码执行，文档和代码均开源，便于开发者复用和扩展。</p>
 
 <p>rss · Simon Willison · 11月17日 22:52</p>
@@ -62,6 +70,14 @@
 
 <p><a id="item-agent-dev-2"></a></p>
 <h3 id="使用服务工作线程和-pyodide-在浏览器中运行完整的-datasette-python-应用datasette-lite-️-8010"><a href="https://simonwillison.net/2026/Nov/17/datasette-lite/">使用服务工作线程和 Pyodide 在浏览器中运行完整的 Datasette Python 应用——Datasette Lite</a> ⭐️ 8.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://simonwillison.net/2026/Nov/17/datasette-lite/" target="_blank" rel="noopener noreferrer">
+<img src="https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp" alt="使用服务工作线程和 Pyodide 在浏览器中运行完整的 Datasette Python 应用——Datasette Lite：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
 
 <p>Simon Willison 开发的 Datasette Lite 通过 Pyodide 和服务工作线程实现了在浏览器中运行完整的服务器端 Datasette Python 应用，支持交互式浏览 SQLite 数据库及插件，无需服务器环境。该方案利用服务工作线程拦截 HTTP 请求，加载指定版本的 Datasette、SQLite 及插件，支持通过 URL 参数灵活配置，方便演示和调试。文中提供了详细的使用示例和插件安装方法，展示了其在开发过程中的实际应用和兼容性优势。</p>
 
@@ -85,6 +101,15 @@
 <p><a id="item-agent-dev-4"></a></p>
 <h3 id="gpt62-astra-和-gpt62-sol-评测-️-7010"><a href="https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/">GPT‑6.2 Astra 和 GPT‑6.2 Sol 评测</a> ⭐️ 7.0/10</h3>
 
+<!-- hz-media:start -->
+<div class="hz-media">
+<video class="hz-native-video" controls="" playsinline="" preload="none" poster="https://static.simonwillison.net/static/2026/yonkers-astra-sol-20s.webp">
+<source src="https://static.simonwillison.net/static/2026/yonkers-astra-sol-20s-largest.mp4" />
+<a href="https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/">打开来源视频</a></video>
+<p class="hz-media-credit"><a href="https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/" target="_blank" rel="noopener noreferrer">来源视频 · 打开原文 ↗</a></p>
+</div>
+<!-- hz-media:end -->
+
 <p>Simon Willison 评测了 OpenAI 新发布的 GPT‑6.2 Astra 和 GPT‑6.2 Sol 模型，介绍了它们的定价、API 支持及视觉输出效果。Astra 6.2 价格较前代降低 20%，适合复杂项目，Sol 6.2 维持低价，适合日常使用。通过鹈鹕骑自行车的插图对比，Astra 在细节表现上更优。基准测试中，两者在三维动画生成任务表现一般，未能超越竞争对手 Claude Fable 5.2 和 Gemini 4 Carbon。文章还引用了用户反馈，指出 Astra 在长任务中可能出现难以理解的内部问题询问。整体来看，6.2 版本为现有模型的渐进式改进，提供了更优的价格和部分性能提升。</p>
 
 <p>rss · Simon Willison · 11月17日 22:38</p>
@@ -98,6 +123,14 @@
 <p><a id="item-indie-games-1"></a></p>
 <h3 id="nova-海外独立游戏见闻-vol161-️-8010"><a href="https://indienova.com/indie-game-news/news-of-overseas-indie-games-and-industry-vol-161/">NOVA 海外独立游戏见闻 Vol.161</a> ⭐️ 8.0/10</h3>
 
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://indienova.com/indie-game-news/news-of-overseas-indie-games-and-industry-vol-161/" target="_blank" rel="noopener noreferrer">
+<img src="https://hivebak.indienova.com/farm/article/headpic/2026/11/head-3608W1-banner_vol161.jpg" alt="NOVA 海外独立游戏见闻 Vol.161：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
 <p>《Big Walk》因开发中有限度使用生成式 AI 引发 IGF 评委争议，19 名评委联合声明拒绝投票给使用 AI 的作品。Steam 审核积压导致多款独立游戏发售推迟，Valve 承认提交量激增但未将延迟归因于 AI。Nexus Mods 调整新 Mod 展示规则，限制同一作者短时间内多个作品集中展示。Steam 推出“成就集”功能，支持本体与 DLC 成就分开计算。GDC 回应 2026 年参会人数下降，公布 2027 年展会调整方案。失传 20 年的《宝可梦钓鱼大会 DS》实体卡带现身引发数字存档争议。前 id Software 员工成立 Hidden Horses 工作室，发布首款 FPS 游戏《Danger Pay》并启动 Kickstarter 众筹。</p>
 
 <p>rss · indienova · 11月18日 06:00</p>
@@ -109,6 +142,14 @@
 <p><a id="item-indie-games-2"></a></p>
 <h3 id="诺娃独立游戏通讯-2026-46-️-7010"><a href="https://indienova.com/indie-game-news/nova-post-2026-46/">诺娃独立游戏通讯 2026-#46</a> ⭐️ 7.0/10</h3>
 
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://indienova.com/indie-game-news/nova-post-2026-46/" target="_blank" rel="noopener noreferrer">
+<img src="https://hivebak.indienova.com/farm/article/headpic/2026/11/head-6626N2-NovaPost-26-46.jpg" alt="诺娃独立游戏通讯 2026-\#46：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
 <p>《诺娃独立游戏通讯 2026-#46》是一份精选的独立游戏通讯，介绍了多款近期由 Indienova 社区开发者发布的独立游戏，涵盖回合制策略、多分支文本、艺术体验、放置挂机等多种类型。通讯中推荐了如《誓约前线》、《设计院浮沉录》、《阵痛》、《桌面精灵:育成物语》和《幸运豪赌》等游戏，并分享了《午夜机台》、《SHUNYA》、《天空纪实》和《伟大项目工厂》等游戏的最新开发日志和发售信息。该通讯为独立游戏爱好者提供了丰富的游戏选择和开发者动态，适合关注国内独立游戏发展的玩家。</p>
 
 <p>rss · indienova · 11月18日 00:00</p>
@@ -119,6 +160,14 @@
 
 <p><a id="item-indie-games-3"></a></p>
 <h3 id="独立游戏工作室-studio-bravarda-关闭无敌水豚表现不佳-️-6010"><a href="https://www.gcores.com/articles/222455">独立游戏工作室 Studio Bravarda 关闭，《无敌水豚》表现不佳</a> ⭐️ 6.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://www.gcores.com/articles/222455" target="_blank" rel="noopener noreferrer">
+<img src="https://image.gcores.com/ffaa30904bff09c9f7b2947cb0403906-1920-1080.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90" alt="独立游戏工作室 Studio Bravarda 关闭，《无敌水豚》表现不佳：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
 
 <p>独立游戏工作室 Studio Bravarda 宣布关闭，原因是旗下游戏《无敌水豚》自 2023 年发售后表现未达预期，三年内未能收回开发成本。游戏首发时联机体验不稳定，尤其在中国地区，团队虽尝试改进并转向 Godot 引擎开发新项目，但融资困难导致无法持续运营。工作室感谢支持者，坦诚面对失败，回顾六年间实现了童年梦想。</p>
 
@@ -144,6 +193,14 @@
 <p><a id="item-seasonal-anime-1"></a></p>
 <h3 id="identity-v-游戏短篇动画oha-suta-daigo-gakuen公布更多声优与制作人员11-月-24-日首播-️-7010"><a href="https://www.animenewsnetwork.com/news/2026-11-18/identity-v-game-oha-suta-daigo-gakuen-short-anime-unveils-more-cast-staff-november-24-debut/.243933">Identity V 游戏短篇动画《Oha Suta Daigo Gakuen》公布更多声优与制作人员，11 月 24 日首播</a> ⭐️ 7.0/10</h3>
 
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://www.animenewsnetwork.com/news/2026-11-18/identity-v-game-oha-suta-daigo-gakuen-short-anime-unveils-more-cast-staff-november-24-debut/.243933" target="_blank" rel="noopener noreferrer">
+<img src="https://www.animenewsnetwork.com/thumbnails/crop600x315gHP/cms/news.10/243933/daigo.jpg" alt="Identity V 游戏短篇动画《Oha Suta Daigo Gakuen》公布更多声优与制作人员，11 月 24 日首播：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
 <p>根据官方消息，基于 Identity V 游戏的短篇动画《Oha Suta Daigo Gakuen》公布了更多声优阵容和制作团队成员。该动画将于 2026 年 11 月 24 日正式首播。主要声优包括小野大辅、岛崎信长、梅原裕一郎和古川慎等。</p>
 
 <p>rss · Anime News Network · 11月18日 07:20</p>
@@ -154,6 +211,14 @@
 
 <p><a id="item-seasonal-anime-2"></a></p>
 <h3 id="真侍传-yaiba-第二季公布内田雄马等声优及-op-主题曲-️-7010"><a href="https://www.animenewsnetwork.com/news/2026-11-17/yaiba-samurai-legend-season-2-reveals-cast-member-yuma-uchida-opening-song-artists/.243924">真·侍传 YAIBA 第二季公布内田雄马等声优及 OP 主题曲</a> ⭐️ 7.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://www.animenewsnetwork.com/news/2026-11-17/yaiba-samurai-legend-season-2-reveals-cast-member-yuma-uchida-opening-song-artists/.243924" target="_blank" rel="noopener noreferrer">
+<img src="https://www.animenewsnetwork.com/thumbnails/crop600x315gGE/cms/news.10/243924/gekkou.jpg" alt="真·侍传 YAIBA 第二季公布内田雄马等声优及 OP 主题曲：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
 
 <p>动画《真·侍传 YAIBA》第二季宣布内田雄马加盟配音，饰演角色“月光”。同时，开场主题曲由 CHiCO with HoneyWorks 演唱，曲名为《CHASE!》。该消息于 2026 年 11 月 17 日公开，确认了新角色和主题曲演唱者。</p>
 
@@ -168,6 +233,16 @@
 <p><a id="item-cute-mice-1"></a></p>
 <h3 id="我的可爱又调皮的宠物老鼠-️-7010"><a href="https://www.youtube.com/watch?v=SwTpbWPPpYc">我的可爱又调皮的宠物老鼠</a> ⭐️ 7.0/10</h3>
 
+<!-- hz-media:start -->
+<div class="hz-media">
+<div class="hz-video" data-youtube-id="SwTpbWPPpYc">
+<button class="hz-video-play" type="button" aria-label="播放来源视频：我的可爱又调皮的宠物老鼠">
+<img src="https://i.ytimg.com/vi/SwTpbWPPpYc/hqdefault.jpg" alt="我的可爱又调皮的宠物老鼠：来源视频封面" loading="lazy" decoding="async" />
+<span class="hz-play-icon" aria-hidden="true">▶</span><span class="hz-play-label">播放视频</span></button></div>
+<p class="hz-media-credit"><a href="https://www.youtube.com/watch?v=SwTpbWPPpYc" target="_blank" rel="noopener noreferrer">在 YouTube 打开原视频 ↗</a></p>
+</div>
+<!-- hz-media:end -->
+
 <p>视频展示了宠物老鼠们甜美又调皮的日常生活，体现了主人对它们深厚的感情。画面温馨，捕捉了这些小宠物可爱的自然状态，令人感受到浓浓的爱意。</p>
 
 <p>rss · Shadow The Rat · 视频 · 11月17日 16:00</p>
@@ -175,6 +250,8 @@
 <p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#pet rats</code>, <code class="language-plaintext highlighter-rouge">#cute animals</code>, <code class="language-plaintext highlighter-rouge">#affectionate</code>, <code class="language-plaintext highlighter-rouge">#daily life</code>, <code class="language-plaintext highlighter-rouge">#small pets</code></p>
 
 <hr />
+
+<!-- horizon-media:1 -->
  ]]></content>
   </entry>
   
