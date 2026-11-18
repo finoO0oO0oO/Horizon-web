@@ -1,28 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://finoo0oo0oo.github.io/Horizon-web/feed.xml" rel="self" type="application/atom+xml" /><link href="https://finoo0oo0oo.github.io/Horizon-web/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2026-11-18T20:28:01+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/feed.xml</id><title type="html">Fino 的晨间地平线</title><subtitle>AI Agent 开发 · 独立游戏 · 本季日本动画 · 可爱老鼠</subtitle><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-18 (ZH)</title><link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/18/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-18 (ZH)" /><published>2026-11-18T00:00:00+09:00</published><updated>2026-11-18T00:00:00+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/18/summary-zh</id><content type="html" xml:base="https://finoo0oo0oo.github.io/Horizon-web/2026/11/18/summary-zh.html"><![CDATA[<blockquote>
-  <p>从 101 条内容中筛选出 9 条重要资讯。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://finoo0oo0oo.github.io/Horizon-web/feed.xml" rel="self" type="application/atom+xml" /><link href="https://finoo0oo0oo.github.io/Horizon-web/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2026-11-18T20:29:34+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/feed.xml</id><title type="html">Fino 的晨间地平线</title><subtitle>AI Agent 开发 · 独立游戏 · 本季日本动画 · 可爱老鼠</subtitle><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-18 (ZH)</title><link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/18/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-18 (ZH)" /><published>2026-11-18T00:00:00+09:00</published><updated>2026-11-18T00:00:00+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/18/summary-zh</id><content type="html" xml:base="https://finoo0oo0oo.github.io/Horizon-web/2026/11/18/summary-zh.html"><![CDATA[<blockquote>
+  <p>从 59 条内容中筛选出 11 条重要资讯。</p>
 </blockquote>
 
 <hr />
 
 <p><strong>AI Agent 开发</strong></p>
 <ol>
-  <li><a href="#item-agent-dev-1">Simon Willison 的外部沙箱模式及三种开源实现</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-agent-dev-2">使用 Service Workers 和 Pyodide 在浏览器中运行完整的 Datasette Python 应用</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-agent-dev-1">Simon Willison 的外部沙箱方案保障 AI 编码代理安全执行代码</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-agent-dev-2">使用服务工作线程和 Pyodide 在浏览器中运行完整的 Datasette Python 应用——Datasette Lite</a> ⭐️ 8.0/10</li>
   <li><a href="#item-agent-dev-3">openai/openai-agents-python 发布 v0.25.0 版本</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-agent-dev-4">GPT‑6.2 Astra 与 GPT‑6.2 Sol 模型评测</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-agent-dev-4">GPT‑6.2 Astra 和 GPT‑6.2 Sol 评测</a> ⭐️ 7.0/10</li>
 </ol>
 
 <p><strong>独立游戏</strong></p>
 <ol>
-  <li><a href="#item-indie-games-1">《GTA6》评测：开放世界与细腻 NPC 互动的里程碑之作</a> ⭐️ 9.0/10</li>
-  <li><a href="#item-indie-games-2">关于巴别图书馆</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-indie-games-3">影之刃零</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-indie-games-4">会用 AI 的人，更容易找到工作？</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-indie-games-1">NOVA 海外独立游戏见闻 Vol.161</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-indie-games-2">诺娃独立游戏通讯 2026-#46</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-indie-games-3">独立游戏工作室 Studio Bravarda 关闭，《无敌水豚》表现不佳</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-indie-games-4">Indie Game Marketing Roadmap: 7 Stages to Long-Tail Sales (2027)</a> ⭐️ 5.0/10</li>
+</ol>
+
+<p><strong>本季日本动画</strong></p>
+<ol>
+  <li><a href="#item-seasonal-anime-1">Identity V 游戏短篇动画《Oha Suta Daigo Gakuen》公布更多声优与制作人员，11 月 24 日首播</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-seasonal-anime-2">真·侍传 YAIBA 第二季公布内田雄马等声优及 OP 主题曲</a> ⭐️ 7.0/10</li>
 </ol>
 
 <p><strong>可爱老鼠</strong></p>
 <ol>
-  <li><a href="#item-cute-mice-1">我的傻萌宠物老鼠</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-cute-mice-1">我的可爱又调皮的宠物老鼠</a> ⭐️ 7.0/10</li>
 </ol>
 
 <hr />
@@ -30,104 +36,128 @@
 <h2 id="ai-agent-开发">AI Agent 开发</h2>
 
 <p><a id="item-agent-dev-1"></a></p>
-<h3 id="simon-willison-的外部沙箱模式及三种开源实现-️-8010"><a href="https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/">Simon Willison 的外部沙箱模式及三种开源实现</a> ⭐️ 8.0/10</h3>
+<h3 id="simon-willison-的外部沙箱方案保障-ai-编码代理安全执行代码-️-8010"><a href="https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/">Simon Willison 的外部沙箱方案保障 AI 编码代理安全执行代码</a> ⭐️ 8.0/10</h3>
 
-<p>Simon Willison 介绍了一种外部沙箱模式，用于安全执行由 AI 代理生成的代码，将代码运行环境与代理本身隔离，提升安全性和控制力。该模式适用于本地模型的代码执行，防止错误或提示注入攻击导致的破坏行为。为演示该模式，作者与 Prime Radiant 合作发布了三种开源沙箱服务器实现，分别基于 v86 的 WebAssembly Alpine Linux、Apple Containers 中的 Alpine Linux 以及微软 Quicksand 沙箱库，均提供统一的本地 API 接口，并支持 HTTP/HTTPS 允许列表代理和凭证替换机制，方便控制代理代码的网络访问和认证。该方案为安全运行不可信代码提供了实用且文档完善的解决方案。</p>
+<p>Simon Willison 介绍了一种外部沙箱模式，用于安全地运行由 AI 编码代理执行的代码。该模式将代码执行隔离在专用沙箱中，而代理本身运行在沙箱之外，降低了因错误或提示注入攻击导致的风险。为演示该模式，作者与 Prime Radiant 合作发布了三种开源沙箱服务器实现，分别基于 v86 的 WebAssembly Alpine Linux、Apple Containers 中的 Alpine Linux 以及微软 Quicksand 沙箱库，均提供统一的本地 API 接口。此外，这些沙箱支持 HTTP/HTTPS 允许列表代理和凭证替换机制，方便控制网络访问和安全调用认证接口。该方案适用于本地 AI 模型和编码代理的安全代码执行，文档和代码均开源，便于开发者复用和扩展。</p>
 
 <p>rss · Simon Willison · 11月17日 22:52</p>
 
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#sandboxing</code>, <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#coding-agents</code>, <code class="language-plaintext highlighter-rouge">#ai</code>, <code class="language-plaintext highlighter-rouge">#webassembly</code></p>
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#sandboxing</code>, <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#ai</code>, <code class="language-plaintext highlighter-rouge">#coding-agents</code>, <code class="language-plaintext highlighter-rouge">#webassembly</code></p>
 
 <hr />
 
 <p><a id="item-agent-dev-2"></a></p>
-<h3 id="使用-service-workers-和-pyodide-在浏览器中运行完整的-datasette-python-应用-️-8010"><a href="https://simonwillison.net/2026/Nov/17/datasette-lite/">使用 Service Workers 和 Pyodide 在浏览器中运行完整的 Datasette Python 应用</a> ⭐️ 8.0/10</h3>
+<h3 id="使用服务工作线程和-pyodide-在浏览器中运行完整的-datasette-python-应用datasette-lite-️-8010"><a href="https://simonwillison.net/2026/Nov/17/datasette-lite/">使用服务工作线程和 Pyodide 在浏览器中运行完整的 Datasette Python 应用——Datasette Lite</a> ⭐️ 8.0/10</h3>
 
-<p>Simon Willison 展示了如何利用 Service Workers 和 Pyodide 技术，在浏览器中运行完整的服务器端 Datasette Python 应用，实现无需服务器即可动态加载数据库、插件和 SQLite 版本。该方案支持从 PyPI 或 GitHub 加载不同版本的 Datasette 和插件，支持多种数据格式浏览，并通过 URL 参数灵活配置，方便开发者进行功能演示和问题复现。新版本通过 Service Workers 拦截请求，解决了之前版本中 JavaScript 脚本无法执行的问题，使浏览器端体验几乎与真实服务器端应用无异。</p>
+<p>Simon Willison 开发的 Datasette Lite 通过 Pyodide 和服务工作线程实现了在浏览器中运行完整的服务器端 Datasette Python 应用，支持交互式浏览 SQLite 数据库及插件，无需服务器环境。该方案利用服务工作线程拦截 HTTP 请求，加载指定版本的 Datasette、SQLite 及插件，支持通过 URL 参数灵活配置，方便演示和调试。文中提供了详细的使用示例和插件安装方法，展示了其在开发过程中的实际应用和兼容性优势。</p>
 
 <p>rss · Simon Willison · 11月17日 16:48</p>
 
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Python</code>, <code class="language-plaintext highlighter-rouge">#WebAssembly</code>, <code class="language-plaintext highlighter-rouge">#Datasette</code>, <code class="language-plaintext highlighter-rouge">#Pyodide</code>, <code class="language-plaintext highlighter-rouge">#Service Workers</code></p>
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Python</code>, <code class="language-plaintext highlighter-rouge">#WebAssembly</code>, <code class="language-plaintext highlighter-rouge">#Pyodide</code>, <code class="language-plaintext highlighter-rouge">#Datasette</code>, <code class="language-plaintext highlighter-rouge">#Client-side Data Exploration</code></p>
 
 <hr />
 
 <p><a id="item-agent-dev-3"></a></p>
 <h3 id="openaiopenai-agents-python-发布-v0250-版本-️-7010"><a href="https://github.com/openai/openai-agents-python/releases/tag/v0.25.0">openai/openai-agents-python 发布 v0.25.0 版本</a> ⭐️ 7.0/10</h3>
 
-<p>openai-agents-python v0.25.0 版本主要解决了工具调用处理、错误恢复和并发请求等方面的多个关键缺陷，提升了稳定性和兼容性。该版本新增了对第三方会话适配器的实用工具支持，并将模型默认设置与 TypeScript SDK 对齐。此外，更新了大量开发依赖库，反映出项目的持续维护和依赖管理优化。该版本未引入根本性的新功能，但显著增强了现有功能的健壮性和开发体验。</p>
+<p>openai-agents-python v0.25.0 版本引入了针对第三方会话适配器的新工具，移除了已废弃的沙箱运行循环提供者，并修复了多个影响稳定性和并发性的缺陷。此外，该版本还升级了多个依赖库以提升 SDK 的兼容性和生产环境的稳定性。该更新适用于需要稳定且兼容性良好的 Python SDK 的开发者，属于渐进式改进而非重大突破。</p>
 
 <p>github · openai-sdks[bot] · 11月18日 00:22</p>
 
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#python-sdk</code>, <code class="language-plaintext highlighter-rouge">#bug-fixes</code>, <code class="language-plaintext highlighter-rouge">#dependency-updates</code>, <code class="language-plaintext highlighter-rouge">#compatibility</code>, <code class="language-plaintext highlighter-rouge">#utilities</code></p>
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#SDK update</code>, <code class="language-plaintext highlighter-rouge">#bug fixes</code>, <code class="language-plaintext highlighter-rouge">#dependency upgrade</code>, <code class="language-plaintext highlighter-rouge">#Python</code>, <code class="language-plaintext highlighter-rouge">#production-ready</code></p>
 
 <hr />
 
 <p><a id="item-agent-dev-4"></a></p>
-<h3 id="gpt62-astra-与-gpt62-sol-模型评测-️-7010"><a href="https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/">GPT‑6.2 Astra 与 GPT‑6.2 Sol 模型评测</a> ⭐️ 7.0/10</h3>
+<h3 id="gpt62-astra-和-gpt62-sol-评测-️-7010"><a href="https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/">GPT‑6.2 Astra 和 GPT‑6.2 Sol 评测</a> ⭐️ 7.0/10</h3>
 
-<p>Simon Willison 对 OpenAI 新发布的 GPT‑6.2 Astra 和 GPT‑6.2 Sol 两款模型进行了详细的对比和实测评估，涵盖了价格、性能及视觉基准测试。文章通过鹈鹕骑自行车的插图和三维动画演示，直观展示了两款模型在不同复杂度下的表现差异，并提供了可复用的代码和基准提示。实测结果显示，虽然 Astra 6.2 在价格上较前代有所优惠，但在部分基准测试中未能超越竞争对手 Claude Fable 5.2，且在长任务中存在沟通风格上的不足。该评测为开发者提供了实用的参考，但未涉及深层技术创新。</p>
+<p>Simon Willison 评测了 OpenAI 新发布的 GPT‑6.2 Astra 和 GPT‑6.2 Sol 模型，介绍了它们的定价、API 支持及视觉输出效果。Astra 6.2 价格较前代降低 20%，适合复杂项目，Sol 6.2 维持低价，适合日常使用。通过鹈鹕骑自行车的插图对比，Astra 在细节表现上更优。基准测试中，两者在三维动画生成任务表现一般，未能超越竞争对手 Claude Fable 5.2 和 Gemini 4 Carbon。文章还引用了用户反馈，指出 Astra 在长任务中可能出现难以理解的内部问题询问。整体来看，6.2 版本为现有模型的渐进式改进，提供了更优的价格和部分性能提升。</p>
 
 <p>rss · Simon Willison · 11月17日 22:38</p>
 
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#GPT-6.2</code>, <code class="language-plaintext highlighter-rouge">#model comparison</code>, <code class="language-plaintext highlighter-rouge">#API pricing</code>, <code class="language-plaintext highlighter-rouge">#benchmarking</code>, <code class="language-plaintext highlighter-rouge">#practical evaluation</code></p>
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#GPT-6.2</code>, <code class="language-plaintext highlighter-rouge">#model comparison</code>, <code class="language-plaintext highlighter-rouge">#pricing update</code>, <code class="language-plaintext highlighter-rouge">#benchmarking</code>, <code class="language-plaintext highlighter-rouge">#API support</code></p>
 
 <hr />
 
 <h2 id="独立游戏">独立游戏</h2>
 
 <p><a id="item-indie-games-1"></a></p>
-<h3 id="gta6评测开放世界与细腻-npc-互动的里程碑之作-️-9010"><a href="https://www.gcores.com/articles/222499">《GTA6》评测：开放世界与细腻 NPC 互动的里程碑之作</a> ⭐️ 9.0/10</h3>
+<h3 id="nova-海外独立游戏见闻-vol161-️-8010"><a href="https://indienova.com/indie-game-news/news-of-overseas-indie-games-and-industry-vol-161/">NOVA 海外独立游戏见闻 Vol.161</a> ⭐️ 8.0/10</h3>
 
-<p>《GTA6》是一款由 Rockstar Games 开发的开放世界动作冒险游戏，玩家将在雷奥奈达州及其标志性城市罪恶城中体验丰富多样的生活环境和社会阶层。游戏以细腻的 NPC 互动和动态环境著称，NPC 会根据玩家行为做出多样反应，手机应用 Snapmatic 模拟现实社交媒体，增强沉浸感。双主角设计聚焦杰森与露西亚的日常生活与关系发展，包含好感度系统和家庭储蓄机制，体现生活气息。游戏已在 PlayStation 5 平台发售，支持 DualSense 手柄的触觉反馈，帧率约 25 至 30fps，画面表现细腻。文章基于 70 小时完整主线体验，未涉及剧情剧透。</p>
+<p>《Big Walk》因开发中有限度使用生成式 AI 引发 IGF 评委争议，19 名评委联合声明拒绝投票给使用 AI 的作品。Steam 审核积压导致多款独立游戏发售推迟，Valve 承认提交量激增但未将延迟归因于 AI。Nexus Mods 调整新 Mod 展示规则，限制同一作者短时间内多个作品集中展示。Steam 推出“成就集”功能，支持本体与 DLC 成就分开计算。GDC 回应 2026 年参会人数下降，公布 2027 年展会调整方案。失传 20 年的《宝可梦钓鱼大会 DS》实体卡带现身引发数字存档争议。前 id Software 员工成立 Hidden Horses 工作室，发布首款 FPS 游戏《Danger Pay》并启动 Kickstarter 众筹。</p>
 
-<p>rss · 机核 · 11月18日 11:00</p>
+<p>rss · indienova · 11月18日 06:00</p>
 
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#游戏评测</code>, <code class="language-plaintext highlighter-rouge">#开放世界</code>, <code class="language-plaintext highlighter-rouge">#技术表现</code>, <code class="language-plaintext highlighter-rouge">#NPC互动</code>, <code class="language-plaintext highlighter-rouge">#GTA6</code></p>
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#独立游戏</code>, <code class="language-plaintext highlighter-rouge">#AI争议</code>, <code class="language-plaintext highlighter-rouge">#游戏开发</code>, <code class="language-plaintext highlighter-rouge">#Steam审核</code>, <code class="language-plaintext highlighter-rouge">#行业动态</code></p>
 
 <hr />
 
 <p><a id="item-indie-games-2"></a></p>
-<h3 id="关于巴别图书馆-️-8010"><a href="https://www.gcores.com/articles/222471">关于巴别图书馆</a> ⭐️ 8.0/10</h3>
+<h3 id="诺娃独立游戏通讯-2026-46-️-7010"><a href="https://indienova.com/indie-game-news/nova-post-2026-46/">诺娃独立游戏通讯 2026-#46</a> ⭐️ 7.0/10</h3>
 
-<p>《关于巴别图书馆》是一篇文学分析文章，系统梳理了博尔赫斯的短篇小说《巴别图书馆》的创作背景、文本细节及翻译难点。文章结合相关文学史和语言文化，深入探讨了图书馆的无限结构、符号系统及哲学思考，适合对文学和哲学感兴趣的读者阅读。</p>
+<p>《诺娃独立游戏通讯 2026-#46》是一份精选的独立游戏通讯，介绍了多款近期由 Indienova 社区开发者发布的独立游戏，涵盖回合制策略、多分支文本、艺术体验、放置挂机等多种类型。通讯中推荐了如《誓约前线》、《设计院浮沉录》、《阵痛》、《桌面精灵:育成物语》和《幸运豪赌》等游戏，并分享了《午夜机台》、《SHUNYA》、《天空纪实》和《伟大项目工厂》等游戏的最新开发日志和发售信息。该通讯为独立游戏爱好者提供了丰富的游戏选择和开发者动态，适合关注国内独立游戏发展的玩家。</p>
 
-<p>rss · 机核 · 11月18日 02:52</p>
+<p>rss · indienova · 11月18日 00:00</p>
 
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#文学分析</code>, <code class="language-plaintext highlighter-rouge">#博尔赫斯</code>, <code class="language-plaintext highlighter-rouge">#巴别图书馆</code>, <code class="language-plaintext highlighter-rouge">#翻译研究</code>, <code class="language-plaintext highlighter-rouge">#哲学思考</code></p>
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#indie games</code>, <code class="language-plaintext highlighter-rouge">#game recommendations</code>, <code class="language-plaintext highlighter-rouge">#developer updates</code>, <code class="language-plaintext highlighter-rouge">#game jam</code>, <code class="language-plaintext highlighter-rouge">#multigenre</code></p>
 
 <hr />
 
 <p><a id="item-indie-games-3"></a></p>
-<h3 id="影之刃零-️-8010"><a href="https://www.gcores.com/articles/222465">影之刃零</a> ⭐️ 8.0/10</h3>
+<h3 id="独立游戏工作室-studio-bravarda-关闭无敌水豚表现不佳-️-6010"><a href="https://www.gcores.com/articles/222455">独立游戏工作室 Studio Bravarda 关闭，《无敌水豚》表现不佳</a> ⭐️ 6.0/10</h3>
 
-<p>《影之刃零》是一款由灵游坊自研自发的国产 3A 武侠动作游戏，融合了中国武侠文化的原创 IP。该作获得了 2026 年 TGA 五项提名，包括年度最佳游戏、最佳游戏导演、最佳艺术指导、最佳配乐与音乐以及最佳动作游戏，成为 TGA 历史上获得最多提名的国产单机游戏。游戏已发售，具体平台未详。</p>
+<p>独立游戏工作室 Studio Bravarda 宣布关闭，原因是旗下游戏《无敌水豚》自 2023 年发售后表现未达预期，三年内未能收回开发成本。游戏首发时联机体验不稳定，尤其在中国地区，团队虽尝试改进并转向 Godot 引擎开发新项目，但融资困难导致无法持续运营。工作室感谢支持者，坦诚面对失败，回顾六年间实现了童年梦想。</p>
 
-<p>rss · 机核 · 11月17日 19:32</p>
+<p>rss · 机核 · 11月18日 01:05</p>
 
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#国产游戏</code>, <code class="language-plaintext highlighter-rouge">#TGA提名</code>, <code class="language-plaintext highlighter-rouge">#武侠文化</code>, <code class="language-plaintext highlighter-rouge">#年度游戏</code>, <code class="language-plaintext highlighter-rouge">#游戏奖项</code></p>
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#独立游戏</code>, <code class="language-plaintext highlighter-rouge">#工作室关闭</code>, <code class="language-plaintext highlighter-rouge">#游戏运营</code>, <code class="language-plaintext highlighter-rouge">#融资困难</code>, <code class="language-plaintext highlighter-rouge">#游戏开发</code></p>
 
 <hr />
 
 <p><a id="item-indie-games-4"></a></p>
-<h3 id="会用-ai-的人更容易找到工作-️-8010"><a href="http://www.chuapp.com/article/291769.html">会用 AI 的人，更容易找到工作？</a> ⭐️ 8.0/10</h3>
+<h3 id="indie-game-marketing-roadmap-7-stages-to-long-tail-sales-2027-️-5010"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE00QnZpQmdMMi1DNjBSYjRZM216WDg4SHhNdkE2VWpxVHBzbi1ldW54WjhSMjVDZVFxU2xteThlTGs4V2twS2hIcjBMN09haTZ1SGhSRzAxbkYtaHBXY2ctUUZjVkZaalBYQXc?oc=5">Indie Game Marketing Roadmap: 7 Stages to Long-Tail Sales (2027)</a> ⭐️ 5.0/10</h3>
 
-<p>本文探讨了 AI 技能在游戏行业求职和工作中的重要性，指出熟练使用 AI 已成为加分项，但专业能力和业务理解仍是核心。文章结合多份调研报告和业内人士访谈，展示了 AI 在游戏开发流程中的广泛应用及其对岗位需求的影响。部分游戏公司已将 AI 面试和 AI 编码考察纳入招聘流程，同时强调人类在理解和判断上的不可替代性。整体来看，AI 技能被视为通用工具，求职者需具备学习能力和自驱力以适应行业变化。</p>
+<p>《Indie Game Marketing Roadmap: 7 Stages to Long-Tail Sales (2027)》是一篇介绍独立游戏营销的文章，提出了维持长期销售的七个阶段策略。该文章旨在帮助独立游戏开发者通过系统化的营销方法实现持续的市场表现。文章发布于 2026 年，内容侧重于营销策略而非游戏本身。</p>
 
-<p>rss · 触乐 · 11月18日 11:08</p>
+<p>rss · 独立游戏发现 · 11月17日 18:05</p>
 
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#游戏行业</code>, <code class="language-plaintext highlighter-rouge">#AI应用</code>, <code class="language-plaintext highlighter-rouge">#招聘趋势</code>, <code class="language-plaintext highlighter-rouge">#职场技能</code>, <code class="language-plaintext highlighter-rouge">#行业调研</code></p>
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#indie games</code>, <code class="language-plaintext highlighter-rouge">#marketing</code>, <code class="language-plaintext highlighter-rouge">#long-tail sales</code>, <code class="language-plaintext highlighter-rouge">#strategy</code>, <code class="language-plaintext highlighter-rouge">#roadmap</code></p>
+
+<hr />
+
+<h2 id="本季日本动画">本季日本动画</h2>
+
+<p><a id="item-seasonal-anime-1"></a></p>
+<h3 id="identity-v-游戏短篇动画oha-suta-daigo-gakuen公布更多声优与制作人员11-月-24-日首播-️-7010"><a href="https://www.animenewsnetwork.com/news/2026-11-18/identity-v-game-oha-suta-daigo-gakuen-short-anime-unveils-more-cast-staff-november-24-debut/.243933">Identity V 游戏短篇动画《Oha Suta Daigo Gakuen》公布更多声优与制作人员，11 月 24 日首播</a> ⭐️ 7.0/10</h3>
+
+<p>根据官方消息，基于 Identity V 游戏的短篇动画《Oha Suta Daigo Gakuen》公布了更多声优阵容和制作团队成员。该动画将于 2026 年 11 月 24 日正式首播。主要声优包括小野大辅、岛崎信长、梅原裕一郎和古川慎等。</p>
+
+<p>rss · Anime News Network · 11月18日 07:20</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#cast announcement</code>, <code class="language-plaintext highlighter-rouge">#staff update</code>, <code class="language-plaintext highlighter-rouge">#2026 autumn anime</code>, <code class="language-plaintext highlighter-rouge">#short anime</code>, <code class="language-plaintext highlighter-rouge">#debut date</code></p>
+
+<hr />
+
+<p><a id="item-seasonal-anime-2"></a></p>
+<h3 id="真侍传-yaiba-第二季公布内田雄马等声优及-op-主题曲-️-7010"><a href="https://www.animenewsnetwork.com/news/2026-11-17/yaiba-samurai-legend-season-2-reveals-cast-member-yuma-uchida-opening-song-artists/.243924">真·侍传 YAIBA 第二季公布内田雄马等声优及 OP 主题曲</a> ⭐️ 7.0/10</h3>
+
+<p>动画《真·侍传 YAIBA》第二季宣布内田雄马加盟配音，饰演角色“月光”。同时，开场主题曲由 CHiCO with HoneyWorks 演唱，曲名为《CHASE!》。该消息于 2026 年 11 月 17 日公开，确认了新角色和主题曲演唱者。</p>
+
+<p>rss · Anime News Network · 11月18日 03:11</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#cast announcement</code>, <code class="language-plaintext highlighter-rouge">#opening song</code>, <code class="language-plaintext highlighter-rouge">#2026 autumn season</code>, <code class="language-plaintext highlighter-rouge">#anime update</code>, <code class="language-plaintext highlighter-rouge">#Yaiba: Samurai Legend</code></p>
 
 <hr />
 
 <h2 id="可爱老鼠">可爱老鼠</h2>
 
 <p><a id="item-cute-mice-1"></a></p>
-<h3 id="我的傻萌宠物老鼠-️-7010"><a href="https://www.youtube.com/watch?v=SwTpbWPPpYc">我的傻萌宠物老鼠</a> ⭐️ 7.0/10</h3>
+<h3 id="我的可爱又调皮的宠物老鼠-️-7010"><a href="https://www.youtube.com/watch?v=SwTpbWPPpYc">我的可爱又调皮的宠物老鼠</a> ⭐️ 7.0/10</h3>
 
-<p>视频展示了宠物老鼠们甜美又傻气的日常生活，充满温馨和亲昵的氛围。主人通过点击训练等方式与老鼠们互动，体现了它们的聪明和可爱。</p>
+<p>视频展示了宠物老鼠们甜美又调皮的日常生活，体现了主人对它们深厚的感情。画面温馨，捕捉了这些小宠物可爱的自然状态，令人感受到浓浓的爱意。</p>
 
 <p>rss · Shadow The Rat · 视频 · 11月17日 16:00</p>
 
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#pet rats</code>, <code class="language-plaintext highlighter-rouge">#cute animals</code>, <code class="language-plaintext highlighter-rouge">#heartwarming</code>, <code class="language-plaintext highlighter-rouge">#daily life</code>, <code class="language-plaintext highlighter-rouge">#clicker training</code></p>
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#pet rats</code>, <code class="language-plaintext highlighter-rouge">#cute animals</code>, <code class="language-plaintext highlighter-rouge">#affectionate</code>, <code class="language-plaintext highlighter-rouge">#daily life</code>, <code class="language-plaintext highlighter-rouge">#small pets</code></p>
 
-<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[从 101 条内容中筛选出 9 条重要资讯。]]></summary></entry></feed>
+<hr />]]></content><author><name></name></author><summary type="html"><![CDATA[从 59 条内容中筛选出 11 条重要资讯。]]></summary></entry></feed>
