@@ -4,7 +4,7 @@ var themes=[{id:'forest',name:'森林',icon:'🌿'},{id:'night',name:'暮夜',ic
 function setupThemes(){
 var button=document.createElement('button');button.type='button';button.className='hz-theme-toggle';
 var status=document.createElement('span');status.className='hz-sr-only';status.setAttribute('aria-live','polite');
-document.body.appendChild(button);document.body.appendChild(status);
+var header=document.querySelector('.page-header');(header||document.body).appendChild(button);document.body.appendChild(status);
 function current(){var id=document.documentElement.dataset.theme;return Math.max(0,themes.findIndex(function(t){return t.id===id;}));}
 function update(index,announce){var theme=themes[index];document.documentElement.dataset.theme=theme.id;button.textContent=theme.icon+' 配色：'+theme.name;button.setAttribute('aria-label','切换网站配色，当前：'+theme.name);button.title='下一套配色：'+themes[(index+1)%themes.length].name;if(announce)status.textContent='已切换到'+theme.name+'配色';try{localStorage.setItem('horizon-theme',theme.id);}catch(e){}}
 update(current(),false);button.addEventListener('click',function(){update((current()+1)%themes.length,true);});
