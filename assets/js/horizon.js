@@ -19,5 +19,46 @@ document.querySelectorAll('.hz-native-video').forEach(function(video){video.addE
 document.querySelectorAll('.hz-video-play').forEach(function(button){button.addEventListener('click',function(){var holder=button.closest('.hz-video');var id=holder&&holder.dataset.youtubeId;if(!id||!/^[A-Za-z0-9_-]{11}$/.test(id))return;var frame=document.createElement('iframe');frame.title=button.getAttribute('aria-label')||'来源视频';frame.src='https://www.youtube-nocookie.com/embed/'+id+'?autoplay=1&rel=0&playsinline=1';frame.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';frame.allowFullscreen=true;frame.referrerPolicy='strict-origin-when-cross-origin';holder.classList.add('is-playing');holder.replaceChildren(frame);});});
 document.querySelectorAll('.hz-media img').forEach(function(img){function unavailable(){if(img.closest('.hz-video')){img.style.opacity='0';return;}var label=document.createElement('span');label.className='hz-image-unavailable';label.textContent='来源图片暂时无法加载，点击查看原文 ↗';img.replaceWith(label);}img.addEventListener('error',unavailable,{once:true});if(img.complete&&img.naturalWidth===0)unavailable();});
 }
-document.addEventListener('DOMContentLoaded',function(){decorateText();setupThemes();setupMedia();});
+function setupMobileRefresh(){
+if(!window.matchMedia||!window.matchMedia('(pointer: coarse)').matches)return;
+var notice=document.createElement('div');notice.className='hz-pull-refresh';notice.setAttribute('role','status');notice.setAttribute('aria-live','polite');notice.textContent='↓ 下拉刷新';
+document.body.appendChild(notice);
+var button=document.createElement('button');button.type='button';button.className='hz-refresh-button';button.textContent='↻ 刷新';button.setAttribute('aria-label','重新加载最新新闻');
+document.body.appendChild(button);
+var startY=null,tracking=false,pull=0,refreshing=false;
+function reset(){tracking=false;startY=null;pull=0;notice.classList.remove('is-visible','is-ready');}
+function reload(){
+ if(refreshing)return;
+ refreshing=true;notice.classList.add('is-visible');notice.classList.remove('is-ready');notice.textContent='正在获取最新内容…';
+ button.disabled=true;button.textContent='刷新中…';
+ var url=new URL(window.location.href);
+ url.searchParams.set('_refresh',String(Date.now()));
+ window.location.replace(url.toString());
+}
+button.addEventListener('click',reload);
+document.addEventListener('touchstart',function(event){
+ if(refreshing||event.touches.length!==1||window.scrollY>2)return;
+ if(event.target.closest('button,a,input,textarea,select,video,iframe,.hz-video'))return;
+ startY=event.touches[0].clientY;tracking=true;pull=0;
+},{passive:true});
+document.addEventListener('touchmove',function(event){
+ if(!tracking||event.touches.length!==1)return;
+ var delta=event.touches[0].clientY-startY;
+ if(window.scrollY>2||delta<0){reset();return;}
+ pull=Math.min(120,delta);
+ if(pull>=14){
+   if(event.cancelable)event.preventDefault();
+   notice.classList.add('is-visible');
+   notice.classList.toggle('is-ready',pull>=72);
+   notice.textContent=pull>=72?'↑ 松开刷新':'↓ 继续下拉刷新';
+ }
+},{passive:false});
+document.addEventListener('touchend',function(){
+ if(!tracking)return;
+ if(pull>=72){reload();return;}
+ reset();
+},{passive:true});
+document.addEventListener('touchcancel',reset,{passive:true});
+}
+document.addEventListener('DOMContentLoaded',function(){decorateText();setupThemes();setupMedia();setupMobileRefresh();});
 })();
