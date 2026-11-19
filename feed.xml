@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://finoo0oo0oo.github.io/Horizon-web/feed.xml" rel="self" type="application/atom+xml" /><link href="https://finoo0oo0oo.github.io/Horizon-web/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2026-11-19T12:28:02+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/feed.xml</id><title type="html">Fino 的晨间地平线</title><subtitle>AI Agent 开发 · 独立游戏 · 本季日本动画 · 可爱老鼠</subtitle><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-19 (ZH)</title><link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/19/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-19 (ZH)" /><published>2026-11-19T00:00:00+09:00</published><updated>2026-11-19T00:00:00+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/19/summary-zh</id><content type="html" xml:base="https://finoo0oo0oo.github.io/Horizon-web/2026/11/19/summary-zh.html"><![CDATA[<blockquote>
-  <p>从 26 条内容中筛选出 5 条重要资讯。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://finoo0oo0oo.github.io/Horizon-web/feed.xml" rel="self" type="application/atom+xml" /><link href="https://finoo0oo0oo.github.io/Horizon-web/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2026-11-19T12:29:43+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/feed.xml</id><title type="html">Fino 的晨间地平线</title><subtitle>AI Agent 开发 · 独立游戏 · 本季日本动画 · 可爱老鼠</subtitle><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-19 (ZH)</title><link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/19/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-19 (ZH)" /><published>2026-11-19T00:00:00+09:00</published><updated>2026-11-19T00:00:00+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/19/summary-zh</id><content type="html" xml:base="https://finoo0oo0oo.github.io/Horizon-web/2026/11/19/summary-zh.html"><![CDATA[<blockquote>
+  <p>从 42 条内容中筛选出 5 条重要资讯。</p>
 </blockquote>
 
 <hr />
 
 <p><strong>AI Agent 开发</strong></p>
 <ol>
-  <li><a href="#item-agent-dev-1">Daniel Stenberg 谈 curl 的 Rust 重写与持续改进</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-agent-dev-2">Agent 开发避坑指南：从概念到落地的四大现实问题 - CSDN</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-agent-dev-1">datasette-arrows 0.1a0 插件发布</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-agent-dev-2">Daniel Stenberg 谈 curl 的 Rust 重写与持续手动改进的对比</a> ⭐️ 7.0/10</li>
 </ol>
 
 <p><strong>独立游戏</strong></p>
 <ol>
-  <li><a href="#item-indie-games-1">明日方舟：终末地</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-indie-games-2">Unity 向独立开发者提供 5 万美元资助，无需分成或知识产权转让</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-indie-games-3">星图游戏嘉年华志愿者招募</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-indie-games-1">终末地杀进 Google Play 双料大奖，鹰角逆周期重度大作念愿成真！</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-indie-games-2">Unity 豪掷 5 万美元扶持独立游戏，零分成零版权压力！</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-indie-games-3">星图游戏嘉年华志愿者招募开启，补贴+午饭福利要素拉满！</a> ⭐️ 6.0/10</li>
 </ol>
 
 <hr />
@@ -22,79 +22,87 @@
 <h2 id="ai-agent-开发">AI Agent 开发</h2>
 
 <p><a id="item-agent-dev-1"></a></p>
-<h3 id="daniel-stenberg-谈-curl-的-rust-重写与持续改进-️-7010"><a href="https://simonwillison.net/2026/Nov/18/daniel-stenberg/">Daniel Stenberg 谈 curl 的 Rust 重写与持续改进</a> ⭐️ 7.0/10</h3>
+<h3 id="datasette-arrows-01a0-插件发布-️-7010"><a href="https://simonwillison.net/2026/Nov/18/datasette-arrows/">datasette-arrows 0.1a0 插件发布</a> ⭐️ 7.0/10</h3>
 
-<p>Daniel Stenberg 指出，虽然自动化工具将 curl 的 18.5 万行 C 代码转换成了 34 万行 Rust 代码，但在同一时间内，curl 项目通过手动合并了 300 多个提交，修复了 200 多个漏洞和安全问题，持续改进了原有的 C 代码库。他质疑这些 Rust 克隆版本是否能跟上持续的维护和安全修复节奏，强调了实际生产环境中持续手动维护的重要性。</p>
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://simonwillison.net/2026/Nov/18/datasette-arrows/" target="_blank" rel="noopener noreferrer">
+<img src="https://static.simonwillison.net/static/2026/arrow-export-dialog.webp" alt="datasette-arrows 0.1a0 插件发布：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
 
-<p>rss · Simon Willison · 11月18日 15:58</p>
+<p>datasette-arrows 0.1a0 是一个为 Datasette 提供 Apache Arrow 格式流式导出功能的新插件，基于 Datasette 1.0a43 版本新增的插件流式导出接口实现。该插件允许用户无需将全部数据加载到内存，即可导出大型数据表，支持与 DuckDB、pandas、Polars 等工具兼容。安装后，导出对话框新增 Arrow 选项，方便用户选择高效的数据导出格式。该版本为 alpha 预览，主要作为 Datasette 流式导出功能的补充示例。</p>
 
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#curl</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#coding-agents</code>, <code class="language-plaintext highlighter-rouge">#production-experience</code></p>
+<p>rss · Simon Willison · 11月18日 17:09</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#datasette</code>, <code class="language-plaintext highlighter-rouge">#plugin</code>, <code class="language-plaintext highlighter-rouge">#apache arrow</code>, <code class="language-plaintext highlighter-rouge">#streaming export</code>, <code class="language-plaintext highlighter-rouge">#data export</code></p>
 
 <hr />
 
 <p><a id="item-agent-dev-2"></a></p>
-<h3 id="agent-开发避坑指南从概念到落地的四大现实问题---csdn-️-6010"><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE43V1N4alNjZDR3QzQycWJvY2wtRnVKVlhVVkRpVDhoQWlERGNDZkgtYUZWQWNGZTRXS25DNFZQbjZpNnAwSHU5bFVJSy1qdWk2clRFaFVJUWx3UVhqUmlXXw?oc=5">Agent 开发避坑指南：从概念到落地的四大现实问题 - CSDN</a> ⭐️ 6.0/10</h3>
+<h3 id="daniel-stenberg-谈-curl-的-rust-重写与持续手动改进的对比-️-7010"><a href="https://simonwillison.net/2026/Nov/18/daniel-stenberg/">Daniel Stenberg 谈 curl 的 Rust 重写与持续手动改进的对比</a> ⭐️ 7.0/10</h3>
 
-<p>本文介绍了 Agent 开发过程中从概念设计到实际落地的四个主要现实问题，旨在帮助开发者规避常见陷阱。文章侧重于实际应用中的挑战和解决思路，但未提供具体代码示例或详细技术实现。适用于希望了解 Agent 开发全流程中关键难点的从业者。</p>
+<p>Daniel Stenberg 指出，虽然 AI 代理将 curl 的 18.5 万行 C 代码转换成了 34 万行 Rust 代码，但在同一时间内，curl 项目通过手动合并了 300 多个提交，修复了 200 多个漏洞和安全问题。作者强调，自动生成的 Rust 重写版本尚未包含这些持续的手动改进和安全修复，反映出 AI 生成代码在实际生产环境中难以跟上持续维护和安全更新的步伐。这一对比揭示了 Rust 重写适用于代码迁移和安全性提升的潜力，但目前仍需依赖人工持续维护以保证代码质量和安全。文中未提供具体代码示例，相关讨论可见于 Daniel Stenberg 的博客文章。</p>
 
-<p>rss · Agent 开发新闻 · 11月18日 22:00</p>
+<p>rss · Simon Willison · 11月18日 15:58</p>
 
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Agent Development</code>, <code class="language-plaintext highlighter-rouge">#Practical Guide</code>, <code class="language-plaintext highlighter-rouge">#Implementation Challenges</code>, <code class="language-plaintext highlighter-rouge">#CSDN</code></p>
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#curl</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#coding-agents</code>, <code class="language-plaintext highlighter-rouge">#ai</code></p>
 
 <hr />
 
 <h2 id="独立游戏">独立游戏</h2>
 
 <p><a id="item-indie-games-1"></a></p>
-<h3 id="明日方舟终末地-️-8010"><a href="https://www.yystv.cn/p/14645">明日方舟：终末地</a> ⭐️ 8.0/10</h3>
+<h3 id="终末地杀进-google-play-双料大奖鹰角逆周期重度大作念愿成真-️-8010"><a href="https://www.yystv.cn/p/14645">终末地杀进 Google Play 双料大奖，鹰角逆周期重度大作念愿成真！</a> ⭐️ 8.0/10</h3>
 
 <!-- hz-media:start -->
 <div class="hz-media">
 <figure class="hz-media-figure"><a href="https://www.yystv.cn/p/14645" target="_blank" rel="noopener noreferrer">
-<img src="https://alioss.yystv.cn/doc/14645/9caf201bb69fece347bfbbede458946b.png_mw680water" alt="明日方舟：终末地：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+<img src="https://alioss.yystv.cn/doc/14645/9caf201bb69fece347bfbbede458946b.png_mw680water" alt="终末地杀进 Google Play 双料大奖，鹰角逆周期重度大作念愿成真！：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
 </a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
 </div>
 <!-- hz-media:end -->
 
-<p>《明日方舟：终末地》是一款由鹰角网络开发的重度策略类二次元游戏，融合了即时战术战斗、工业自动化产线和立体箱庭关卡设计等独特玩法。游戏以其细腻的写实工业美学和中式元素，在 2026 年全球市场表现突出，获得 Google Play“年度最佳游戏”和“最佳剧情游戏”两项大奖。该作自 2026 年 1 月全球公测以来，凭借高质量内容更新和优化，赢得了玩家和业界的广泛认可，成为反映行业深刻变革的代表作。</p>
+<p>本报讯：《明日方舟：终末地》凭借独特工业美学和重度玩法，2026 年全球逆势突围，斩获 Google Play“年度最佳游戏”与“最佳剧情游戏”双料大奖。自 1 月全球公测以来，鹰角坚持重资产、多端口投入，打造四人即时战术战斗与自动化工业产线的创新玩法，赢得全球玩家认可。面对欧美大厂收缩和轻度游戏泛滥，终末地的“反潮流”打法属实有点东西，既有硬核深度又不失东方美学，已经开始蹲了后续更新，期待它继续带来惊喜！(・∀・)</p>
 
 <p>rss · 游研社 · 11月18日 16:00</p>
 
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#游戏评测</code>, <code class="language-plaintext highlighter-rouge">#年度大奖</code>, <code class="language-plaintext highlighter-rouge">#国产游戏</code>, <code class="language-plaintext highlighter-rouge">#重度游戏</code>, <code class="language-plaintext highlighter-rouge">#行业分析</code></p>
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#游戏评测</code>, <code class="language-plaintext highlighter-rouge">#行业分析</code>, <code class="language-plaintext highlighter-rouge">#年度大奖</code>, <code class="language-plaintext highlighter-rouge">#国产游戏</code>, <code class="language-plaintext highlighter-rouge">#重度游戏</code></p>
 
 <hr />
 
 <p><a id="item-indie-games-2"></a></p>
-<h3 id="unity-向独立开发者提供-5-万美元资助无需分成或知识产权转让-️-7010"><a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxQc0FCeUZ0dHplWVg4d3h4MUxFTWhSejFQaGJjWFpaX0t6dTVFc014akZzaU1vTVROZ0JIY0hNVGoxM0ZDYXZkZkI2c0wzQk5fX1RzNGNmMFcwa01fdmllZE85Y3llOGFoNUpKV0stam5TQnljbE9ueWstak0tZ29Fa1JnY0hOUmRjMzlURmo1MFVmeEQtcGlMeDlfUmJaSWZnM0VKcQ?oc=5">Unity 向独立开发者提供 5 万美元资助，无需分成或知识产权转让</a> ⭐️ 7.0/10</h3>
+<h3 id="unity-豪掷-5-万美元扶持独立游戏零分成零版权压力-️-7010"><a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxQc0FCeUZ0dHplWVg4d3h4MUxFTWhSejFQaGJjWFpaX0t6dTVFc014akZzaU1vTVROZ0JIY0hNVGoxM0ZDYXZkZkI2c0wzQk5fX1RzNGNmMFcwa01fdmllZE85Y3llOGFoNUpKV0stam5TQnljbE9ueWstak0tZ29Fa1JnY0hOUmRjMzlURmo1MFVmeEQtcGlMeDlfUmJaSWZnM0VKcQ?oc=5">Unity 豪掷 5 万美元扶持独立游戏，零分成零版权压力！</a> ⭐️ 7.0/10</h3>
 
-<p>Unity 宣布向独立游戏开发者提供 5 万美元的资助，且不要求开发者分享收入或转让知识产权。这一举措旨在支持独立游戏开发，促进创意和创新的发展。该资助计划为独立开发者提供了宝贵的资金支持，助力他们实现游戏项目。</p>
+<p>本报讯：Unity 宣布向独立游戏开发者提供 5 万美元资助，且不要求分成或知识产权归属。重点来了，这波支持力度相当给力，真正为小团队减轻负担。更劲爆的是，这种无附加条件的资金援助在业界属实有点东西。小编只能说，独立游戏的春天似乎又近了一步，已经开始蹲了(・∀・)。</p>
 
 <p>rss · 独立游戏发现 · 11月18日 13:04</p>
 
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#indie games</code>, <code class="language-plaintext highlighter-rouge">#developer funding</code>, <code class="language-plaintext highlighter-rouge">#Unity</code>, <code class="language-plaintext highlighter-rouge">#game development</code>, <code class="language-plaintext highlighter-rouge">#industry support</code></p>
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#indie games</code>, <code class="language-plaintext highlighter-rouge">#game development</code>, <code class="language-plaintext highlighter-rouge">#funding</code>, <code class="language-plaintext highlighter-rouge">#Unity</code>, <code class="language-plaintext highlighter-rouge">#industry news</code></p>
 
 <hr />
 
 <p><a id="item-indie-games-3"></a></p>
-<h3 id="星图游戏嘉年华志愿者招募-️-6010"><a href="https://www.yystv.cn/p/14646">星图游戏嘉年华志愿者招募</a> ⭐️ 6.0/10</h3>
+<h3 id="星图游戏嘉年华志愿者招募开启补贴午饭福利要素拉满-️-6010"><a href="https://www.yystv.cn/p/14646">星图游戏嘉年华志愿者招募开启，补贴+午饭福利要素拉满！</a> ⭐️ 6.0/10</h3>
 
 <!-- hz-media:start -->
 <div class="hz-media">
 <figure class="hz-media-figure"><a href="https://www.yystv.cn/p/14646" target="_blank" rel="noopener noreferrer">
-<img src="https://alioss.yystv.cn/doc/14646/2c731605e592b761717f3b2166a89e63.png_mw680water" alt="星图游戏嘉年华志愿者招募：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+<img src="https://alioss.yystv.cn/doc/14646/2c731605e592b761717f3b2166a89e63.png_mw680water" alt="星图游戏嘉年华志愿者招募开启，补贴+午饭福利要素拉满！：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
 </a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
 </div>
 <!-- hz-media:end -->
 
-<p>中国音数协游戏博物馆将在上海徐汇西岸国际会展中心举办“星图游戏嘉年华”活动，时间为 12 月 18 日至 20 日。现面向在校学生及社会人士招募志愿者，工作内容包括维护现场秩序、协助展台服务及物料整理等，提供每小时 20 元补贴及午餐。该博物馆收藏丰富，致力于展示游戏文化的科技创新与历史传承，志愿者将参与展览服务和公共教育活动。</p>
+<p>本报讯：中国音数协游戏博物馆将于 12 月 18 日至 20 日在上海徐汇西岸国际会展中心举办“星图游戏嘉年华”，现面向社会公开招募志愿者。岗位涵盖现场秩序维护、展台服务及物料整理，工作时间含展前培训，补贴 20 元/小时并包午饭。博物馆藏品丰富，展览互动多，适合热爱游戏文化的朋友参与。小编只能说，这波志愿体验不仅能近距离感受游戏文化，还能赚点小零花，已经开始蹲了(・∀・)</p>
 
 <p>rss · 游研社 · 11月18日 16:00</p>
 
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#志愿者招募</code>, <code class="language-plaintext highlighter-rouge">#游戏文化</code>, <code class="language-plaintext highlighter-rouge">#活动信息</code>, <code class="language-plaintext highlighter-rouge">#游戏博物馆</code>, <code class="language-plaintext highlighter-rouge">#上海</code></p>
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#志愿者招募</code>, <code class="language-plaintext highlighter-rouge">#游戏文化</code>, <code class="language-plaintext highlighter-rouge">#展览活动</code>, <code class="language-plaintext highlighter-rouge">#游戏博物馆</code>, <code class="language-plaintext highlighter-rouge">#公共服务</code></p>
 
 <hr />
 
-<!-- horizon-media:1 -->]]></content><author><name></name></author><summary type="html"><![CDATA[从 26 条内容中筛选出 5 条重要资讯。]]></summary></entry><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-18 (ZH)</title><link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/18/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-18 (ZH)" /><published>2026-11-18T00:00:00+09:00</published><updated>2026-11-18T00:00:00+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/18/summary-zh</id><content type="html" xml:base="https://finoo0oo0oo.github.io/Horizon-web/2026/11/18/summary-zh.html"><![CDATA[<blockquote>
+<!-- horizon-media:1 -->]]></content><author><name></name></author><summary type="html"><![CDATA[从 42 条内容中筛选出 5 条重要资讯。]]></summary></entry><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-18 (ZH)</title><link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/18/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-18 (ZH)" /><published>2026-11-18T00:00:00+09:00</published><updated>2026-11-18T00:00:00+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/18/summary-zh</id><content type="html" xml:base="https://finoo0oo0oo.github.io/Horizon-web/2026/11/18/summary-zh.html"><![CDATA[<blockquote>
   <p>从 59 条内容中筛选出 11 条重要资讯。</p>
 </blockquote>
 
