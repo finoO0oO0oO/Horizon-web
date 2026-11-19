@@ -1,20 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://finoo0oo0oo.github.io/Horizon-web/feed.xml" rel="self" type="application/atom+xml" /><link href="https://finoo0oo0oo.github.io/Horizon-web/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2026-11-19T12:34:12+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/feed.xml</id><title type="html">Fino 的晨间地平线</title><subtitle>AI Agent 开发 · 独立游戏 · 本季日本动画 · 可爱老鼠</subtitle><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-19 (ZH)</title><link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/19/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-19 (ZH)" /><published>2026-11-19T00:00:00+09:00</published><updated>2026-11-19T00:00:00+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/19/summary-zh</id><content type="html" xml:base="https://finoo0oo0oo.github.io/Horizon-web/2026/11/19/summary-zh.html"><![CDATA[<blockquote>
-  <p>从 42 条内容中筛选出 5 条重要资讯。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://finoo0oo0oo.github.io/Horizon-web/feed.xml" rel="self" type="application/atom+xml" /><link href="https://finoo0oo0oo.github.io/Horizon-web/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2026-11-19T12:36:50+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/feed.xml</id><title type="html">Fino 的晨间地平线</title><subtitle>AI Agent 开发 · 独立游戏 · 本季日本动画 · 可爱老鼠</subtitle><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-19 (ZH)</title><link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/19/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-19 (ZH)" /><published>2026-11-19T00:00:00+09:00</published><updated>2026-11-19T00:00:00+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/19/summary-zh</id><content type="html" xml:base="https://finoo0oo0oo.github.io/Horizon-web/2026/11/19/summary-zh.html"><![CDATA[<blockquote>
+  <p>从 42 条内容中筛选出 8 条重要资讯。</p>
 </blockquote>
 
 <hr />
 
 <p><strong>AI Agent 开发</strong></p>
 <ol>
-  <li><a href="#item-agent-dev-1">datasette-arrows 0.1a0 插件发布</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-agent-dev-2">Daniel Stenberg 谈 curl 的 Rust 重写与持续手动改进的对比</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-agent-dev-1">datasette-arrows 0.1a0 插件实现 Apache Arrow 流式导出</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-agent-dev-2">Daniel Stenberg 谈 curl 的 Rust 重写与持续改进</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-agent-dev-3">Agent 开发避坑指南：从概念到落地的四大现实问题 - CSDN</a> ⭐️ 6.0/10</li>
 </ol>
 
 <p><strong>独立游戏</strong></p>
 <ol>
   <li><a href="#item-indie-games-1">终末地杀进 Google Play 双料大奖，鹰角逆周期重度大作念愿成真！</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-indie-games-2">Unity 豪掷 5 万美元扶持独立游戏，零分成零版权压力！</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-indie-games-3">星图游戏嘉年华志愿者招募开启，补贴+午饭福利要素拉满！</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-indie-games-2">Unity 豪掷 5 万美元扶持独立开发，零分成零版权！</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-indie-games-3">星图游戏嘉年华志愿者招募开启 有补贴还能包饭！</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>可爱老鼠</strong></p>
+<ol>
+  <li><a href="#item-cute-mice-1">今日鼠鼠小宝贝来啦</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-cute-mice-2">今日鼠鼠小宝贝来啦</a> ⭐️ 7.0/10</li>
 </ol>
 
 <hr />
@@ -22,32 +29,43 @@
 <h2 id="ai-agent-开发">AI Agent 开发</h2>
 
 <p><a id="item-agent-dev-1"></a></p>
-<h3 id="datasette-arrows-01a0-插件发布-️-7010"><a href="https://simonwillison.net/2026/Nov/18/datasette-arrows/">datasette-arrows 0.1a0 插件发布</a> ⭐️ 7.0/10</h3>
+<h3 id="datasette-arrows-01a0-插件实现-apache-arrow-流式导出-️-7010"><a href="https://simonwillison.net/2026/Nov/18/datasette-arrows/">datasette-arrows 0.1a0 插件实现 Apache Arrow 流式导出</a> ⭐️ 7.0/10</h3>
 
 <!-- hz-media:start -->
 <div class="hz-media">
 <figure class="hz-media-figure"><a href="https://simonwillison.net/2026/Nov/18/datasette-arrows/" target="_blank" rel="noopener noreferrer">
-<img src="https://static.simonwillison.net/static/2026/arrow-export-dialog.webp" alt="datasette-arrows 0.1a0 插件发布：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+<img src="https://static.simonwillison.net/static/2026/arrow-export-dialog.webp" alt="datasette-arrows 0.1a0 插件实现 Apache Arrow 流式导出：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
 </a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
 </div>
 <!-- hz-media:end -->
 
-<p>datasette-arrows 0.1a0 是一个为 Datasette 提供 Apache Arrow 格式流式导出功能的新插件，基于 Datasette 1.0a43 版本新增的插件流式导出接口实现。该插件允许用户无需将全部数据加载到内存，即可导出大型数据表，支持与 DuckDB、pandas、Polars 等工具兼容。安装后，导出对话框新增 Arrow 选项，方便用户选择高效的数据导出格式。该版本为 alpha 预览，主要作为 Datasette 流式导出功能的补充示例。</p>
+<p>datasette-arrows 0.1a0 是一个为 Datasette 提供 Apache Arrow 流式导出功能的新插件。该插件利用 Datasette 1.0a43 版本新增的插件钩子 register_output_renderer()，实现了类似 CSV 和 TSV 的流式导出，支持导出大规模数据而无需全部加载到内存中。用户通过安装该插件后，在导出对话框中即可选择 Arrow 格式导出，方便与 DuckDB、pandas、Polars 等工具集成。文中附带了插件安装方法、使用说明及界面截图，适用于需要高效导出大数据集的开发者。该功能基于作者 Simon Willison 和 Claude Fable 的合作开发，实测效果良好。</p>
 
 <p>rss · Simon Willison · 11月18日 17:09</p>
 
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#datasette</code>, <code class="language-plaintext highlighter-rouge">#plugin</code>, <code class="language-plaintext highlighter-rouge">#apache arrow</code>, <code class="language-plaintext highlighter-rouge">#streaming export</code>, <code class="language-plaintext highlighter-rouge">#data export</code></p>
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#datasette</code>, <code class="language-plaintext highlighter-rouge">#plugin</code>, <code class="language-plaintext highlighter-rouge">#streaming export</code>, <code class="language-plaintext highlighter-rouge">#Apache Arrow</code>, <code class="language-plaintext highlighter-rouge">#data export</code></p>
 
 <hr />
 
 <p><a id="item-agent-dev-2"></a></p>
-<h3 id="daniel-stenberg-谈-curl-的-rust-重写与持续手动改进的对比-️-7010"><a href="https://simonwillison.net/2026/Nov/18/daniel-stenberg/">Daniel Stenberg 谈 curl 的 Rust 重写与持续手动改进的对比</a> ⭐️ 7.0/10</h3>
+<h3 id="daniel-stenberg-谈-curl-的-rust-重写与持续改进-️-7010"><a href="https://simonwillison.net/2026/Nov/18/daniel-stenberg/">Daniel Stenberg 谈 curl 的 Rust 重写与持续改进</a> ⭐️ 7.0/10</h3>
 
-<p>Daniel Stenberg 指出，虽然 AI 代理将 curl 的 18.5 万行 C 代码转换成了 34 万行 Rust 代码，但在同一时间内，curl 项目通过手动合并了 300 多个提交，修复了 200 多个漏洞和安全问题。作者强调，自动生成的 Rust 重写版本尚未包含这些持续的手动改进和安全修复，反映出 AI 生成代码在实际生产环境中难以跟上持续维护和安全更新的步伐。这一对比揭示了 Rust 重写适用于代码迁移和安全性提升的潜力，但目前仍需依赖人工持续维护以保证代码质量和安全。文中未提供具体代码示例，相关讨论可见于 Daniel Stenberg 的博客文章。</p>
+<p>Daniel Stenberg 指出，虽然自动化工具将 curl 的 18.5 万行 C 代码转换成了 34 万行 Rust 代码，但在同一时间内，curl 项目通过持续的手动维护和改进，合并了 300 多个提交，修复了 200 多个漏洞和安全问题。作者强调，自动化 Rust 重写尚未达到持续改进和安全修复的水平，体现了实际生产环境中人工维护的重要性。</p>
 
 <p>rss · Simon Willison · 11月18日 15:58</p>
 
 <p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#curl</code>, <code class="language-plaintext highlighter-rouge">#rust</code>, <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#coding-agents</code>, <code class="language-plaintext highlighter-rouge">#ai</code></p>
+
+<hr />
+
+<p><a id="item-agent-dev-3"></a></p>
+<h3 id="agent-开发避坑指南从概念到落地的四大现实问题---csdn-️-6010"><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE43V1N4alNjZDR3QzQycWJvY2wtRnVKVlhVVkRpVDhoQWlERGNDZkgtYUZWQWNGZTRXS25DNFZQbjZpNnAwSHU5bFVJSy1qdWk2clRFaFVJUWx3UVhqUmlXXw?oc=5">Agent 开发避坑指南：从概念到落地的四大现实问题 - CSDN</a> ⭐️ 6.0/10</h3>
+
+<p>本文介绍了 Agent 开发过程中从概念到实际落地面临的四大现实问题，旨在为开发者提供实用的避坑指南。文章强调了开发中的关键挑战，但未提供具体代码示例或深入技术分析，适合对 Agent 开发有初步了解的读者参考。</p>
+
+<p>rss · Agent 开发新闻 · 11月18日 22:00</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Agent Development</code>, <code class="language-plaintext highlighter-rouge">#Practical Guide</code>, <code class="language-plaintext highlighter-rouge">#Development Challenges</code>, <code class="language-plaintext highlighter-rouge">#CSDN</code></p>
 
 <hr />
 
@@ -64,45 +82,77 @@
 </div>
 <!-- hz-media:end -->
 
-<p>本报讯：《明日方舟：终末地》凭借独特工业美学和重度玩法，2026 年全球逆势突围，斩获 Google Play“年度最佳游戏”与“最佳剧情游戏”双料大奖。自 1 月全球公测以来，鹰角坚持重资产、多端口投入，打造四人即时战术战斗与自动化工业产线的创新玩法，赢得全球玩家认可。面对欧美大厂收缩和轻度游戏泛滥，终末地的“反潮流”打法属实有点东西，既有硬核深度又不失东方美学，已经开始蹲了后续更新，期待它继续带来惊喜！(・∀・)</p>
+<p>本报讯：《明日方舟：终末地》凭借独特的中式工业美学和重度玩法，在 2026 年逆势突围，斩获 Google Play 全球“年度最佳游戏”与“最佳剧情游戏”两项大奖。游戏自 1 月全球公测以来，凭借四人即时战斗、自动化工业产线和立体箱庭关卡设计，赢得全球玩家和评委认可。鹰角坚持重度内容与高频更新，成功化解玩家门槛，打造了稀缺的精品长线体验。这波逆潮流打法属实有点东西，重度玩家今年终于有了值得蹲的硬核大作(・∀・)。</p>
 
 <p>rss · 游研社 · 11月18日 16:00</p>
 
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#游戏评测</code>, <code class="language-plaintext highlighter-rouge">#行业分析</code>, <code class="language-plaintext highlighter-rouge">#年度大奖</code>, <code class="language-plaintext highlighter-rouge">#国产游戏</code>, <code class="language-plaintext highlighter-rouge">#重度游戏</code></p>
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#游戏评测</code>, <code class="language-plaintext highlighter-rouge">#年度大奖</code>, <code class="language-plaintext highlighter-rouge">#国产游戏</code>, <code class="language-plaintext highlighter-rouge">#重度游戏</code>, <code class="language-plaintext highlighter-rouge">#行业分析</code></p>
 
 <hr />
 
 <p><a id="item-indie-games-2"></a></p>
-<h3 id="unity-豪掷-5-万美元扶持独立游戏零分成零版权压力-️-7010"><a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxQc0FCeUZ0dHplWVg4d3h4MUxFTWhSejFQaGJjWFpaX0t6dTVFc014akZzaU1vTVROZ0JIY0hNVGoxM0ZDYXZkZkI2c0wzQk5fX1RzNGNmMFcwa01fdmllZE85Y3llOGFoNUpKV0stam5TQnljbE9ueWstak0tZ29Fa1JnY0hOUmRjMzlURmo1MFVmeEQtcGlMeDlfUmJaSWZnM0VKcQ?oc=5">Unity 豪掷 5 万美元扶持独立游戏，零分成零版权压力！</a> ⭐️ 7.0/10</h3>
+<h3 id="unity-豪掷-5-万美元扶持独立开发零分成零版权-️-7010"><a href="https://news.google.com/rss/articles/CBMipAFBVV95cUxQc0FCeUZ0dHplWVg4d3h4MUxFTWhSejFQaGJjWFpaX0t6dTVFc014akZzaU1vTVROZ0JIY0hNVGoxM0ZDYXZkZkI2c0wzQk5fX1RzNGNmMFcwa01fdmllZE85Y3llOGFoNUpKV0stam5TQnljbE9ueWstak0tZ29Fa1JnY0hOUmRjMzlURmo1MFVmeEQtcGlMeDlfUmJaSWZnM0VKcQ?oc=5">Unity 豪掷 5 万美元扶持独立开发，零分成零版权！</a> ⭐️ 7.0/10</h3>
 
-<p>本报讯：Unity 宣布向独立游戏开发者提供 5 万美元资助，且不要求分成或知识产权归属。重点来了，这波支持力度相当给力，真正为小团队减轻负担。更劲爆的是，这种无附加条件的资金援助在业界属实有点东西。小编只能说，独立游戏的春天似乎又近了一步，已经开始蹲了(・∀・)。</p>
+<p>本报讯：Unity 宣布向独立游戏开发者提供 5 万美元资金支持，且不要求分成或知识产权归属。重点来了，这波资助完全放手让创作者自由发挥，极大减轻了小团队的压力。据悉，这项举措旨在激励更多创新作品诞生。小编只能说，Unity 这波操作属实有点东西，独立游戏玩家们已经开始蹲了(・∀・)。</p>
 
 <p>rss · 独立游戏发现 · 11月18日 13:04</p>
 
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#indie games</code>, <code class="language-plaintext highlighter-rouge">#game development</code>, <code class="language-plaintext highlighter-rouge">#funding</code>, <code class="language-plaintext highlighter-rouge">#Unity</code>, <code class="language-plaintext highlighter-rouge">#industry news</code></p>
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#indie games</code>, <code class="language-plaintext highlighter-rouge">#funding</code>, <code class="language-plaintext highlighter-rouge">#Unity</code>, <code class="language-plaintext highlighter-rouge">#game development</code>, <code class="language-plaintext highlighter-rouge">#industry support</code></p>
 
 <hr />
 
 <p><a id="item-indie-games-3"></a></p>
-<h3 id="星图游戏嘉年华志愿者招募开启补贴午饭福利要素拉满-️-6010"><a href="https://www.yystv.cn/p/14646">星图游戏嘉年华志愿者招募开启，补贴+午饭福利要素拉满！</a> ⭐️ 6.0/10</h3>
+<h3 id="星图游戏嘉年华志愿者招募开启-有补贴还能包饭-️-6010"><a href="https://www.yystv.cn/p/14646">星图游戏嘉年华志愿者招募开启 有补贴还能包饭！</a> ⭐️ 6.0/10</h3>
 
 <!-- hz-media:start -->
 <div class="hz-media">
 <figure class="hz-media-figure"><a href="https://www.yystv.cn/p/14646" target="_blank" rel="noopener noreferrer">
-<img src="https://alioss.yystv.cn/doc/14646/2c731605e592b761717f3b2166a89e63.png_mw680water" alt="星图游戏嘉年华志愿者招募开启，补贴+午饭福利要素拉满！：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+<img src="https://alioss.yystv.cn/doc/14646/2c731605e592b761717f3b2166a89e63.png_mw680water" alt="星图游戏嘉年华志愿者招募开启 有补贴还能包饭！：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
 </a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
 </div>
 <!-- hz-media:end -->
 
-<p>本报讯：中国音数协游戏博物馆将于 12 月 18 日至 20 日在上海徐汇西岸国际会展中心举办“星图游戏嘉年华”，现面向社会公开招募志愿者。岗位涵盖现场秩序维护、展台服务及物料整理，工作时间含展前培训，补贴 20 元/小时并包午饭。博物馆藏品丰富，展览互动多，适合热爱游戏文化的朋友参与。小编只能说，这波志愿体验不仅能近距离感受游戏文化，还能赚点小零花，已经开始蹲了(・∀・)</p>
+<p>本报讯：星图游戏嘉年华将于 12 月 18 日至 20 日在上海徐汇西岸国际会展中心举办，现面向热爱游戏文化的在校学生及社会人士招募志愿者。工作内容涵盖现场秩序维护、展台协助及活动执行，提供 20 元/小时补贴和午餐包饭。主办方为中国音数协游戏博物馆，馆藏丰富，致力于传承游戏文化。重点来了，这波志愿服务不仅能近距离感受游戏历史，还能积累文博经验，已经开始蹲了(・∀・)。</p>
 
 <p>rss · 游研社 · 11月18日 16:00</p>
 
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#志愿者招募</code>, <code class="language-plaintext highlighter-rouge">#游戏文化</code>, <code class="language-plaintext highlighter-rouge">#展览活动</code>, <code class="language-plaintext highlighter-rouge">#游戏博物馆</code>, <code class="language-plaintext highlighter-rouge">#公共服务</code></p>
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#志愿者招募</code>, <code class="language-plaintext highlighter-rouge">#游戏文化</code>, <code class="language-plaintext highlighter-rouge">#游戏博物馆</code>, <code class="language-plaintext highlighter-rouge">#活动信息</code>, <code class="language-plaintext highlighter-rouge">#公共服务</code></p>
 
 <hr />
 
-<!-- horizon-media:1 -->]]></content><author><name></name></author><summary type="html"><![CDATA[从 42 条内容中筛选出 5 条重要资讯。]]></summary></entry><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-18 (ZH)</title><link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/18/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-18 (ZH)" /><published>2026-11-18T00:00:00+09:00</published><updated>2026-11-18T00:00:00+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/18/summary-zh</id><content type="html" xml:base="https://finoo0oo0oo.github.io/Horizon-web/2026/11/18/summary-zh.html"><![CDATA[<blockquote>
+<h2 id="可爱老鼠">可爱老鼠</h2>
+
+<p><a id="item-cute-mice-1"></a></p>
+<h3 id="今日鼠鼠小宝贝来啦-️-7010"><a href="https://mefi.social/@Zumbador/117637893355637195">今日鼠鼠小宝贝来啦</a> ⭐️ 7.0/10</h3>
+
+<p>哎哟喂，我的小宝贝今天又来萌姨姨啦！看到鼠鼠日常，姨姨的心就软得不行 (´,,•ω•,,)♡ 这份可爱必须点开原帖好好欣赏，宝贝们都要被疼爱！救命啊，姨姨要被可爱晕啦！</p>
+
+<p>rss · Mastodon · #rats · 11月18日 14:23</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#rats</code>, <code class="language-plaintext highlighter-rouge">#animal rescue</code>, <code class="language-plaintext highlighter-rouge">#cute</code>, <code class="language-plaintext highlighter-rouge">#naming</code>, <code class="language-plaintext highlighter-rouge">#lighthearted</code></p>
+
+<hr />
+
+<p><a id="item-cute-mice-2"></a></p>
+<h3 id="今日鼠鼠小宝贝来啦-️-7010-1"><a href="https://bsky.app/profile/kupgup.bsky.social/post/3n2mb5zxy322u">今日鼠鼠小宝贝来啦</a> ⭐️ 7.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://bsky.app/profile/kupgup.bsky.social/post/3n2mb5zxy322u" target="_blank" rel="noopener noreferrer">
+<img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:v2n53blk7odw5d3fijy7fcbk/bafkreihnz7qshdjz2pxxdqoyzf5nb2mgjmlef5ddmqrsfurupayxh3mdy4" alt="今日鼠鼠小宝贝来啦：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>哎哟喂，我的小宝贝今天又来萌姨姨啦！看到鼠鼠日常，姨姨的心就软得不行 (´,,•ω•,,)♡ 这份可爱必须点开原帖好好欣赏，宝贝们都要被疼爱！救命啊，姨姨要被可爱晕啦！</p>
+
+<p>bluesky · Bluesky · #petrats · 11月18日 19:11</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#PetRats</code>, <code class="language-plaintext highlighter-rouge">#CuteAnimals</code>, <code class="language-plaintext highlighter-rouge">#EverydayLife</code>, <code class="language-plaintext highlighter-rouge">#PlayfulBehavior</code></p>
+
+<hr />
+
+<!-- horizon-media:1 -->]]></content><author><name></name></author><summary type="html"><![CDATA[从 42 条内容中筛选出 8 条重要资讯。]]></summary></entry><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-18 (ZH)</title><link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/18/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-18 (ZH)" /><published>2026-11-18T00:00:00+09:00</published><updated>2026-11-18T00:00:00+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/18/summary-zh</id><content type="html" xml:base="https://finoo0oo0oo.github.io/Horizon-web/2026/11/18/summary-zh.html"><![CDATA[<blockquote>
   <p>从 59 条内容中筛选出 11 条重要资讯。</p>
 </blockquote>
 
