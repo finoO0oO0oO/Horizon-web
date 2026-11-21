@@ -3,9 +3,110 @@
   <title>Fino 的晨间地平线 - 中文摘要</title>
   <link href="https://finoo0oo0oo.github.io/Horizon-web/feed-zh.xml" rel="self"/>
   <link href="https://finoo0oo0oo.github.io/Horizon-web/"/>
-  <updated>2026-11-21T13:20:24+09:00</updated>
+  <updated>2026-11-22T08:46:03+09:00</updated>
   <id>https://finoo0oo0oo.github.io/Horizon-web/</id>
   
+  
+  <entry>
+    <title>Horizon Summary: 2026-11-22 (ZH)</title>
+    <link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/22/summary-zh.html"/>
+    <updated>2026-11-22T00:00:00+09:00</updated>
+    <id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/22/summary-zh.html</id>
+    <content type="html"><![CDATA[ <blockquote>
+  <p>从 29 条内容中筛选出 4 条重要资讯。</p>
+</blockquote>
+
+<hr />
+
+<p><strong>独立游戏</strong></p>
+<ol>
+  <li><a href="#item-indie-games-1">《卷尺人》杀进 Steam！从 Game Jam 原型到 4 小时解谜大作</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-indie-games-2">独立游戏抢先体验攻略：从玩法打磨到完美收官，成功要素拉满！</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-indie-games-3">G-STAR 2026 独立游戏展现奇思妙想，画中藏玄机？</a> ⭐️ 5.0/10</li>
+</ol>
+
+<p><strong>可爱老鼠</strong></p>
+<ol>
+  <li><a href="#item-cute-mice-1">小松露的突然探头大作战</a> ⭐️ 5.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="独立游戏">独立游戏</h2>
+
+<p><a id="item-indie-games-1"></a></p>
+<h3 id="卷尺人杀进-steam从-game-jam-原型到-4-小时解谜大作-️-8010"><a href="https://indienova.com/indie-game-development/tape-man-devlog/">《卷尺人》杀进 Steam！从 Game Jam 原型到 4 小时解谜大作</a> ⭐️ 8.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://indienova.com/indie-game-development/tape-man-devlog/" target="_blank" rel="noopener noreferrer">
+<img src="https://hivebak.indienova.com/farm/article/headpic/2026/11/head-6211w6-1.png" alt="《卷尺人》杀进 Steam！从 Game Jam 原型到 4 小时解谜大作：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>本报讯：《卷尺人》（Tape Man）这款独立解谜游戏历经一年半迭代，终于在 Steam 上线。它起源于 GMTK 2024 Game Jam 的两天原型，核心玩法是用卷尺测量房间边界，卷尺既是平台又是障碍。开发者 RoyRosta 受《闰月之年》《Öoo》等作品启发，逐步丰富机制，如卷尺数量限制、跨屏谜题和实体障碍。美术风格定为轻松可爱的纸张涂鸦，关卡设计注重玩家直觉发现。测试中甚至采纳了玩家的非预期解法，增添趣味。小编只能说，这波从 Jam 到正式版的进化，属实有点东西，喜欢解谜的朋友先看为敬(・∀・)</p>
+
+<p>rss · indienova · 11月21日 06:00</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#indie game development</code>, <code class="language-plaintext highlighter-rouge">#game design</code>, <code class="language-plaintext highlighter-rouge">#iteration process</code>, <code class="language-plaintext highlighter-rouge">#developer diary</code>, <code class="language-plaintext highlighter-rouge">#puzzle game</code></p>
+
+<hr />
+
+<p><a id="item-indie-games-2"></a></p>
+<h3 id="独立游戏抢先体验攻略从玩法打磨到完美收官成功要素拉满-️-8010"><a href="https://indienova.com/indie-game-news/how-to-successfully-take-your-game-into-early-access/">独立游戏抢先体验攻略：从玩法打磨到完美收官，成功要素拉满！</a> ⭐️ 8.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://indienova.com/indie-game-news/how-to-successfully-take-your-game-into-early-access/" target="_blank" rel="noopener noreferrer">
+<img src="https://hivebak.indienova.com/farm/article/headpic/2026/11/head-1312Lz-banner.jpg" alt="独立游戏抢先体验攻略：从玩法打磨到完美收官，成功要素拉满！：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>本报讯：独立游戏抢先体验（Early Access）已成开发者重要策略，能边开发边盈利，还能实时收集玩家反馈。文章强调，抢先体验适合玩法重复、可持续更新的游戏类型，如 Roguelike 和多人在线游戏，线性叙事游戏则不适合。开启抢先体验时，游戏核心玩法应已接近 1.0 版本水准，且需制定合理更新计划，保持玩家热度。结束阶段要以重大内容更新或完善版本收官，避免因承诺落空或资金枯竭导致口碑崩盘。小编只能说，这波抢先体验的科学打法，属实有点东西，独立开发者值得细细品味(・∀・)</p>
+
+<p>rss · indienova · 11月21日 00:00</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#抢先体验</code>, <code class="language-plaintext highlighter-rouge">#独立游戏</code>, <code class="language-plaintext highlighter-rouge">#开发策略</code>, <code class="language-plaintext highlighter-rouge">#运营规划</code>, <code class="language-plaintext highlighter-rouge">#案例分析</code></p>
+
+<hr />
+
+<p><a id="item-indie-games-3"></a></p>
+<h3 id="g-star-2026-独立游戏展现奇思妙想画中藏玄机-️-5010"><a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTFBFY05pM2dqanVkRnJrUU1IYUw4VEotemNzb1FydmV2cjJBNGl6SWdrcUU1WHhwaFh5cXBZdGV3V1h6VFZlbFlJLXh3MU83a1JZalhsNjNkMkE?oc=5">G-STAR 2026 独立游戏展现奇思妙想，画中藏玄机？</a> ⭐️ 5.0/10</h3>
+
+<p>本报讯：在 2026 年 G-STAR 展会上，众多独立游戏以其丰富的想象力吸引了玩家目光。展区内不乏画面奇特、玩法新颖的作品，仿佛每一幅画作都藏着不为人知的秘密。重点来了，这波独立游戏不仅玩法多样，还让人感受到创作者的独特脑洞，属实有点东西。先看为敬，期待更多惊喜！(・∀・)</p>
+
+<p>rss · 独立游戏发现 · 11月21日 05:29</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#indie games</code>, <code class="language-plaintext highlighter-rouge">#G-STAR 2026</code>, <code class="language-plaintext highlighter-rouge">#imagination</code>, <code class="language-plaintext highlighter-rouge">#game showcase</code></p>
+
+<hr />
+
+<h2 id="可爱老鼠">可爱老鼠</h2>
+
+<p><a id="item-cute-mice-1"></a></p>
+<h3 id="小松露的突然探头大作战-️-5010"><a href="https://bsky.app/profile/mwl.io/post/3n2tgh53j2c27">小松露的突然探头大作战</a> ⭐️ 5.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://bsky.app/profile/mwl.io/post/3n2tgh53j2c27" target="_blank" rel="noopener noreferrer">
+<img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:kycoixb2auymghmpm7i266i7/bafkreickoudxd2lejm4vtetrxg6spfdasky3hf3fvlmfdmf5bapmvvtm2i" alt="小松露的突然探头大作战：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>哎哟喂，我的小宝贝松露竟然突然从笼子里探出头来，像是在偷偷巡视世界呢！姨姨的心都要化啦，这么机灵的小家伙，慢点探头没人抢，救命呀！(っ˘ω˘ς )</p>
+
+<p>bluesky · Bluesky · #petrats · 11月21日 15:34</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#pet rat</code>, <code class="language-plaintext highlighter-rouge">#cute</code>, <code class="language-plaintext highlighter-rouge">#daily life</code>, <code class="language-plaintext highlighter-rouge">#cage</code>, <code class="language-plaintext highlighter-rouge">#peeking</code></p>
+
+<hr />
+
+<!-- horizon-media:1 -->
+ ]]></content>
+  </entry>
   
   <entry>
     <title>Horizon Summary: 2026-11-21 (ZH)</title>
