@@ -3,9 +3,148 @@
   <title>Fino 的晨间地平线 - 中文摘要</title>
   <link href="https://finoo0oo0oo.github.io/Horizon-web/feed-zh.xml" rel="self"/>
   <link href="https://finoo0oo0oo.github.io/Horizon-web/"/>
-  <updated>2026-11-23T13:06:19+09:00</updated>
+  <updated>2026-11-24T08:51:36+09:00</updated>
   <id>https://finoo0oo0oo.github.io/Horizon-web/</id>
   
+  
+  <entry>
+    <title>Horizon Summary: 2026-11-24 (ZH)</title>
+    <link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/24/summary-zh.html"/>
+    <updated>2026-11-24T00:00:00+09:00</updated>
+    <id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/24/summary-zh.html</id>
+    <content type="html"><![CDATA[ <blockquote>
+  <p>从 56 条内容中筛选出 6 条重要资讯。</p>
+</blockquote>
+
+<hr />
+
+<p><strong>AI Agent 开发</strong></p>
+<ol>
+  <li><a href="#item-agent-dev-1">Ladybird 浏览器首个 Alpha 版本发布</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-agent-dev-2">datasette-charts 0.1a0 插件发布</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-agent-dev-3">AI Agent 架构选型全解析：7 种主流模式与生产落地实践 - CSDN</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>独立游戏</strong></p>
+<ol>
+  <li><a href="#item-indie-games-1">《战狗》杀进 FPS 圈，Bulkhead 主创直言：我只看结果不在乎嘴炮</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-indie-games-2">GAMES.GG 独立游戏成长计划免费招募 30 款佳作！</a> ⭐️ 5.0/10</li>
+</ol>
+
+<p><strong>可爱老鼠</strong></p>
+<ol>
+  <li><a href="#item-cute-mice-1">小宝贝鼠鼠的美味时刻</a> ⭐️ 0.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="ai-agent-开发">AI Agent 开发</h2>
+
+<p><a id="item-agent-dev-1"></a></p>
+<h3 id="ladybird-浏览器首个-alpha-版本发布-️-8010"><a href="https://simonwillison.net/2026/Nov/23/ladybird/">Ladybird 浏览器首个 Alpha 版本发布</a> ⭐️ 8.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://simonwillison.net/2026/Nov/23/ladybird/" target="_blank" rel="noopener noreferrer">
+<img src="https://static.simonwillison.net/static/2026/ladybird-ffmpeg.webp" alt="Ladybird 浏览器首个 Alpha 版本发布：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>Simon Willison 评测了 Ladybird 浏览器的首个 Alpha 版本，这是一款 2026 年发布的极具野心的新浏览器，采用了大部分自研组件，包括 HTML 解析、CSS 引擎、布局、JavaScript 和 WebAssembly。该浏览器支持多进程隔离，性能表现优异，能够运行基于 WebAssembly 的高级工具如 ffmpeg 和 Pyodide，但目前对复杂的 Service Worker 支持尚不完善。项目在 2026 年 10 月通过 AI 辅助的 Rust 代码迁移和多项性能优化，实现了显著的 Web 平台测试提升。作者建议目前仅适合测试和匿名浏览，尚不适合处理敏感账户。文中提供了详细的使用体验、进程结构和开发历程介绍。</p>
+
+<p>rss · Simon Willison · 11月23日 21:46</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#browser development</code>, <code class="language-plaintext highlighter-rouge">#WebAssembly</code>, <code class="language-plaintext highlighter-rouge">#Rust</code>, <code class="language-plaintext highlighter-rouge">#open source</code>, <code class="language-plaintext highlighter-rouge">#alpha release</code></p>
+
+<hr />
+
+<p><a id="item-agent-dev-2"></a></p>
+<h3 id="datasette-charts-01a0-插件发布-️-8010"><a href="https://simonwillison.net/2026/Nov/23/datasette-charts/">datasette-charts 0.1a0 插件发布</a> ⭐️ 8.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://simonwillison.net/2026/Nov/23/datasette-charts/" target="_blank" rel="noopener noreferrer">
+<img src="https://static.simonwillison.net/static/2026/datasette-charts-0.1a0.webp" alt="datasette-charts 0.1a0 插件发布：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>datasette-charts 0.1a0 是一个针对 Datasette 的 alpha 版本插件，解决了之前插件只能对分页数据进行图表展示的限制。它通过将图表编译为 SQL 查询，利用 GROUP BY、时间分桶和窗口函数对整个数据集进行聚合，支持处理数百万行数据，返回最多 5000 行结果以供展示。插件提供多种图表类型和基于启发式的图表建议，支持 URL 状态持久化，方便分享和书签管理。虽然仍处于早期阶段，但该插件展示了良好的工程设计和用户体验改进。</p>
+
+<p>rss · Simon Willison · 11月23日 00:37</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#datasette</code>, <code class="language-plaintext highlighter-rouge">#data-visualization</code>, <code class="language-plaintext highlighter-rouge">#sql</code>, <code class="language-plaintext highlighter-rouge">#opensource</code>, <code class="language-plaintext highlighter-rouge">#plugin</code></p>
+
+<hr />
+
+<p><a id="item-agent-dev-3"></a></p>
+<h3 id="ai-agent-架构选型全解析7-种主流模式与生产落地实践---csdn-️-6010"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9HaUhRbHh3dlFselI0LXpuY1R6bDJMb3pfUEZGUkd0NUUwOEhUZHNjbXZYdjRscjRfNEZHRl90clRUMld4M21iOFp3OWRqOGtUOF85VEhjWEVhWTczRXlz?oc=5">AI Agent 架构选型全解析：7 种主流模式与生产落地实践 - CSDN</a> ⭐️ 6.0/10</h3>
+
+<p>本文详细解析了七种主流的 AI Agent 架构模式，涵盖了各自的设计理念和适用场景，并结合实际生产环境中的落地实践经验，帮助开发者理解不同架构的优劣及应用方法。文章重点突出架构选型对开发效率和系统性能的影响，提供了实用的技术指导和案例参考，但未深入披露具体代码实现细节。</p>
+
+<p>rss · Agent 开发新闻 · 11月23日 02:05</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI Agent</code>, <code class="language-plaintext highlighter-rouge">#Architecture</code>, <code class="language-plaintext highlighter-rouge">#Production Practice</code>, <code class="language-plaintext highlighter-rouge">#Technical Overview</code></p>
+
+<hr />
+
+<h2 id="独立游戏">独立游戏</h2>
+
+<p><a id="item-indie-games-1"></a></p>
+<h3 id="战狗杀进-fps-圈bulkhead-主创直言我只看结果不在乎嘴炮-️-8010"><a href="http://www.chuapp.com/article/291765.html">《战狗》杀进 FPS 圈，Bulkhead 主创直言：我只看结果不在乎嘴炮</a> ⭐️ 8.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="http://www.chuapp.com/article/291765.html" target="_blank" rel="noopener noreferrer">
+<img src="http://img.chuapp.com/wp-content/Picture/2026-11-16/3386afb13bf46297.jpg?imageView2/2/w/700" alt="《战狗》杀进 FPS 圈，Bulkhead 主创直言：我只看结果不在乎嘴炮：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>本报讯：英国独立游戏工作室 Bulkhead 凭借军事 FPS《战狗》在 Steam 抢先体验阶段销量突破 300 万，平均在线 20 万玩家，成为 FPS 新星。创始人乔·布拉默坦言，团队经历过《灵魂：生命之息》和《图灵测试》的摸索，也曾被《军团 1944》的服务器崩溃和玩家流失打击得体无完肤。更劲爆的是，布拉默不拘泥外界评价，强调结果导向和团队坚韧，甚至直言加班是游戏行业的“必修课”。这波从青涩到成熟的独立 FPS 开发史，属实有点东西，先看为敬(・∀・)</p>
+
+<p>rss · 触乐 · 11月23日 11:05</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#独立游戏</code>, <code class="language-plaintext highlighter-rouge">#开发者访谈</code>, <code class="language-plaintext highlighter-rouge">#游戏制作历程</code>, <code class="language-plaintext highlighter-rouge">#FPS游戏</code>, <code class="language-plaintext highlighter-rouge">#游戏行业经验</code></p>
+
+<hr />
+
+<p><a id="item-indie-games-2"></a></p>
+<h3 id="gamesgg-独立游戏成长计划免费招募-30-款佳作-️-5010"><a href="https://news.google.com/rss/articles/CBMiYkFVX3lxTE40MlhXSmFiRnI3ZU5Sd2lKcUNBSjd2MEtjTHVtMlI5enhPaFNicXE5b0ktTEVIMXhJNEw1ODh1ZjNBYXNWUkNWT1ROWXRVOE9YZy1sZVc5X3ktcnl0S09Wc213?oc=5">GAMES.GG 独立游戏成长计划免费招募 30 款佳作！</a> ⭐️ 5.0/10</h3>
+
+<p>本报讯：GAMES.GG 推出独立游戏成长计划，面向全球免费招募 30 款独立游戏参与。重点来了，申请无需费用，给小团队和创作者们提供了宝贵的曝光和成长机会。据悉，这波计划旨在扶持更多有潜力的独立游戏项目，助力它们杀进更广阔的市场。小编只能说，独立游戏的春天又近了一步，先看为敬(・∀・)。</p>
+
+<p>rss · 独立游戏发现 · 11月23日 22:11</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#indie games</code>, <code class="language-plaintext highlighter-rouge">#growth program</code>, <code class="language-plaintext highlighter-rouge">#free application</code>, <code class="language-plaintext highlighter-rouge">#announcement</code></p>
+
+<hr />
+
+<h2 id="可爱老鼠">可爱老鼠</h2>
+
+<p><a id="item-cute-mice-1"></a></p>
+<h3 id="小宝贝鼠鼠的美味时刻-️-0010"><a href="https://io.mwl.io/@mwl/117665814117282001">小宝贝鼠鼠的美味时刻</a> ⭐️ 0.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://io.mwl.io/@mwl/117665814117282001" target="_blank" rel="noopener noreferrer">
+<img src="https://cdn.hosted.spacebear.ee/sb-53d788bcd8441bb97cfb7a64f2552521/media_attachments/files/117/665/811/435/119/928/small/fb91aed2d0aeaa11.png" alt="小宝贝鼠鼠的美味时刻：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>哎哟喂，我的小宝贝鼠鼠正津津有味地啃着它的零食呢！姨姨看着它那认真吃东西的小模样，心都要化啦，慢点吃没人抢，姨姨都想偷偷尝一口呢 (´,,•ω•,,)♡ 救命，这么可爱，姨姨要融化啦！</p>
+
+<p>rss · Mastodon · #petrats · 11月23日 12:43</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#insufficient content</code>, <code class="language-plaintext highlighter-rouge">#unverified source</code>, <code class="language-plaintext highlighter-rouge">#pet rat</code></p>
+
+<hr />
+
+<!-- horizon-media:1 -->
+ ]]></content>
+  </entry>
   
   <entry>
     <title>Horizon Summary: 2026-11-23 (ZH)</title>
