@@ -3,9 +3,183 @@
   <title>Fino 的晨间地平线 - 中文摘要</title>
   <link href="https://finoo0oo0oo.github.io/Horizon-web/feed-zh.xml" rel="self"/>
   <link href="https://finoo0oo0oo.github.io/Horizon-web/"/>
-  <updated>2026-11-24T16:08:28+09:00</updated>
+  <updated>2026-11-25T08:51:26+09:00</updated>
   <id>https://finoo0oo0oo.github.io/Horizon-web/</id>
   
+  
+  <entry>
+    <title>Horizon Summary: 2026-11-25 (ZH)</title>
+    <link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/25/summary-zh.html"/>
+    <updated>2026-11-25T00:00:00+09:00</updated>
+    <id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/25/summary-zh.html</id>
+    <content type="html"><![CDATA[ <blockquote>
+  <p>从 45 条内容中筛选出 8 条重要资讯。</p>
+</blockquote>
+
+<hr />
+
+<p><strong>AI Agent 开发</strong></p>
+<ol>
+  <li><a href="#item-agent-dev-1">Simon Willison 论过去一年中三大 LLM 拐点</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-agent-dev-2">openai/openai-agents-python 发布 v0.26.0</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-agent-dev-3">GPT 6.2 Astra 破解历史谜团</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-agent-dev-4">Google 最新报告：黑客进化了！AI Agent 自动挖洞，补丁刚发就被武器化</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>独立游戏</strong></p>
+<ol>
+  <li><a href="#item-indie-games-1">利爪杯杀进伦敦地下！恐怖游戏大奖五周年盛典要素拉满</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-indie-games-2">《零境·入侵》杀进 WePlay 十周年，封闭 Beta 招募新女角上线</a> ⭐️ 7.0/10</li>
+</ol>
+
+<p><strong>可爱老鼠</strong></p>
+<ol>
+  <li><a href="#item-cute-mice-1">被冤枉的小可爱们</a> ⭐️ 2.0/10</li>
+  <li><a href="#item-cute-mice-2">花园里的小访客康斯坦丁</a> ⭐️ 2.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="ai-agent-开发">AI Agent 开发</h2>
+
+<p><a id="item-agent-dev-1"></a></p>
+<h3 id="simon-willison-论过去一年中三大-llm-拐点-️-8010"><a href="https://simonwillison.net/2026/Nov/24/llm-inflection-points/">Simon Willison 论过去一年中三大 LLM 拐点</a> ⭐️ 8.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://simonwillison.net/2026/Nov/24/llm-inflection-points/" target="_blank" rel="noopener noreferrer">
+<img src="https://static.simonwillison.net/static/2026/fable-class.webp" alt="Simon Willison 论过去一年中三大 LLM 拐点：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>Simon Willison 总结了过去十二个月内大型语言模型（LLM）和编码代理的三大能力拐点：首先是 2025 年 11 月发布的 Claude Opus 4.5 及 OpenAI GPT-5.1 系列，使编码代理变得更可靠和高效；其次是 2026 年 6-7 月推出的 Fable 类模型，具备自主解决复杂问题的能力，并能主动调用工具辅助完成任务；最后是近几个月内 LLM 在 3D 建模和游戏开发领域的显著突破，尤其是 Claude Fable 5 和 Opus 5.5 等模型在生成 3D 内容和提升游戏趣味性方面表现突出。文章结合具体模型版本和实例，提供了开发者实践参考。</p>
+
+<p>rss · Simon Willison · 11月24日 23:02</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#LLM</code>, <code class="language-plaintext highlighter-rouge">#coding agents</code>, <code class="language-plaintext highlighter-rouge">#Fable class models</code>, <code class="language-plaintext highlighter-rouge">#3D modeling</code>, <code class="language-plaintext highlighter-rouge">#AI development</code></p>
+
+<hr />
+
+<p><a id="item-agent-dev-2"></a></p>
+<h3 id="openaiopenai-agents-python-发布-v0260-️-7010"><a href="https://github.com/openai/openai-agents-python/releases/tag/v0.26.0">openai/openai-agents-python 发布 v0.26.0</a> ⭐️ 7.0/10</h3>
+
+<p>openai-agents-python v0.26.0 版本升级了 GPT-Live 演示至 1.1 版本，并修复了多个涉及沙箱安全、Docker 挂载权限、会话历史和 JSON 校验的缺陷。该版本强化了 Docker 存储挂载策略，要求替换为兼容的 DockerVolumeMountStrategy，并对自定义实时追踪提供者增加了禁用状态检测接口。Codex 工具对本地镜像访问权限进行了限制，需显式授权。升级指南详细说明了风险评估和兼容性维护，确保低风险平滑升级。该版本为增量小版本更新，无重大 API 变更。</p>
+
+<p>github · openai-sdks[bot] · 11月24日 03:15</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#python-sdk</code>, <code class="language-plaintext highlighter-rouge">#bug-fixes</code>, <code class="language-plaintext highlighter-rouge">#sandbox-security</code>, <code class="language-plaintext highlighter-rouge">#docker</code>, <code class="language-plaintext highlighter-rouge">#realtime-tracing</code></p>
+
+<hr />
+
+<p><a id="item-agent-dev-3"></a></p>
+<h3 id="gpt-62-astra-破解历史谜团-️-7010"><a href="https://simonwillison.net/2026/Nov/24/astra-historical-mystery/">GPT 6.2 Astra 破解历史谜团</a> ⭐️ 7.0/10</h3>
+
+<p>GPT-6.2 Astra 在不到 30 分钟内，利用公开的初级和次级资料，自动识别出 1808 年匿名素描簿的作者，展示了 AI 在历史研究中的新兴作用。该 AI 通过发现并验证一个鲜为人知的档案资料，确认了作者身份，同时该资料本身也成为加拿大及毛皮贸易历史研究的重要发现。作者 Mark Humphries 认为，尽管 AI 带来新的研究工具，但历史学的哲学和文学性质仍需人类参与。</p>
+
+<p>rss · Simon Willison · 11月24日 16:53</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#history</code>, <code class="language-plaintext highlighter-rouge">#ai</code>, <code class="language-plaintext highlighter-rouge">#generative-ai</code>, <code class="language-plaintext highlighter-rouge">#llms</code>, <code class="language-plaintext highlighter-rouge">#ai-assisted-search</code></p>
+
+<hr />
+
+<p><a id="item-agent-dev-4"></a></p>
+<h3 id="google-最新报告黑客进化了ai-agent-自动挖洞补丁刚发就被武器化-️-6010"><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE8wUkYxbTVpOE44ODBqVUcwTHlKNmllcGFvTV9vN2NiNGZnRHlNbXBPNDIwU2NlNTF4dnpubmJsYS1hV05xU2ctSlY4QlhkTllsYzkwMzZZcDVpY0xGd3VtWjZaeWlFSzNLMXgxaWxqSWkzSVhVRkNsT0N0Y2k0eFU?oc=5">Google 最新报告：黑客进化了！AI Agent 自动挖洞，补丁刚发就被武器化</a> ⭐️ 6.0/10</h3>
+
+<p>Google 最新报告指出，黑客技术已进化，利用 AI 代理自动发现软件漏洞，并在补丁发布后迅速将其武器化。这一趋势揭示了网络安全领域面临的新挑战，强调了自动化漏洞管理和威胁情报的重要性。报告内容简要，缺乏具体实现细节和代码示例，实用性有限。</p>
+
+<p>rss · Agent 开发新闻 · 11月24日 08:04</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#cybersecurity</code>, <code class="language-plaintext highlighter-rouge">#AI automation</code>, <code class="language-plaintext highlighter-rouge">#vulnerability management</code>, <code class="language-plaintext highlighter-rouge">#threat intelligence</code>, <code class="language-plaintext highlighter-rouge">#security trends</code></p>
+
+<hr />
+
+<h2 id="独立游戏">独立游戏</h2>
+
+<p><a id="item-indie-games-1"></a></p>
+<h3 id="利爪杯杀进伦敦地下恐怖游戏大奖五周年盛典要素拉满-️-8010"><a href="https://indienova.com/indie-game-news/the-horror-game-awards-thoughts/">利爪杯杀进伦敦地下！恐怖游戏大奖五周年盛典要素拉满</a> ⭐️ 8.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://indienova.com/indie-game-news/the-horror-game-awards-thoughts/" target="_blank" rel="noopener noreferrer">
+<img src="https://hivebak.indienova.com/farm/article/headpic/2026/11/head-8179il-banner.jpg" alt="利爪杯杀进伦敦地下！恐怖游戏大奖五周年盛典要素拉满：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>本报讯：2026 年 11 月 20 日，第五届恐怖游戏大奖（THGA）在伦敦利克街 26 号地下隧道盛大举办，现场气氛诡异又热烈。此次盛典涵盖 21 个奖项，瑞典独立大作《生灵重塑》和卡普空《生化危机：安魂曲》双雄争霸，最终《克里夫·巴克猛鬼追魂：复苏》夺得年度最佳。THGA 从 2022 年 YouTube 小众票选起步，迅速成长为恐怖游戏界的重要盛事，线上线下同步直播，玩家与开发者齐聚一堂。独立游戏与大厂作品并肩竞技，奖项设置更细分，兼顾恐怖多样体验。小编只能说，这波恐怖游戏圈的狂欢，既有血腥利爪也有温馨暗角，真是让人又爱又怕(・∀・)。</p>
+
+<p>rss · indienova · 11月24日 06:00</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#恐怖游戏</code>, <code class="language-plaintext highlighter-rouge">#游戏大奖</code>, <code class="language-plaintext highlighter-rouge">#独立游戏</code>, <code class="language-plaintext highlighter-rouge">#行业复盘</code>, <code class="language-plaintext highlighter-rouge">#游戏评选</code></p>
+
+<hr />
+
+<p><a id="item-indie-games-2"></a></p>
+<h3 id="零境入侵杀进-weplay-十周年封闭-beta-招募新女角上线-️-7010"><a href="https://www.gcores.com/articles/222709">《零境·入侵》杀进 WePlay 十周年，封闭 Beta 招募新女角上线</a> ⭐️ 7.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://www.gcores.com/articles/222709" target="_blank" rel="noopener noreferrer">
+<img src="https://image.gcores.com/efc249e887bea2b2386aadd3ca96ad10-720-337.webp?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90" alt="《零境·入侵》杀进 WePlay 十周年，封闭 Beta 招募新女角上线：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>本报讯：《零境·入侵》在 2026 年 WePlay Expo 上海站亮相，带来 3D 横版动作肉鸽试玩版，展位紧邻主舞台，吸引众多玩家体验。游戏已入围 ChinaJoy 最佳 Rogue 游戏奖，Demo 全球好评率达 90%。更劲爆的是，官方同步开启 Steam 平台封闭 Beta 招募，主打一位神秘新女角色，猜测为格斗近战派。测试支持多语言，限量邀请将于 11 月 27 日开始通知，12 月初发放激活码。正式版预计 2027 年春季全球上线，Steam 和 PlayStation 愿望单已开。小编只能说，这波动作肉鸽要素拉满，期待新角色带来更多爽快连招体验(・∀・)。</p>
+
+<p>rss · 机核 · 11月24日 03:04</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#indie game</code>, <code class="language-plaintext highlighter-rouge">#closed beta</code>, <code class="language-plaintext highlighter-rouge">#game demo</code>, <code class="language-plaintext highlighter-rouge">#character reveal</code>, <code class="language-plaintext highlighter-rouge">#WePlay Expo</code></p>
+
+<hr />
+
+<h2 id="可爱老鼠">可爱老鼠</h2>
+
+<p><a id="item-cute-mice-1"></a></p>
+<h3 id="被冤枉的小可爱们-️-2010"><a href="https://io.mwl.io/@mwl/117672019039727453">被冤枉的小可爱们</a> ⭐️ 2.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://io.mwl.io/@mwl/117672019039727453" target="_blank" rel="noopener noreferrer">
+<img src="https://cdn.hosted.spacebear.ee/sb-53d788bcd8441bb97cfb7a64f2552521/media_attachments/files/117/672/015/072/646/302/original/4d2d7c7faed1e6e8.jpg" alt="被冤枉的小可爱们：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>昨天带你们去看医生，这表情简直是背叛的脸！三只无辜又可爱的宠物鼠被困住了，阿姨心疼死了，救命 (｡•́︿•̀｡)</p>
+
+<p>rss · Mastodon · #petrats · 11月24日 15:01</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#pet rats</code>, <code class="language-plaintext highlighter-rouge">#vet visit</code>, <code class="language-plaintext highlighter-rouge">#animal stress</code></p>
+
+<hr />
+
+<p><a id="item-cute-mice-2"></a></p>
+<h3 id="花园里的小访客康斯坦丁-️-2010"><a href="https://mindly.social/@otterX/117674009934496142">花园里的小访客康斯坦丁</a> ⭐️ 2.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://mindly.social/@otterX/117674009934496142" target="_blank" rel="noopener noreferrer">
+<img src="https://a.mindlycdn.com/media_attachments/files/117/673/955/252/545/297/original/27e887de031cde2b.jpeg" alt="花园里的小访客康斯坦丁：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+<figure class="hz-media-figure"><a href="https://mindly.social/@otterX/117674009934496142" target="_blank" rel="noopener noreferrer">
+<img src="https://a.mindlycdn.com/media_attachments/files/117/673/956/871/118/091/original/522526f12f0d4b34.jpeg" alt="花园里的小访客康斯坦丁：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>康斯坦丁这只小老鼠偷偷在花园的鸟浴盆边喝水，藏在红叶绣球花和薰衣草丛中，真是个害羞的小家伙呢，花儿们都陪着它一起享受阳光，救命 (｡♥‿♥｡)</p>
+
+<p>rss · Mastodon · #rats · 11月24日 23:28</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#wild rat</code>, <code class="language-plaintext highlighter-rouge">#garden</code>, <code class="language-plaintext highlighter-rouge">#outdoor</code>, <code class="language-plaintext highlighter-rouge">#animal spotting</code>, <code class="language-plaintext highlighter-rouge">#not pet</code></p>
+
+<hr />
+
+<!-- horizon-media:1 -->
+ ]]></content>
+  </entry>
   
   <entry>
     <title>Horizon Summary: 2026-11-24 (ZH)</title>
@@ -826,254 +1000,6 @@
 <p>bluesky · Bluesky · #petrats · 11月18日 19:11</p>
 
 <p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#pet rats</code>, <code class="language-plaintext highlighter-rouge">#cute</code>, <code class="language-plaintext highlighter-rouge">#daily life</code>, <code class="language-plaintext highlighter-rouge">#treats</code>, <code class="language-plaintext highlighter-rouge">#hammock</code></p>
-
-<hr />
-
-<!-- horizon-media:1 -->
- ]]></content>
-  </entry>
-  
-  <entry>
-    <title>Horizon Summary: 2026-11-18 (ZH)</title>
-    <link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/18/summary-zh.html"/>
-    <updated>2026-11-18T00:00:00+09:00</updated>
-    <id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/18/summary-zh.html</id>
-    <content type="html"><![CDATA[ <blockquote>
-  <p>从 59 条内容中筛选出 11 条重要资讯。</p>
-</blockquote>
-
-<hr />
-
-<p><strong>AI Agent 开发</strong></p>
-<ol>
-  <li><a href="#item-agent-dev-1">Simon Willison 的外部沙箱方案保障 AI 编码代理安全执行代码</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-agent-dev-2">使用服务工作线程和 Pyodide 在浏览器中运行完整的 Datasette Python 应用——Datasette Lite</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-agent-dev-3">openai/openai-agents-python 发布 v0.25.0 版本</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-agent-dev-4">GPT‑6.2 Astra 和 GPT‑6.2 Sol 评测</a> ⭐️ 7.0/10</li>
-</ol>
-
-<p><strong>独立游戏</strong></p>
-<ol>
-  <li><a href="#item-indie-games-1">NOVA 海外独立游戏见闻 Vol.161</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-indie-games-2">诺娃独立游戏通讯 2026-#46</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-indie-games-3">独立游戏工作室 Studio Bravarda 关闭，《无敌水豚》表现不佳</a> ⭐️ 6.0/10</li>
-  <li><a href="#item-indie-games-4">Indie Game Marketing Roadmap: 7 Stages to Long-Tail Sales (2027)</a> ⭐️ 5.0/10</li>
-</ol>
-
-<p><strong>本季日本动画</strong></p>
-<ol>
-  <li><a href="#item-seasonal-anime-1">Identity V 游戏短篇动画《Oha Suta Daigo Gakuen》公布更多声优与制作人员，11 月 24 日首播</a> ⭐️ 7.0/10</li>
-  <li><a href="#item-seasonal-anime-2">真·侍传 YAIBA 第二季公布内田雄马等声优及 OP 主题曲</a> ⭐️ 7.0/10</li>
-</ol>
-
-<p><strong>可爱老鼠</strong></p>
-<ol>
-  <li><a href="#item-cute-mice-1">我的可爱又调皮的宠物老鼠</a> ⭐️ 7.0/10</li>
-</ol>
-
-<hr />
-
-<h2 id="ai-agent-开发">AI Agent 开发</h2>
-
-<p><a id="item-agent-dev-1"></a></p>
-<h3 id="simon-willison-的外部沙箱方案保障-ai-编码代理安全执行代码-️-8010"><a href="https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/">Simon Willison 的外部沙箱方案保障 AI 编码代理安全执行代码</a> ⭐️ 8.0/10</h3>
-
-<!-- hz-media:start -->
-<div class="hz-media">
-<figure class="hz-media-figure"><a href="https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/" target="_blank" rel="noopener noreferrer">
-<img src="https://static.simonwillison.net/static/2026/sandbox-proxy.png" alt="Simon Willison 的外部沙箱方案保障 AI 编码代理安全执行代码：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
-</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
-</div>
-<!-- hz-media:end -->
-
-<p>Simon Willison 介绍了一种外部沙箱模式，用于安全地运行由 AI 编码代理执行的代码。该模式将代码执行隔离在专用沙箱中，而代理本身运行在沙箱之外，降低了因错误或提示注入攻击导致的风险。为演示该模式，作者与 Prime Radiant 合作发布了三种开源沙箱服务器实现，分别基于 v86 的 WebAssembly Alpine Linux、Apple Containers 中的 Alpine Linux 以及微软 Quicksand 沙箱库，均提供统一的本地 API 接口。此外，这些沙箱支持 HTTP/HTTPS 允许列表代理和凭证替换机制，方便控制网络访问和安全调用认证接口。该方案适用于本地 AI 模型和编码代理的安全代码执行，文档和代码均开源，便于开发者复用和扩展。</p>
-
-<p>rss · Simon Willison · 11月17日 22:52</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#sandboxing</code>, <code class="language-plaintext highlighter-rouge">#security</code>, <code class="language-plaintext highlighter-rouge">#ai</code>, <code class="language-plaintext highlighter-rouge">#coding-agents</code>, <code class="language-plaintext highlighter-rouge">#webassembly</code></p>
-
-<hr />
-
-<p><a id="item-agent-dev-2"></a></p>
-<h3 id="使用服务工作线程和-pyodide-在浏览器中运行完整的-datasette-python-应用datasette-lite-️-8010"><a href="https://simonwillison.net/2026/Nov/17/datasette-lite/">使用服务工作线程和 Pyodide 在浏览器中运行完整的 Datasette Python 应用——Datasette Lite</a> ⭐️ 8.0/10</h3>
-
-<!-- hz-media:start -->
-<div class="hz-media">
-<figure class="hz-media-figure"><a href="https://simonwillison.net/2026/Nov/17/datasette-lite/" target="_blank" rel="noopener noreferrer">
-<img src="https://static.simonwillison.net/static/cors-allow/2026/datasette-maplibre.webp" alt="使用服务工作线程和 Pyodide 在浏览器中运行完整的 Datasette Python 应用——Datasette Lite：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
-</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
-</div>
-<!-- hz-media:end -->
-
-<p>Simon Willison 开发的 Datasette Lite 通过 Pyodide 和服务工作线程实现了在浏览器中运行完整的服务器端 Datasette Python 应用，支持交互式浏览 SQLite 数据库及插件，无需服务器环境。该方案利用服务工作线程拦截 HTTP 请求，加载指定版本的 Datasette、SQLite 及插件，支持通过 URL 参数灵活配置，方便演示和调试。文中提供了详细的使用示例和插件安装方法，展示了其在开发过程中的实际应用和兼容性优势。</p>
-
-<p>rss · Simon Willison · 11月17日 16:48</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Python</code>, <code class="language-plaintext highlighter-rouge">#WebAssembly</code>, <code class="language-plaintext highlighter-rouge">#Pyodide</code>, <code class="language-plaintext highlighter-rouge">#Datasette</code>, <code class="language-plaintext highlighter-rouge">#Client-side Data Exploration</code></p>
-
-<hr />
-
-<p><a id="item-agent-dev-3"></a></p>
-<h3 id="openaiopenai-agents-python-发布-v0250-版本-️-7010"><a href="https://github.com/openai/openai-agents-python/releases/tag/v0.25.0">openai/openai-agents-python 发布 v0.25.0 版本</a> ⭐️ 7.0/10</h3>
-
-<p>openai-agents-python v0.25.0 版本引入了针对第三方会话适配器的新工具，移除了已废弃的沙箱运行循环提供者，并修复了多个影响稳定性和并发性的缺陷。此外，该版本还升级了多个依赖库以提升 SDK 的兼容性和生产环境的稳定性。该更新适用于需要稳定且兼容性良好的 Python SDK 的开发者，属于渐进式改进而非重大突破。</p>
-
-<p>github · openai-sdks[bot] · 11月18日 00:22</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#SDK update</code>, <code class="language-plaintext highlighter-rouge">#bug fixes</code>, <code class="language-plaintext highlighter-rouge">#dependency upgrade</code>, <code class="language-plaintext highlighter-rouge">#Python</code>, <code class="language-plaintext highlighter-rouge">#production-ready</code></p>
-
-<hr />
-
-<p><a id="item-agent-dev-4"></a></p>
-<h3 id="gpt62-astra-和-gpt62-sol-评测-️-7010"><a href="https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/">GPT‑6.2 Astra 和 GPT‑6.2 Sol 评测</a> ⭐️ 7.0/10</h3>
-
-<!-- hz-media:start -->
-<div class="hz-media">
-<video class="hz-native-video" controls="" playsinline="" preload="none" poster="https://static.simonwillison.net/static/2026/yonkers-astra-sol-20s.webp">
-<source src="https://static.simonwillison.net/static/2026/yonkers-astra-sol-20s-largest.mp4" />
-<a href="https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/">打开来源视频</a></video>
-<p class="hz-media-credit"><a href="https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/" target="_blank" rel="noopener noreferrer">来源视频 · 打开原文 ↗</a></p>
-</div>
-<!-- hz-media:end -->
-
-<p>Simon Willison 评测了 OpenAI 新发布的 GPT‑6.2 Astra 和 GPT‑6.2 Sol 模型，介绍了它们的定价、API 支持及视觉输出效果。Astra 6.2 价格较前代降低 20%，适合复杂项目，Sol 6.2 维持低价，适合日常使用。通过鹈鹕骑自行车的插图对比，Astra 在细节表现上更优。基准测试中，两者在三维动画生成任务表现一般，未能超越竞争对手 Claude Fable 5.2 和 Gemini 4 Carbon。文章还引用了用户反馈，指出 Astra 在长任务中可能出现难以理解的内部问题询问。整体来看，6.2 版本为现有模型的渐进式改进，提供了更优的价格和部分性能提升。</p>
-
-<p>rss · Simon Willison · 11月17日 22:38</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#GPT-6.2</code>, <code class="language-plaintext highlighter-rouge">#model comparison</code>, <code class="language-plaintext highlighter-rouge">#pricing update</code>, <code class="language-plaintext highlighter-rouge">#benchmarking</code>, <code class="language-plaintext highlighter-rouge">#API support</code></p>
-
-<hr />
-
-<h2 id="独立游戏">独立游戏</h2>
-
-<p><a id="item-indie-games-1"></a></p>
-<h3 id="nova-海外独立游戏见闻-vol161-️-8010"><a href="https://indienova.com/indie-game-news/news-of-overseas-indie-games-and-industry-vol-161/">NOVA 海外独立游戏见闻 Vol.161</a> ⭐️ 8.0/10</h3>
-
-<!-- hz-media:start -->
-<div class="hz-media">
-<figure class="hz-media-figure"><a href="https://indienova.com/indie-game-news/news-of-overseas-indie-games-and-industry-vol-161/" target="_blank" rel="noopener noreferrer">
-<img src="https://hivebak.indienova.com/farm/article/headpic/2026/11/head-3608W1-banner_vol161.jpg" alt="NOVA 海外独立游戏见闻 Vol.161：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
-</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
-</div>
-<!-- hz-media:end -->
-
-<p>《Big Walk》因开发中有限度使用生成式 AI 引发 IGF 评委争议，19 名评委联合声明拒绝投票给使用 AI 的作品。Steam 审核积压导致多款独立游戏发售推迟，Valve 承认提交量激增但未将延迟归因于 AI。Nexus Mods 调整新 Mod 展示规则，限制同一作者短时间内多个作品集中展示。Steam 推出“成就集”功能，支持本体与 DLC 成就分开计算。GDC 回应 2026 年参会人数下降，公布 2027 年展会调整方案。失传 20 年的《宝可梦钓鱼大会 DS》实体卡带现身引发数字存档争议。前 id Software 员工成立 Hidden Horses 工作室，发布首款 FPS 游戏《Danger Pay》并启动 Kickstarter 众筹。</p>
-
-<p>rss · indienova · 11月18日 06:00</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#独立游戏</code>, <code class="language-plaintext highlighter-rouge">#AI争议</code>, <code class="language-plaintext highlighter-rouge">#游戏开发</code>, <code class="language-plaintext highlighter-rouge">#Steam审核</code>, <code class="language-plaintext highlighter-rouge">#行业动态</code></p>
-
-<hr />
-
-<p><a id="item-indie-games-2"></a></p>
-<h3 id="诺娃独立游戏通讯-2026-46-️-7010"><a href="https://indienova.com/indie-game-news/nova-post-2026-46/">诺娃独立游戏通讯 2026-#46</a> ⭐️ 7.0/10</h3>
-
-<!-- hz-media:start -->
-<div class="hz-media">
-<figure class="hz-media-figure"><a href="https://indienova.com/indie-game-news/nova-post-2026-46/" target="_blank" rel="noopener noreferrer">
-<img src="https://hivebak.indienova.com/farm/article/headpic/2026/11/head-6626N2-NovaPost-26-46.jpg" alt="诺娃独立游戏通讯 2026-\#46：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
-</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
-</div>
-<!-- hz-media:end -->
-
-<p>《诺娃独立游戏通讯 2026-#46》是一份精选的独立游戏通讯，介绍了多款近期由 Indienova 社区开发者发布的独立游戏，涵盖回合制策略、多分支文本、艺术体验、放置挂机等多种类型。通讯中推荐了如《誓约前线》、《设计院浮沉录》、《阵痛》、《桌面精灵:育成物语》和《幸运豪赌》等游戏，并分享了《午夜机台》、《SHUNYA》、《天空纪实》和《伟大项目工厂》等游戏的最新开发日志和发售信息。该通讯为独立游戏爱好者提供了丰富的游戏选择和开发者动态，适合关注国内独立游戏发展的玩家。</p>
-
-<p>rss · indienova · 11月18日 00:00</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#indie games</code>, <code class="language-plaintext highlighter-rouge">#game recommendations</code>, <code class="language-plaintext highlighter-rouge">#developer updates</code>, <code class="language-plaintext highlighter-rouge">#game jam</code>, <code class="language-plaintext highlighter-rouge">#multigenre</code></p>
-
-<hr />
-
-<p><a id="item-indie-games-3"></a></p>
-<h3 id="独立游戏工作室-studio-bravarda-关闭无敌水豚表现不佳-️-6010"><a href="https://www.gcores.com/articles/222455">独立游戏工作室 Studio Bravarda 关闭，《无敌水豚》表现不佳</a> ⭐️ 6.0/10</h3>
-
-<!-- hz-media:start -->
-<div class="hz-media">
-<figure class="hz-media-figure"><a href="https://www.gcores.com/articles/222455" target="_blank" rel="noopener noreferrer">
-<img src="https://image.gcores.com/ffaa30904bff09c9f7b2947cb0403906-1920-1080.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90" alt="独立游戏工作室 Studio Bravarda 关闭，《无敌水豚》表现不佳：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
-</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
-</div>
-<!-- hz-media:end -->
-
-<p>独立游戏工作室 Studio Bravarda 宣布关闭，原因是旗下游戏《无敌水豚》自 2023 年发售后表现未达预期，三年内未能收回开发成本。游戏首发时联机体验不稳定，尤其在中国地区，团队虽尝试改进并转向 Godot 引擎开发新项目，但融资困难导致无法持续运营。工作室感谢支持者，坦诚面对失败，回顾六年间实现了童年梦想。</p>
-
-<p>rss · 机核 · 11月18日 01:05</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#独立游戏</code>, <code class="language-plaintext highlighter-rouge">#工作室关闭</code>, <code class="language-plaintext highlighter-rouge">#游戏运营</code>, <code class="language-plaintext highlighter-rouge">#融资困难</code>, <code class="language-plaintext highlighter-rouge">#游戏开发</code></p>
-
-<hr />
-
-<p><a id="item-indie-games-4"></a></p>
-<h3 id="indie-game-marketing-roadmap-7-stages-to-long-tail-sales-2027-️-5010"><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE00QnZpQmdMMi1DNjBSYjRZM216WDg4SHhNdkE2VWpxVHBzbi1ldW54WjhSMjVDZVFxU2xteThlTGs4V2twS2hIcjBMN09haTZ1SGhSRzAxbkYtaHBXY2ctUUZjVkZaalBYQXc?oc=5">Indie Game Marketing Roadmap: 7 Stages to Long-Tail Sales (2027)</a> ⭐️ 5.0/10</h3>
-
-<p>《Indie Game Marketing Roadmap: 7 Stages to Long-Tail Sales (2027)》是一篇介绍独立游戏营销的文章，提出了维持长期销售的七个阶段策略。该文章旨在帮助独立游戏开发者通过系统化的营销方法实现持续的市场表现。文章发布于 2026 年，内容侧重于营销策略而非游戏本身。</p>
-
-<p>rss · 独立游戏发现 · 11月17日 18:05</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#indie games</code>, <code class="language-plaintext highlighter-rouge">#marketing</code>, <code class="language-plaintext highlighter-rouge">#long-tail sales</code>, <code class="language-plaintext highlighter-rouge">#strategy</code>, <code class="language-plaintext highlighter-rouge">#roadmap</code></p>
-
-<hr />
-
-<h2 id="本季日本动画">本季日本动画</h2>
-
-<p><a id="item-seasonal-anime-1"></a></p>
-<h3 id="identity-v-游戏短篇动画oha-suta-daigo-gakuen公布更多声优与制作人员11-月-24-日首播-️-7010"><a href="https://www.animenewsnetwork.com/news/2026-11-18/identity-v-game-oha-suta-daigo-gakuen-short-anime-unveils-more-cast-staff-november-24-debut/.243933">Identity V 游戏短篇动画《Oha Suta Daigo Gakuen》公布更多声优与制作人员，11 月 24 日首播</a> ⭐️ 7.0/10</h3>
-
-<!-- hz-media:start -->
-<div class="hz-media">
-<figure class="hz-media-figure"><a href="https://www.animenewsnetwork.com/news/2026-11-18/identity-v-game-oha-suta-daigo-gakuen-short-anime-unveils-more-cast-staff-november-24-debut/.243933" target="_blank" rel="noopener noreferrer">
-<img src="https://www.animenewsnetwork.com/thumbnails/crop600x315gHP/cms/news.10/243933/daigo.jpg" alt="Identity V 游戏短篇动画《Oha Suta Daigo Gakuen》公布更多声优与制作人员，11 月 24 日首播：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
-</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
-</div>
-<!-- hz-media:end -->
-
-<p>根据官方消息，基于 Identity V 游戏的短篇动画《Oha Suta Daigo Gakuen》公布了更多声优阵容和制作团队成员。该动画将于 2026 年 11 月 24 日正式首播。主要声优包括小野大辅、岛崎信长、梅原裕一郎和古川慎等。</p>
-
-<p>rss · Anime News Network · 11月18日 07:20</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#cast announcement</code>, <code class="language-plaintext highlighter-rouge">#staff update</code>, <code class="language-plaintext highlighter-rouge">#2026 autumn anime</code>, <code class="language-plaintext highlighter-rouge">#short anime</code>, <code class="language-plaintext highlighter-rouge">#debut date</code></p>
-
-<hr />
-
-<p><a id="item-seasonal-anime-2"></a></p>
-<h3 id="真侍传-yaiba-第二季公布内田雄马等声优及-op-主题曲-️-7010"><a href="https://www.animenewsnetwork.com/news/2026-11-17/yaiba-samurai-legend-season-2-reveals-cast-member-yuma-uchida-opening-song-artists/.243924">真·侍传 YAIBA 第二季公布内田雄马等声优及 OP 主题曲</a> ⭐️ 7.0/10</h3>
-
-<!-- hz-media:start -->
-<div class="hz-media">
-<figure class="hz-media-figure"><a href="https://www.animenewsnetwork.com/news/2026-11-17/yaiba-samurai-legend-season-2-reveals-cast-member-yuma-uchida-opening-song-artists/.243924" target="_blank" rel="noopener noreferrer">
-<img src="https://www.animenewsnetwork.com/thumbnails/crop600x315gGE/cms/news.10/243924/gekkou.jpg" alt="真·侍传 YAIBA 第二季公布内田雄马等声优及 OP 主题曲：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
-</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
-</div>
-<!-- hz-media:end -->
-
-<p>动画《真·侍传 YAIBA》第二季宣布内田雄马加盟配音，饰演角色“月光”。同时，开场主题曲由 CHiCO with HoneyWorks 演唱，曲名为《CHASE!》。该消息于 2026 年 11 月 17 日公开，确认了新角色和主题曲演唱者。</p>
-
-<p>rss · Anime News Network · 11月18日 03:11</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#cast announcement</code>, <code class="language-plaintext highlighter-rouge">#opening song</code>, <code class="language-plaintext highlighter-rouge">#2026 autumn season</code>, <code class="language-plaintext highlighter-rouge">#anime update</code>, <code class="language-plaintext highlighter-rouge">#Yaiba: Samurai Legend</code></p>
-
-<hr />
-
-<h2 id="可爱老鼠">可爱老鼠</h2>
-
-<p><a id="item-cute-mice-1"></a></p>
-<h3 id="我的可爱又调皮的宠物老鼠-️-7010"><a href="https://www.youtube.com/watch?v=SwTpbWPPpYc">我的可爱又调皮的宠物老鼠</a> ⭐️ 7.0/10</h3>
-
-<!-- hz-media:start -->
-<div class="hz-media">
-<div class="hz-video" data-youtube-id="SwTpbWPPpYc">
-<button class="hz-video-play" type="button" aria-label="播放来源视频：我的可爱又调皮的宠物老鼠">
-<img src="https://i.ytimg.com/vi/SwTpbWPPpYc/hqdefault.jpg" alt="我的可爱又调皮的宠物老鼠：来源视频封面" loading="lazy" decoding="async" />
-<span class="hz-play-icon" aria-hidden="true">▶</span><span class="hz-play-label">播放视频</span></button></div>
-<p class="hz-media-credit"><a href="https://www.youtube.com/watch?v=SwTpbWPPpYc" target="_blank" rel="noopener noreferrer">在 YouTube 打开原视频 ↗</a></p>
-</div>
-<!-- hz-media:end -->
-
-<p>视频展示了宠物老鼠们甜美又调皮的日常生活，体现了主人对它们深厚的感情。画面温馨，捕捉了这些小宠物可爱的自然状态，令人感受到浓浓的爱意。</p>
-
-<p>rss · Shadow The Rat · 视频 · 11月17日 16:00</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#pet rats</code>, <code class="language-plaintext highlighter-rouge">#cute animals</code>, <code class="language-plaintext highlighter-rouge">#affectionate</code>, <code class="language-plaintext highlighter-rouge">#daily life</code>, <code class="language-plaintext highlighter-rouge">#small pets</code></p>
 
 <hr />
 

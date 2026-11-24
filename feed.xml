@@ -1,4 +1,169 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://finoo0oo0oo.github.io/Horizon-web/feed.xml" rel="self" type="application/atom+xml" /><link href="https://finoo0oo0oo.github.io/Horizon-web/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2026-11-24T16:08:28+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/feed.xml</id><title type="html">Fino 的晨间地平线</title><subtitle>AI Agent 开发 · 独立游戏 · 本季日本动画 · 可爱老鼠</subtitle><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-24 (ZH)</title><link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/24/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-24 (ZH)" /><published>2026-11-24T00:00:00+09:00</published><updated>2026-11-24T00:00:00+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/24/summary-zh</id><content type="html" xml:base="https://finoo0oo0oo.github.io/Horizon-web/2026/11/24/summary-zh.html"><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://finoo0oo0oo.github.io/Horizon-web/feed.xml" rel="self" type="application/atom+xml" /><link href="https://finoo0oo0oo.github.io/Horizon-web/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2026-11-25T08:51:26+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/feed.xml</id><title type="html">Fino 的晨间地平线</title><subtitle>AI Agent 开发 · 独立游戏 · 本季日本动画 · 可爱老鼠</subtitle><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-25 (ZH)</title><link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/25/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-25 (ZH)" /><published>2026-11-25T00:00:00+09:00</published><updated>2026-11-25T00:00:00+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/25/summary-zh</id><content type="html" xml:base="https://finoo0oo0oo.github.io/Horizon-web/2026/11/25/summary-zh.html"><![CDATA[<blockquote>
+  <p>从 45 条内容中筛选出 8 条重要资讯。</p>
+</blockquote>
+
+<hr />
+
+<p><strong>AI Agent 开发</strong></p>
+<ol>
+  <li><a href="#item-agent-dev-1">Simon Willison 论过去一年中三大 LLM 拐点</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-agent-dev-2">openai/openai-agents-python 发布 v0.26.0</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-agent-dev-3">GPT 6.2 Astra 破解历史谜团</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-agent-dev-4">Google 最新报告：黑客进化了！AI Agent 自动挖洞，补丁刚发就被武器化</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>独立游戏</strong></p>
+<ol>
+  <li><a href="#item-indie-games-1">利爪杯杀进伦敦地下！恐怖游戏大奖五周年盛典要素拉满</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-indie-games-2">《零境·入侵》杀进 WePlay 十周年，封闭 Beta 招募新女角上线</a> ⭐️ 7.0/10</li>
+</ol>
+
+<p><strong>可爱老鼠</strong></p>
+<ol>
+  <li><a href="#item-cute-mice-1">被冤枉的小可爱们</a> ⭐️ 2.0/10</li>
+  <li><a href="#item-cute-mice-2">花园里的小访客康斯坦丁</a> ⭐️ 2.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="ai-agent-开发">AI Agent 开发</h2>
+
+<p><a id="item-agent-dev-1"></a></p>
+<h3 id="simon-willison-论过去一年中三大-llm-拐点-️-8010"><a href="https://simonwillison.net/2026/Nov/24/llm-inflection-points/">Simon Willison 论过去一年中三大 LLM 拐点</a> ⭐️ 8.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://simonwillison.net/2026/Nov/24/llm-inflection-points/" target="_blank" rel="noopener noreferrer">
+<img src="https://static.simonwillison.net/static/2026/fable-class.webp" alt="Simon Willison 论过去一年中三大 LLM 拐点：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>Simon Willison 总结了过去十二个月内大型语言模型（LLM）和编码代理的三大能力拐点：首先是 2025 年 11 月发布的 Claude Opus 4.5 及 OpenAI GPT-5.1 系列，使编码代理变得更可靠和高效；其次是 2026 年 6-7 月推出的 Fable 类模型，具备自主解决复杂问题的能力，并能主动调用工具辅助完成任务；最后是近几个月内 LLM 在 3D 建模和游戏开发领域的显著突破，尤其是 Claude Fable 5 和 Opus 5.5 等模型在生成 3D 内容和提升游戏趣味性方面表现突出。文章结合具体模型版本和实例，提供了开发者实践参考。</p>
+
+<p>rss · Simon Willison · 11月24日 23:02</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#LLM</code>, <code class="language-plaintext highlighter-rouge">#coding agents</code>, <code class="language-plaintext highlighter-rouge">#Fable class models</code>, <code class="language-plaintext highlighter-rouge">#3D modeling</code>, <code class="language-plaintext highlighter-rouge">#AI development</code></p>
+
+<hr />
+
+<p><a id="item-agent-dev-2"></a></p>
+<h3 id="openaiopenai-agents-python-发布-v0260-️-7010"><a href="https://github.com/openai/openai-agents-python/releases/tag/v0.26.0">openai/openai-agents-python 发布 v0.26.0</a> ⭐️ 7.0/10</h3>
+
+<p>openai-agents-python v0.26.0 版本升级了 GPT-Live 演示至 1.1 版本，并修复了多个涉及沙箱安全、Docker 挂载权限、会话历史和 JSON 校验的缺陷。该版本强化了 Docker 存储挂载策略，要求替换为兼容的 DockerVolumeMountStrategy，并对自定义实时追踪提供者增加了禁用状态检测接口。Codex 工具对本地镜像访问权限进行了限制，需显式授权。升级指南详细说明了风险评估和兼容性维护，确保低风险平滑升级。该版本为增量小版本更新，无重大 API 变更。</p>
+
+<p>github · openai-sdks[bot] · 11月24日 03:15</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#python-sdk</code>, <code class="language-plaintext highlighter-rouge">#bug-fixes</code>, <code class="language-plaintext highlighter-rouge">#sandbox-security</code>, <code class="language-plaintext highlighter-rouge">#docker</code>, <code class="language-plaintext highlighter-rouge">#realtime-tracing</code></p>
+
+<hr />
+
+<p><a id="item-agent-dev-3"></a></p>
+<h3 id="gpt-62-astra-破解历史谜团-️-7010"><a href="https://simonwillison.net/2026/Nov/24/astra-historical-mystery/">GPT 6.2 Astra 破解历史谜团</a> ⭐️ 7.0/10</h3>
+
+<p>GPT-6.2 Astra 在不到 30 分钟内，利用公开的初级和次级资料，自动识别出 1808 年匿名素描簿的作者，展示了 AI 在历史研究中的新兴作用。该 AI 通过发现并验证一个鲜为人知的档案资料，确认了作者身份，同时该资料本身也成为加拿大及毛皮贸易历史研究的重要发现。作者 Mark Humphries 认为，尽管 AI 带来新的研究工具，但历史学的哲学和文学性质仍需人类参与。</p>
+
+<p>rss · Simon Willison · 11月24日 16:53</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#history</code>, <code class="language-plaintext highlighter-rouge">#ai</code>, <code class="language-plaintext highlighter-rouge">#generative-ai</code>, <code class="language-plaintext highlighter-rouge">#llms</code>, <code class="language-plaintext highlighter-rouge">#ai-assisted-search</code></p>
+
+<hr />
+
+<p><a id="item-agent-dev-4"></a></p>
+<h3 id="google-最新报告黑客进化了ai-agent-自动挖洞补丁刚发就被武器化-️-6010"><a href="https://news.google.com/rss/articles/CBMif0FVX3lxTE8wUkYxbTVpOE44ODBqVUcwTHlKNmllcGFvTV9vN2NiNGZnRHlNbXBPNDIwU2NlNTF4dnpubmJsYS1hV05xU2ctSlY4QlhkTllsYzkwMzZZcDVpY0xGd3VtWjZaeWlFSzNLMXgxaWxqSWkzSVhVRkNsT0N0Y2k0eFU?oc=5">Google 最新报告：黑客进化了！AI Agent 自动挖洞，补丁刚发就被武器化</a> ⭐️ 6.0/10</h3>
+
+<p>Google 最新报告指出，黑客技术已进化，利用 AI 代理自动发现软件漏洞，并在补丁发布后迅速将其武器化。这一趋势揭示了网络安全领域面临的新挑战，强调了自动化漏洞管理和威胁情报的重要性。报告内容简要，缺乏具体实现细节和代码示例，实用性有限。</p>
+
+<p>rss · Agent 开发新闻 · 11月24日 08:04</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#cybersecurity</code>, <code class="language-plaintext highlighter-rouge">#AI automation</code>, <code class="language-plaintext highlighter-rouge">#vulnerability management</code>, <code class="language-plaintext highlighter-rouge">#threat intelligence</code>, <code class="language-plaintext highlighter-rouge">#security trends</code></p>
+
+<hr />
+
+<h2 id="独立游戏">独立游戏</h2>
+
+<p><a id="item-indie-games-1"></a></p>
+<h3 id="利爪杯杀进伦敦地下恐怖游戏大奖五周年盛典要素拉满-️-8010"><a href="https://indienova.com/indie-game-news/the-horror-game-awards-thoughts/">利爪杯杀进伦敦地下！恐怖游戏大奖五周年盛典要素拉满</a> ⭐️ 8.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://indienova.com/indie-game-news/the-horror-game-awards-thoughts/" target="_blank" rel="noopener noreferrer">
+<img src="https://hivebak.indienova.com/farm/article/headpic/2026/11/head-8179il-banner.jpg" alt="利爪杯杀进伦敦地下！恐怖游戏大奖五周年盛典要素拉满：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>本报讯：2026 年 11 月 20 日，第五届恐怖游戏大奖（THGA）在伦敦利克街 26 号地下隧道盛大举办，现场气氛诡异又热烈。此次盛典涵盖 21 个奖项，瑞典独立大作《生灵重塑》和卡普空《生化危机：安魂曲》双雄争霸，最终《克里夫·巴克猛鬼追魂：复苏》夺得年度最佳。THGA 从 2022 年 YouTube 小众票选起步，迅速成长为恐怖游戏界的重要盛事，线上线下同步直播，玩家与开发者齐聚一堂。独立游戏与大厂作品并肩竞技，奖项设置更细分，兼顾恐怖多样体验。小编只能说，这波恐怖游戏圈的狂欢，既有血腥利爪也有温馨暗角，真是让人又爱又怕(・∀・)。</p>
+
+<p>rss · indienova · 11月24日 06:00</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#恐怖游戏</code>, <code class="language-plaintext highlighter-rouge">#游戏大奖</code>, <code class="language-plaintext highlighter-rouge">#独立游戏</code>, <code class="language-plaintext highlighter-rouge">#行业复盘</code>, <code class="language-plaintext highlighter-rouge">#游戏评选</code></p>
+
+<hr />
+
+<p><a id="item-indie-games-2"></a></p>
+<h3 id="零境入侵杀进-weplay-十周年封闭-beta-招募新女角上线-️-7010"><a href="https://www.gcores.com/articles/222709">《零境·入侵》杀进 WePlay 十周年，封闭 Beta 招募新女角上线</a> ⭐️ 7.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://www.gcores.com/articles/222709" target="_blank" rel="noopener noreferrer">
+<img src="https://image.gcores.com/efc249e887bea2b2386aadd3ca96ad10-720-337.webp?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90" alt="《零境·入侵》杀进 WePlay 十周年，封闭 Beta 招募新女角上线：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>本报讯：《零境·入侵》在 2026 年 WePlay Expo 上海站亮相，带来 3D 横版动作肉鸽试玩版，展位紧邻主舞台，吸引众多玩家体验。游戏已入围 ChinaJoy 最佳 Rogue 游戏奖，Demo 全球好评率达 90%。更劲爆的是，官方同步开启 Steam 平台封闭 Beta 招募，主打一位神秘新女角色，猜测为格斗近战派。测试支持多语言，限量邀请将于 11 月 27 日开始通知，12 月初发放激活码。正式版预计 2027 年春季全球上线，Steam 和 PlayStation 愿望单已开。小编只能说，这波动作肉鸽要素拉满，期待新角色带来更多爽快连招体验(・∀・)。</p>
+
+<p>rss · 机核 · 11月24日 03:04</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#indie game</code>, <code class="language-plaintext highlighter-rouge">#closed beta</code>, <code class="language-plaintext highlighter-rouge">#game demo</code>, <code class="language-plaintext highlighter-rouge">#character reveal</code>, <code class="language-plaintext highlighter-rouge">#WePlay Expo</code></p>
+
+<hr />
+
+<h2 id="可爱老鼠">可爱老鼠</h2>
+
+<p><a id="item-cute-mice-1"></a></p>
+<h3 id="被冤枉的小可爱们-️-2010"><a href="https://io.mwl.io/@mwl/117672019039727453">被冤枉的小可爱们</a> ⭐️ 2.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://io.mwl.io/@mwl/117672019039727453" target="_blank" rel="noopener noreferrer">
+<img src="https://cdn.hosted.spacebear.ee/sb-53d788bcd8441bb97cfb7a64f2552521/media_attachments/files/117/672/015/072/646/302/original/4d2d7c7faed1e6e8.jpg" alt="被冤枉的小可爱们：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>昨天带你们去看医生，这表情简直是背叛的脸！三只无辜又可爱的宠物鼠被困住了，阿姨心疼死了，救命 (｡•́︿•̀｡)</p>
+
+<p>rss · Mastodon · #petrats · 11月24日 15:01</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#pet rats</code>, <code class="language-plaintext highlighter-rouge">#vet visit</code>, <code class="language-plaintext highlighter-rouge">#animal stress</code></p>
+
+<hr />
+
+<p><a id="item-cute-mice-2"></a></p>
+<h3 id="花园里的小访客康斯坦丁-️-2010"><a href="https://mindly.social/@otterX/117674009934496142">花园里的小访客康斯坦丁</a> ⭐️ 2.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://mindly.social/@otterX/117674009934496142" target="_blank" rel="noopener noreferrer">
+<img src="https://a.mindlycdn.com/media_attachments/files/117/673/955/252/545/297/original/27e887de031cde2b.jpeg" alt="花园里的小访客康斯坦丁：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+<figure class="hz-media-figure"><a href="https://mindly.social/@otterX/117674009934496142" target="_blank" rel="noopener noreferrer">
+<img src="https://a.mindlycdn.com/media_attachments/files/117/673/956/871/118/091/original/522526f12f0d4b34.jpeg" alt="花园里的小访客康斯坦丁：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>康斯坦丁这只小老鼠偷偷在花园的鸟浴盆边喝水，藏在红叶绣球花和薰衣草丛中，真是个害羞的小家伙呢，花儿们都陪着它一起享受阳光，救命 (｡♥‿♥｡)</p>
+
+<p>rss · Mastodon · #rats · 11月24日 23:28</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#wild rat</code>, <code class="language-plaintext highlighter-rouge">#garden</code>, <code class="language-plaintext highlighter-rouge">#outdoor</code>, <code class="language-plaintext highlighter-rouge">#animal spotting</code>, <code class="language-plaintext highlighter-rouge">#not pet</code></p>
+
+<hr />
+
+<!-- horizon-media:1 -->]]></content><author><name></name></author><summary type="html"><![CDATA[从 45 条内容中筛选出 8 条重要资讯。]]></summary></entry><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-24 (ZH)</title><link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/24/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-24 (ZH)" /><published>2026-11-24T00:00:00+09:00</published><updated>2026-11-24T00:00:00+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/24/summary-zh</id><content type="html" xml:base="https://finoo0oo0oo.github.io/Horizon-web/2026/11/24/summary-zh.html"><![CDATA[<blockquote>
   <p>从 56 条内容中筛选出 6 条重要资讯。</p>
 </blockquote>
 
