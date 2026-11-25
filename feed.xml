@@ -1,4 +1,190 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://finoo0oo0oo.github.io/Horizon-web/feed.xml" rel="self" type="application/atom+xml" /><link href="https://finoo0oo0oo.github.io/Horizon-web/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2026-11-25T14:43:50+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/feed.xml</id><title type="html">Fino 的晨间地平线</title><subtitle>AI Agent 开发 · 独立游戏 · 本季日本动画 · 可爱老鼠</subtitle><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-25 (ZH)</title><link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/25/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-25 (ZH)" /><published>2026-11-25T00:00:00+09:00</published><updated>2026-11-25T00:00:00+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/25/summary-zh</id><content type="html" xml:base="https://finoo0oo0oo.github.io/Horizon-web/2026/11/25/summary-zh.html"><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://finoo0oo0oo.github.io/Horizon-web/feed.xml" rel="self" type="application/atom+xml" /><link href="https://finoo0oo0oo.github.io/Horizon-web/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2026-11-26T08:45:41+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/feed.xml</id><title type="html">Fino 的晨间地平线</title><subtitle>AI Agent 开发 · 独立游戏 · 本季日本动画 · 可爱老鼠</subtitle><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-26 (ZH)</title><link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/26/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-26 (ZH)" /><published>2026-11-26T00:00:00+09:00</published><updated>2026-11-26T00:00:00+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/26/summary-zh</id><content type="html" xml:base="https://finoo0oo0oo.github.io/Horizon-web/2026/11/26/summary-zh.html"><![CDATA[<blockquote>
+  <p>从 34 条内容中筛选出 8 条重要资讯。</p>
+</blockquote>
+
+<hr />
+
+<p><strong>AI Agent 开发</strong></p>
+<ol>
+  <li><a href="#item-agent-dev-1">AFK Coding 实战：用 git worktree、Docker 与 TypeScript 构建 AI Agent 安全执行链</a> ⭐️ 7.0/10</li>
+</ol>
+
+<p><strong>独立游戏</strong></p>
+<ol>
+  <li><a href="#item-indie-games-1">《追逐末日之光》杀进末日像素风，独立制作人 JINO 深聊告别与希望</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-indie-games-2">游戏制作人大师课杀进北京上海，博德之门、守望先锋主创齐聚现场！</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-indie-games-3">奥秘之家百万销量爆款后转型 3D 多人冒险，项目周期缩短至一年半</a> ⭐️ 8.0/10</li>
+  <li><a href="#item-indie-games-4">NOVA Vol.162：G-STAR 独立游戏爆棚，AI 争议持续发酵！</a> ⭐️ 8.0/10</li>
+</ol>
+
+<p><strong>本季日本动画</strong></p>
+<ol>
+  <li><a href="#item-seasonal-anime-1">《要画就要来真的》杀进秋季动画阵容，主视觉+主题曲齐亮相！</a> ⭐️ 5.0/10</li>
+</ol>
+
+<p><strong>可爱老鼠</strong></p>
+<ol>
+  <li><a href="#item-cute-mice-1">三只小老鼠探头探脑</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-cute-mice-2">三只小宝贝探头探脑的秘密基地</a> ⭐️ 5.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="ai-agent-开发">AI Agent 开发</h2>
+
+<p><a id="item-agent-dev-1"></a></p>
+<h3 id="afk-coding-实战用-git-worktreedocker-与-typescript-构建-ai-agent-安全执行链-️-7010"><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0TlpjYkw3MlFSVkNfakd2SzFpRkY3SmZUNmNBdlA2S1E4UGdKbHRXRHRYNWxHZnVpcHJCc0hlbWs4VGtERFNJOGdaeWJLdzMzZ0xLNHF0QlVVQ1ZmM09YdA?oc=5">AFK Coding 实战：用 git worktree、Docker 与 TypeScript 构建 AI Agent 安全执行链</a> ⭐️ 7.0/10</h3>
+
+<p>本文介绍了如何结合 git worktree、Docker 和 TypeScript 技术，构建一个安全的 AI Agent 执行链。文章提供了实战指导，重点解决了 AI Agent 执行过程中的安全隔离和环境管理问题，适用于需要多环境并行开发和安全执行的 AI 项目。文中包含具体的实现方法和代码示例，帮助开发者理解和应用该方案。</p>
+
+<p>rss · Agent 开发新闻 · 11月25日 02:15</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI Agent</code>, <code class="language-plaintext highlighter-rouge">#Docker</code>, <code class="language-plaintext highlighter-rouge">#TypeScript</code>, <code class="language-plaintext highlighter-rouge">#git worktree</code>, <code class="language-plaintext highlighter-rouge">#Tutorial</code></p>
+
+<hr />
+
+<h2 id="独立游戏">独立游戏</h2>
+
+<p><a id="item-indie-games-1"></a></p>
+<h3 id="追逐末日之光杀进末日像素风独立制作人-jino-深聊告别与希望-️-8010"><a href="https://www.gcores.com/articles/222765">《追逐末日之光》杀进末日像素风，独立制作人 JINO 深聊告别与希望</a> ⭐️ 8.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://www.gcores.com/articles/222765" target="_blank" rel="noopener noreferrer">
+<img src="https://image.gcores.com/3248d4dfb692fd4f5a9b536cece3165b-1438-810.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90" alt="《追逐末日之光》杀进末日像素风，独立制作人 JINO 深聊告别与希望：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>本报讯：《追逐末日之光》（GOODBYE SEOUL）由韩国独立开发者 JINO 历时五年独立打造，讲述小行星撞击地球前六个月，女高中生罗妍在末日首尔的冒险故事。游戏采用 2.5D 像素风，融合环境解谜与平台跳跃，聚焦人物情感与社会变迁。JINO 从 3D 转向 2.5D 风格，力求在有限资源下呈现细腻氛围，故事围绕“宇宙避难计划”展开，探讨希望与逃避。制作人坦言这是一次告别旧世界的创作尝试，也是一场关于成长与选择的心灵旅程。先看为敬，这波末日题材属实有点东西(・∀・)</p>
+
+<p>rss · 机核 · 11月25日 11:28</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#indie game</code>, <code class="language-plaintext highlighter-rouge">#developer interview</code>, <code class="language-plaintext highlighter-rouge">#narrative design</code>, <code class="language-plaintext highlighter-rouge">#pixel art</code>, <code class="language-plaintext highlighter-rouge">#apocalyptic story</code></p>
+
+<hr />
+
+<p><a id="item-indie-games-2"></a></p>
+<h3 id="游戏制作人大师课杀进北京上海博德之门守望先锋主创齐聚现场-️-8010"><a href="https://www.gcores.com/articles/222775">游戏制作人大师课杀进北京上海，博德之门、守望先锋主创齐聚现场！</a> ⭐️ 8.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://www.gcores.com/articles/222775" target="_blank" rel="noopener noreferrer">
+<img src="https://image.gcores.com/25e0c162fdd42500b9d5d29cd8be31aa-1920-1401.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90" alt="游戏制作人大师课杀进北京上海，博德之门、守望先锋主创齐聚现场！：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>本报讯：知乎游戏携手 BGM 游戏展，于 2026 年 12 月 4 日北京和 12 月 6 日上海举办「游戏制作人大师课」线下活动。詹姆斯·奥伦（《博德之门 1&amp;2》）、马切伊·苏莱茨基（《这是我的战争》）、杰夫·卡普兰（《守望先锋》）等殿堂级制作人亲临现场或线上连麦，分享游戏设计与行业洞见。活动涵盖主题演讲、圆桌对谈，深度探讨创意火花与工业化挑战。北京场免费报名，上海场购票入场，现场还有限量签名海报福利。小编只能说，这波大师课属实有点东西，游戏魂满满，值得每个游戏爱好者和开发者先看为敬(・∀・)</p>
+
+<p>rss · 机核 · 11月25日 09:51</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#游戏制作</code>, <code class="language-plaintext highlighter-rouge">#线下活动</code>, <code class="language-plaintext highlighter-rouge">#游戏设计</code>, <code class="language-plaintext highlighter-rouge">#行业访谈</code>, <code class="language-plaintext highlighter-rouge">#独立游戏</code></p>
+
+<hr />
+
+<p><a id="item-indie-games-3"></a></p>
+<h3 id="奥秘之家百万销量爆款后转型-3d-多人冒险项目周期缩短至一年半-️-8010"><a href="http://www.chuapp.com/article/291788.html">奥秘之家百万销量爆款后转型 3D 多人冒险，项目周期缩短至一年半</a> ⭐️ 8.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="http://www.chuapp.com/article/291788.html" target="_blank" rel="noopener noreferrer">
+<img src="http://img.chuapp.com/wp-content/Picture/2026-11-24/3656b0547bc28a2e.jpg?imageView2/2/w/700" alt="奥秘之家百万销量爆款后转型 3D 多人冒险，项目周期缩短至一年半：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>本报讯：奥秘之家在国风解谜游戏《山河旅探》斩获百万销量后，团队规模缩减至 30 人，开启短周期、多样化开发新模式。新作《潜梦者》锁定 3D 多人合作冒险，预计明年 7 月上线，开发周期控制在一年半内。团队推行“每人都是产品经理”的创新工作流，强调效率与创意自由。此前他们还推出肉鸽麻将游戏《我在地府打麻将》，销量超 40 万套。奥秘之家从 2D 转 3D，技术升级明显，尝试打破单一标签，探索更广泛的游戏类型。小编只能说，这波转型属实有点东西，期待他们的梦境冒险能带来新鲜感(・∀・)</p>
+
+<p>rss · 触乐 · 11月25日 16:30</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#独立游戏</code>, <code class="language-plaintext highlighter-rouge">#团队管理</code>, <code class="language-plaintext highlighter-rouge">#游戏开发流程</code>, <code class="language-plaintext highlighter-rouge">#产品创新</code>, <code class="language-plaintext highlighter-rouge">#国风游戏</code></p>
+
+<hr />
+
+<p><a id="item-indie-games-4"></a></p>
+<h3 id="nova-vol162g-star-独立游戏爆棚ai-争议持续发酵-️-8010"><a href="https://indienova.com/indie-game-news/news-of-overseas-indie-games-and-industry-vol-162/">NOVA Vol.162：G-STAR 独立游戏爆棚，AI 争议持续发酵！</a> ⭐️ 8.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://indienova.com/indie-game-news/news-of-overseas-indie-games-and-industry-vol-162/" target="_blank" rel="noopener noreferrer">
+<img src="https://hivebak.indienova.com/farm/article/headpic/2026/11/head-0886IU-banner_vol162.jpg" alt="NOVA Vol.162：G-STAR 独立游戏爆棚，AI 争议持续发酵！：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>本报讯：2026 年 11 月第三周，NOVA 海外独立游戏见闻 Vol.162 带来满满干货！G-STAR 游戏展独立游戏参展数创新高，109 组开发者齐聚釜山，冒险推理、合作射击、节奏游戏要素拉满。GDC 报告显示 40%开发者已用生成式 AI，但 55%持负面看法，行业裁员压力山大。Epic AI MegaJam 中零 AI 作品《LSD:FIH》意外登顶 itch.io 人气榜，属实有点东西。Amanita Design 新作《喇叭之城》斩获 DevGAMM 大奖，视觉艺术炸裂。SteamDB 上线模组标签页和返佣链接，玩家福利升级。欧洲六大游戏工会联合抵制生成式 AI，呼吁行业守护纯粹创作。Unity 推出 5 万美元无回收资助，助力独立团队冲刺发售。先看为敬，这波独立游戏圈的风向标，宅友们值得关注(・∀・)</p>
+
+<p>rss · indienova · 11月25日 06:00</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#indie games</code>, <code class="language-plaintext highlighter-rouge">#industry report</code>, <code class="language-plaintext highlighter-rouge">#game awards</code>, <code class="language-plaintext highlighter-rouge">#AI in game development</code>, <code class="language-plaintext highlighter-rouge">#game events</code></p>
+
+<hr />
+
+<h2 id="本季日本动画">本季日本动画</h2>
+
+<p><a id="item-seasonal-anime-1"></a></p>
+<h3 id="要画就要来真的杀进秋季动画阵容主视觉主题曲齐亮相-️-5010"><a href="https://gnn.gamer.com.tw/detail.php?sn=315560">《要画就要来真的》杀进秋季动画阵容，主视觉+主题曲齐亮相！</a> ⭐️ 5.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<div class="hz-video" data-youtube-id="95LE9JQNpRI">
+<button class="hz-video-play" type="button" aria-label="播放来源视频：《要画就要来真的》杀进秋季动画阵容，主视觉+主题曲齐亮相！">
+<img src="https://i.ytimg.com/vi/95LE9JQNpRI/hqdefault.jpg" alt="《要画就要来真的》杀进秋季动画阵容，主视觉+主题曲齐亮相！：来源视频封面" loading="lazy" decoding="async" />
+<span class="hz-play-icon" aria-hidden="true">▶</span><span class="hz-play-label">播放视频</span></button></div>
+<p class="hz-media-credit"><a href="https://www.youtube.com/watch?v=95LE9JQNpRI" target="_blank" rel="noopener noreferrer">在 YouTube 打开原视频 ↗</a></p>
+</div>
+<!-- hz-media:end -->
+
+<p>本报讯：《要画就要来真的》电视动画正式公开了主视觉图、宣传 PV 和主题曲信息，确认正在热播中。更劲爆的是，声优羊宫妃那也加入配音阵容，为作品添彩。故事围绕热爱二次元、梦想成为漫画家的上原同学展开，宅味十足的恋爱喜剧要素拉满。先看为敬，这波秋季动画阵容属实有点东西(・∀・)</p>
+
+<p>rss · 巴哈姆特 GNN 官方中文资讯 · 11月25日 09:49</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#动画宣传</code>, <code class="language-plaintext highlighter-rouge">#主题曲</code>, <code class="language-plaintext highlighter-rouge">#声优</code>, <code class="language-plaintext highlighter-rouge">#官方资讯</code>, <code class="language-plaintext highlighter-rouge">#秋季动画</code></p>
+
+<hr />
+
+<h2 id="可爱老鼠">可爱老鼠</h2>
+
+<p><a id="item-cute-mice-1"></a></p>
+<h3 id="三只小老鼠探头探脑-️-7010"><a href="https://bsky.app/profile/mwl.io/post/3n35d4ted5k2a">三只小老鼠探头探脑</a> ⭐️ 7.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://bsky.app/profile/mwl.io/post/3n35d4ted5k2a" target="_blank" rel="noopener noreferrer">
+<img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:kycoixb2auymghmpm7i266i7/bafkreihrcwllwgnd7fg5nwsewvgldfeyt46mg5nkr2rnwiztdyobgb6jue" alt="三只小老鼠探头探脑：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>三只可爱的小宠鼠从岩石威士忌盒子的小洞里探出头来，好奇又萌萌哒，真是让人忍不住想抱抱它们呢，救命 (≧◡≦)</p>
+
+<p>bluesky · Bluesky · #petrats · 11月25日 14:02</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#pet rats</code>, <code class="language-plaintext highlighter-rouge">#cute</code>, <code class="language-plaintext highlighter-rouge">#daily life</code>, <code class="language-plaintext highlighter-rouge">#multiple rats</code>, <code class="language-plaintext highlighter-rouge">#peek</code></p>
+
+<hr />
+
+<p><a id="item-cute-mice-2"></a></p>
+<h3 id="三只小宝贝探头探脑的秘密基地-️-5010"><a href="https://io.mwl.io/@mwl/117677442919094195">三只小宝贝探头探脑的秘密基地</a> ⭐️ 5.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://io.mwl.io/@mwl/117677442919094195" target="_blank" rel="noopener noreferrer">
+<img src="https://cdn.hosted.spacebear.ee/sb-53d788bcd8441bb97cfb7a64f2552521/media_attachments/files/117/677/440/086/421/341/original/a40fbedd2367a8a9.jpg" alt="三只小宝贝探头探脑的秘密基地：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>哎哟喂，我家的三只小宝贝竟然一起从岩石威士忌盒子的小洞里探出头来，简直是团结的小探险家呀！姨姨看着你们这小脑袋挤在一起，心都要化啦，慢点探头，没人抢着看呢，救命，这画面太萌了！(っ˘ω˘ς )</p>
+
+<p>rss · Mastodon · #petrats · 11月25日 14:01</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#pet rats</code>, <code class="language-plaintext highlighter-rouge">#cute</code>, <code class="language-plaintext highlighter-rouge">#daily life</code>, <code class="language-plaintext highlighter-rouge">#photo</code>, <code class="language-plaintext highlighter-rouge">#lighthearted</code></p>
+
+<hr />
+
+<!-- horizon-media:1 -->]]></content><author><name></name></author><summary type="html"><![CDATA[从 34 条内容中筛选出 8 条重要资讯。]]></summary></entry><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-25 (ZH)</title><link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/25/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-25 (ZH)" /><published>2026-11-25T00:00:00+09:00</published><updated>2026-11-25T00:00:00+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/25/summary-zh</id><content type="html" xml:base="https://finoo0oo0oo.github.io/Horizon-web/2026/11/25/summary-zh.html"><![CDATA[<blockquote>
   <p>从 45 条内容中筛选出 8 条重要资讯。</p>
 </blockquote>
 
