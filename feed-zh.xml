@@ -3,9 +3,152 @@
   <title>Fino 的晨间地平线 - 中文摘要</title>
   <link href="https://finoo0oo0oo.github.io/Horizon-web/feed-zh.xml" rel="self"/>
   <link href="https://finoo0oo0oo.github.io/Horizon-web/"/>
-  <updated>2026-11-26T14:31:21+09:00</updated>
+  <updated>2026-11-27T08:12:17+09:00</updated>
   <id>https://finoo0oo0oo.github.io/Horizon-web/</id>
   
+  
+  <entry>
+    <title>Horizon Summary: 2026-11-27 (ZH)</title>
+    <link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/27/summary-zh.html"/>
+    <updated>2026-11-27T00:00:00+09:00</updated>
+    <id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/27/summary-zh.html</id>
+    <content type="html"><![CDATA[ <blockquote>
+  <p>从 39 条内容中筛选出 7 条重要资讯。</p>
+</blockquote>
+
+<hr />
+
+<p><strong>AI Agent 开发</strong></p>
+<ol>
+  <li><a href="#item-agent-dev-1">sqlite3_rsync：SQLite 数据库远程复制工具</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-agent-dev-2">引用 Scott Aaronson 关于复杂性理论的新视角</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-agent-dev-3">阿里开源 Spring AI Alibaba：Java 开发者构建 AI Agent 的实战指南</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-agent-dev-4">AI Agent 安全：恶意 llms.txt 导致任意代码执行及防御指南 - CSDN</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>独立游戏</strong></p>
+<ol>
+  <li><a href="#item-indie-games-1">《咒语旅团》土豆兄弟联动 DLC 杀进泥沼，免费内容要素拉满！</a> ⭐️ 7.0/10</li>
+</ol>
+
+<p><strong>可爱老鼠</strong></p>
+<ol>
+  <li><a href="#item-cute-mice-1">白鼠小宝贝藏袖中，红眼睛闪闪惹人爱</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-cute-mice-2">三只小宝贝的摇篮时光</a> ⭐️ 7.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="ai-agent-开发">AI Agent 开发</h2>
+
+<p><a id="item-agent-dev-1"></a></p>
+<h3 id="sqlite3_rsyncsqlite-数据库远程复制工具-️-7010"><a href="https://simonwillison.net/2026/Nov/26/sqlite3-rsync/">sqlite3_rsync：SQLite 数据库远程复制工具</a> ⭐️ 7.0/10</h3>
+
+<p>sqlite3_rsync 是 SQLite 官方提供的一个实验性工具，自 SQLite 3.47.0 版本（2024 年 10 月）起引入，并在 3.50.0 版本（2025 年 5 月）得到增强。该工具允许通过 SSH 连接远程复制数据库快照，无需先在本地创建完整副本，适合磁盘空间有限的环境。它采用类似 rsync 的协议，通过交换数据库页面的加密哈希值，仅传输差异数据，实现高效同步和远程备份。</p>
+
+<p>rss · Simon Willison · 11月26日 06:08</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#sqlite</code>, <code class="language-plaintext highlighter-rouge">#database backup</code>, <code class="language-plaintext highlighter-rouge">#remote synchronization</code>, <code class="language-plaintext highlighter-rouge">#sqlite3\_rsync</code>, <code class="language-plaintext highlighter-rouge">#tools</code></p>
+
+<hr />
+
+<p><a id="item-agent-dev-2"></a></p>
+<h3 id="引用-scott-aaronson-关于复杂性理论的新视角-️-6010"><a href="https://simonwillison.net/2026/Nov/25/scott-aaronson/">引用 Scott Aaronson 关于复杂性理论的新视角</a> ⭐️ 6.0/10</h3>
+
+<p>Scott Aaronson 用显微镜和望远镜的比喻形象地描述了复杂性理论和数学真理理解上的重大飞跃，强调这不仅是解决单一问题，而是开启了一个全新的数学真理领域。该观点提供了对理论进展的深刻洞察，但未涉及具体的开发实现或代码示例。</p>
+
+<p>rss · Simon Willison · 11月25日 23:26</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#mathematics</code>, <code class="language-plaintext highlighter-rouge">#complexity theory</code>, <code class="language-plaintext highlighter-rouge">#theoretical insight</code>, <code class="language-plaintext highlighter-rouge">#ai</code>, <code class="language-plaintext highlighter-rouge">#generative-ai</code></p>
+
+<hr />
+
+<p><a id="item-agent-dev-3"></a></p>
+<h3 id="阿里开源-spring-ai-alibabajava-开发者构建-ai-agent-的实战指南-️-6010"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnWG5zSzdScm9IajJCV0pjSzExWHlPeWZkQ0dGSXp3QzctVnhuYmh1aUpWR1RCamJtbnJtQ3BkYVpoR0NlZTR1a2p0Qk1iLXItUS13V1dfYWxfeUZIcnJJ?oc=5">阿里开源 Spring AI Alibaba：Java 开发者构建 AI Agent 的实战指南</a> ⭐️ 6.0/10</h3>
+
+<p>阿里巴巴开源了 Spring AI Alibaba 项目，旨在为 Java 开发者提供构建 AI Agent 的实战指导。该项目基于 Spring 框架，方便 Java 开发者集成和开发智能代理应用，提升开发效率和应用智能化水平。文中主要介绍了项目的应用场景和基本实现方法，但未详细披露具体技术细节和性能数据。</p>
+
+<p>rss · Agent 开发新闻 · 11月26日 01:02</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Java</code>, <code class="language-plaintext highlighter-rouge">#AI Agent</code>, <code class="language-plaintext highlighter-rouge">#Open Source</code>, <code class="language-plaintext highlighter-rouge">#Spring Framework</code>, <code class="language-plaintext highlighter-rouge">#Alibaba</code></p>
+
+<hr />
+
+<p><a id="item-agent-dev-4"></a></p>
+<h3 id="ai-agent-安全恶意-llmstxt-导致任意代码执行及防御指南---csdn-️-6010"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9BS1VGdFExdldzZzY4TXJ3NF9Xd1oxQndnWjhJNmstQWFfT3ZObGoyWFNiT0pRNHlOaThXaF9mRkJ0eGJTSXlPdUNGZmZJOEZvOEJ6LUhGUTRwcm1Kc0dV?oc=5">AI Agent 安全：恶意 llms.txt 导致任意代码执行及防御指南 - CSDN</a> ⭐️ 6.0/10</h3>
+
+<p>该文章讨论了恶意大型语言模型文件（llms.txt）如何引发任意代码执行的安全风险，并提供了相应的防御策略。文章重点分析了攻击的实现方式及其对 AI Agent 安全的影响，旨在帮助开发者理解并防范此类威胁。由于内容细节有限，具体实现方法和实测效果尚不明确。</p>
+
+<p>rss · Agent 开发新闻 · 11月26日 01:51</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI Security</code>, <code class="language-plaintext highlighter-rouge">#LLM Vulnerabilities</code>, <code class="language-plaintext highlighter-rouge">#Code Execution</code>, <code class="language-plaintext highlighter-rouge">#Defense Guide</code>, <code class="language-plaintext highlighter-rouge">#CSDN</code></p>
+
+<hr />
+
+<h2 id="独立游戏">独立游戏</h2>
+
+<p><a id="item-indie-games-1"></a></p>
+<h3 id="咒语旅团土豆兄弟联动-dlc-杀进泥沼免费内容要素拉满-️-7010"><a href="https://www.gcores.com/articles/222783">《咒语旅团》土豆兄弟联动 DLC 杀进泥沼，免费内容要素拉满！</a> ⭐️ 7.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://www.gcores.com/articles/222783" target="_blank" rel="noopener noreferrer">
+<img src="https://image.gcores.com/8ddbbde8e1dad51de8b6daf1ba85da85-602-338.webp?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90" alt="《咒语旅团》土豆兄弟联动 DLC 杀进泥沼，免费内容要素拉满！：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>本报讯：《咒语旅团》携手《土豆兄弟》推出免费联动 DLC，新增近战巫师斯帕德、两大特色咒语和五件遗物，拳拳到肉的战斗风格让人眼前一亮。与此同时，“沉沦泥沼”免费更新带来全新沼泽地图和感染怪物，挑战感十足。更劲爆的是，无尽模式“永恒之约”难度升级，还加入了可自选起始咒语的恩赐系统。小编只能说，这波联动和更新，既满足了土豆粉也让老玩家有了新理由组队开黑，属实有点东西(・∀・)</p>
+
+<p>rss · 机核 · 11月26日 01:15</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#游戏更新</code>, <code class="language-plaintext highlighter-rouge">#联动DLC</code>, <code class="language-plaintext highlighter-rouge">#免费内容</code>, <code class="language-plaintext highlighter-rouge">#独立游戏</code>, <code class="language-plaintext highlighter-rouge">#合作弹幕生存</code></p>
+
+<hr />
+
+<h2 id="可爱老鼠">可爱老鼠</h2>
+
+<p><a id="item-cute-mice-1"></a></p>
+<h3 id="白鼠小宝贝藏袖中红眼睛闪闪惹人爱-️-7010"><a href="https://mindly.social/@otterX/117680914227017605">白鼠小宝贝藏袖中，红眼睛闪闪惹人爱</a> ⭐️ 7.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://mindly.social/@otterX/117680914227017605" target="_blank" rel="noopener noreferrer">
+<img src="https://a.mindlycdn.com/media_attachments/files/117/680/885/970/892/744/original/79fff1472b62995b.jpeg" alt="白鼠小宝贝藏袖中，红眼睛闪闪惹人爱：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>哎哟喂，我的小宝贝 Helena 居然从姨姨的摇粒绒袖子里探出头来，红宝石般的眼睛闪闪发光，连那点点暹罗色的浅棕印记都萌得姨姨心都要化啦！这小胡须在深蓝色绒布上简直是艺术品，姨姨看着镜子里的你，忍不住想说：慢点探头，没人抢你的位置呀！(っ˘ω˘ς )救命，这么可爱，姨姨要抱紧了！</p>
+
+<p>rss · Mastodon · #rats · 11月26日 04:44</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#pet rat</code>, <code class="language-plaintext highlighter-rouge">#cute</code>, <code class="language-plaintext highlighter-rouge">#daily life</code>, <code class="language-plaintext highlighter-rouge">#whiskers</code>, <code class="language-plaintext highlighter-rouge">#mirror selfie</code></p>
+
+<hr />
+
+<p><a id="item-cute-mice-2"></a></p>
+<h3 id="三只小宝贝的摇篮时光-️-7010"><a href="https://bsky.app/profile/mwl.io/post/3n37uajeefs2d">三只小宝贝的摇篮时光</a> ⭐️ 7.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://bsky.app/profile/mwl.io/post/3n37uajeefs2d" target="_blank" rel="noopener noreferrer">
+<img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:kycoixb2auymghmpm7i266i7/bafkreiey3lt435kvk4lhmmw5fzhf45z2yoeoxpsrabwh2e43ba44hsgd4y" alt="三只小宝贝的摇篮时光：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>哎哟喂，我家的三只小宝贝竟然挤在那个吊篮里团团坐，真是太暖心啦！姨姨看着你们紧紧相依，心都要化啦，慢点挤，别把小篮子撑坏了呀，姨姨的心都要被你们的亲亲抱抱融化了，救命～(っ˘ω˘ς )</p>
+
+<p>bluesky · Bluesky · #petrats · 11月26日 14:13</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#pet rats</code>, <code class="language-plaintext highlighter-rouge">#snuggling</code>, <code class="language-plaintext highlighter-rouge">#cozy</code>, <code class="language-plaintext highlighter-rouge">#hanging basket</code>, <code class="language-plaintext highlighter-rouge">#family</code></p>
+
+<hr />
+
+<!-- horizon-media:1 -->
+ ]]></content>
+  </entry>
   
   <entry>
     <title>Horizon Summary: 2026-11-26 (ZH)</title>
@@ -870,168 +1013,6 @@
 <p>rss · Mastodon · #rats · 11月20日 04:39</p>
 
 <p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#pet rat</code>, <code class="language-plaintext highlighter-rouge">#cute</code>, <code class="language-plaintext highlighter-rouge">#humor</code>, <code class="language-plaintext highlighter-rouge">#reshared</code>, <code class="language-plaintext highlighter-rouge">#cream-colored</code></p>
-
-<hr />
-
-<!-- horizon-media:1 -->
- ]]></content>
-  </entry>
-  
-  <entry>
-    <title>Horizon Summary: 2026-11-20 (ZH)</title>
-    <link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/20/summary-zh.html"/>
-    <updated>2026-11-20T00:00:00+09:00</updated>
-    <id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/20/summary-zh.html</id>
-    <content type="html"><![CDATA[ <blockquote>
-  <p>从 31 条内容中筛选出 7 条重要资讯。</p>
-</blockquote>
-
-<hr />
-
-<p><strong>AI Agent 开发</strong></p>
-<ol>
-  <li><a href="#item-agent-dev-1">PostgreSQL 19 发布</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-agent-dev-2">9 月 AI 前端面试新风向：SSE、TypeScript 与 AI Agent 核心考点解析 - CSDN</a> ⭐️ 6.0/10</li>
-</ol>
-
-<p><strong>独立游戏</strong></p>
-<ol>
-  <li><a href="#item-indie-games-1">《砍与售》杀进 WePlay 上海！波兰展区 C04 展位完整试玩要素拉满</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-indie-games-2">Stephen Wolfram 杀进游戏设计！多重计算系统揭秘游戏深度</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-indie-games-3">itch.io 免费独立游戏周报：恐怖推理到多人派对，11 月新游要素拉满</a> ⭐️ 7.0/10</li>
-</ol>
-
-<p><strong>可爱老鼠</strong></p>
-<ol>
-  <li><a href="#item-cute-mice-1">托菲和斯派克的梨核早餐时光</a> ⭐️ 8.0/10</li>
-  <li><a href="#item-cute-mice-2">宠物鼠的温馨时刻</a> ⭐️ 2.0/10</li>
-</ol>
-
-<hr />
-
-<h2 id="ai-agent-开发">AI Agent 开发</h2>
-
-<p><a id="item-agent-dev-1"></a></p>
-<h3 id="postgresql-19-发布-️-8010"><a href="https://simonwillison.net/2026/Nov/19/postgresql-19/">PostgreSQL 19 发布</a> ⭐️ 8.0/10</h3>
-
-<p>PostgreSQL 19 引入了新的命令 WAIT FOR LSN，解决了在备用副本上实现读写一致性的问题。该命令允许会话等待备用副本回放到指定的日志序列号（LSN），从而确保应用程序能够读取刚写入主库的数据。文章通过示例代码展示了该功能的实际用法，并对比了 MediaWiki 在 MySQL 复制环境中实现类似功能的经验，提供了生产环境中处理复制和一致性问题的实用参考。</p>
-
-<p>rss · Simon Willison · 11月19日 20:43</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#postgresql</code>, <code class="language-plaintext highlighter-rouge">#replication</code>, <code class="language-plaintext highlighter-rouge">#read-your-writes</code>, <code class="language-plaintext highlighter-rouge">#database-consistency</code>, <code class="language-plaintext highlighter-rouge">#production-experience</code></p>
-
-<hr />
-
-<p><a id="item-agent-dev-2"></a></p>
-<h3 id="9-月-ai-前端面试新风向ssetypescript-与-ai-agent-核心考点解析---csdn-️-6010"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UZFVTa2VnRUtWX2lpTC1kX1lBRk5QNmh3cktaandIY1VNelEzV05PYmpWMTZ2QXh0ZmJzcXlnbkM3WE9Jei1yUTBmRHlFQ1N6NkNIdk1GTTM3c0dZWFlJ?oc=5">9 月 AI 前端面试新风向：SSE、TypeScript 与 AI Agent 核心考点解析 - CSDN</a> ⭐️ 6.0/10</h3>
-
-<p>本文概述了 2026 年 9 月 AI 前端面试的新趋势，重点关注服务器发送事件（SSE）、TypeScript 语言特性以及 AI Agent 的核心考点。文章针对准备 AI 相关前端岗位的开发者，介绍了这些技术在面试中的重要性和考察方向，但未提供详细的实现方法或生产环境经验。适用于希望了解当前 AI 前端面试重点的开发者参考。</p>
-
-<p>rss · Agent 开发新闻 · 11月19日 06:49</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI front-end</code>, <code class="language-plaintext highlighter-rouge">#TypeScript</code>, <code class="language-plaintext highlighter-rouge">#SSE</code>, <code class="language-plaintext highlighter-rouge">#Interview preparation</code>, <code class="language-plaintext highlighter-rouge">#AI Agent</code></p>
-
-<hr />
-
-<h2 id="独立游戏">独立游戏</h2>
-
-<p><a id="item-indie-games-1"></a></p>
-<h3 id="砍与售杀进-weplay-上海波兰展区-c04-展位完整试玩要素拉满-️-8010"><a href="https://www.gcores.com/articles/222547">《砍与售》杀进 WePlay 上海！波兰展区 C04 展位完整试玩要素拉满</a> ⭐️ 8.0/10</h3>
-
-<!-- hz-media:start -->
-<div class="hz-media">
-<figure class="hz-media-figure"><a href="https://www.gcores.com/articles/222547" target="_blank" rel="noopener noreferrer">
-<img src="https://image.gcores.com/9736e40486e712234e6ee3590256a453-1920-1080.jpg?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90" alt="《砍与售》杀进 WePlay 上海！波兰展区 C04 展位完整试玩要素拉满：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
-</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
-</div>
-<!-- hz-media:end -->
-
-<p>本报讯：《砍与售》这款波兰独立动作 RPG+砍杀类 Roguelike 与商店经营模拟游戏，确认参加 2026 年 11 月 21 日至 22 日的 WePlay 上海展会。玩家可在波兰展区 C04 展位体验 PC 和 Steam Deck 完整版本，现场还有开发商 CEO Jakub Bąk 亲临互动并送贴纸。游戏已于 8 月底登陆 Steam，售价 33 元，销量突破 10.9 万份，支持简体中文，且持续推出免费大型更新。更劲爆的是，12 月将上架 XBOX，明年还计划登陆 PS5 和 Switch 2。小编只能说，这波动作与经营双重玩法，真是宅家打怪又开店的完美组合(・∀・)。</p>
-
-<p>rss · 机核 · 11月19日 09:18</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#独立游戏</code>, <code class="language-plaintext highlighter-rouge">#WePlay上海</code>, <code class="language-plaintext highlighter-rouge">#试玩展会</code>, <code class="language-plaintext highlighter-rouge">#动作RPG</code>, <code class="language-plaintext highlighter-rouge">#游戏更新</code></p>
-
-<hr />
-
-<p><a id="item-indie-games-2"></a></p>
-<h3 id="stephen-wolfram-杀进游戏设计多重计算系统揭秘游戏深度-️-8010"><a href="https://indienova.com/indie-game-news/sunset-sway-stephan-wolfram-games-and-puzzles-as-multicomputational-systems/">Stephen Wolfram 杀进游戏设计！多重计算系统揭秘游戏深度</a> ⭐️ 8.0/10</h3>
-
-<!-- hz-media:start -->
-<div class="hz-media">
-<figure class="hz-media-figure"><a href="https://indienova.com/indie-game-news/sunset-sway-stephan-wolfram-games-and-puzzles-as-multicomputational-systems/" target="_blank" rel="noopener noreferrer">
-<img src="https://hivebak.indienova.com/farm/article/headpic/2026/11/head-4467F1-stephan-wolfram-games-and-puzzles-as-multicomputational-systems.jpg" alt="Stephen Wolfram 杀进游戏设计！多重计算系统揭秘游戏深度：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
-</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
-</div>
-<!-- hz-media:end -->
-
-<p>本报讯：Stephen Wolfram 将其多重计算系统理论带入游戏和谜题领域，利用图论可视化复杂游戏规则，揭示游戏深度与复杂性的计算分析方法。文章通过井字棋等经典游戏示例，展示如何用多路图描绘所有可能的游戏走向，直观体现游戏的趣味性和难度。更劲爆的是，这种方法还连接了物理学中离散世界的理念，赋予游戏设计新的科学视角。小编只能说，游戏不再只是娱乐，还是探索宇宙复杂性的另类“实验场”呢 (・∀・)</p>
-
-<p>rss · indienova · 11月19日 06:00</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Stephen Wolfram</code>, <code class="language-plaintext highlighter-rouge">#复杂系统</code>, <code class="language-plaintext highlighter-rouge">#游戏设计</code>, <code class="language-plaintext highlighter-rouge">#多重计算</code>, <code class="language-plaintext highlighter-rouge">#涌现行为</code></p>
-
-<hr />
-
-<p><a id="item-indie-games-3"></a></p>
-<h3 id="itchio-免费独立游戏周报恐怖推理到多人派对11-月新游要素拉满-️-7010"><a href="https://indienova.com/indie-game-news/itch-new-games-summary-of-last-week-2026-1109-1115-part1/">itch.io 免费独立游戏周报：恐怖推理到多人派对，11 月新游要素拉满</a> ⭐️ 7.0/10</h3>
-
-<!-- hz-media:start -->
-<div class="hz-media">
-<figure class="hz-media-figure"><a href="https://indienova.com/indie-game-news/itch-new-games-summary-of-last-week-2026-1109-1115-part1/" target="_blank" rel="noopener noreferrer">
-<img src="https://hivebak.indienova.com/farm/article/headpic/2026/11/head-8029pp-banner1109_1115A.jpg" alt="itch.io 免费独立游戏周报：恐怖推理到多人派对，11 月新游要素拉满：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
-</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
-</div>
-<!-- hz-media:end -->
-
-<p>本报讯：2026 年 11 月 9 日至 15 日，itch.io 平台迎来多款免费独立游戏上线。恐怖推理佳作《布兹糖果厂：夜班》带你守夜解谜；心理恐怖 RPG《此地静默无声》剧情渐入血腥；解谜策略游戏《四季轮转》温馨治愈；多人在线派对游戏《欢乐开趴》社交乐趣满满。还有支持 VRM 模型的开放世界角色扮演《化身为你》，以及电波系百合视觉小说《月下妄想》。这波免费游戏阵容丰富，类型多样，适合独立游戏爱好者周末试玩，先看为敬(・∀・)</p>
-
-<p>rss · indienova · 11月20日 00:00</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#独立游戏</code>, <code class="language-plaintext highlighter-rouge">#游戏汇编</code>, <code class="language-plaintext highlighter-rouge">#试玩推荐</code>, <code class="language-plaintext highlighter-rouge">#itch.io</code>, <code class="language-plaintext highlighter-rouge">#免费游戏</code></p>
-
-<hr />
-
-<h2 id="可爱老鼠">可爱老鼠</h2>
-
-<p><a id="item-cute-mice-1"></a></p>
-<h3 id="托菲和斯派克的梨核早餐时光-️-8010"><a href="https://bsky.app/profile/kupgup.bsky.social/post/3n2ogdv26sk24">托菲和斯派克的梨核早餐时光</a> ⭐️ 8.0/10</h3>
-
-<!-- hz-media:start -->
-<div class="hz-media">
-<figure class="hz-media-figure"><a href="https://bsky.app/profile/kupgup.bsky.social/post/3n2ogdv26sk24" target="_blank" rel="noopener noreferrer">
-<img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:v2n53blk7odw5d3fijy7fcbk/bafkreibnyzlmuqrmkimwidy4bk2wj56l4j5waeow4lr6tuuafkxfc7t7ma" alt="托菲和斯派克的梨核早餐时光：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
-</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
-<figure class="hz-media-figure"><a href="https://bsky.app/profile/kupgup.bsky.social/post/3n2ogdv26sk24" target="_blank" rel="noopener noreferrer">
-<img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:v2n53blk7odw5d3fijy7fcbk/bafkreiaguz6s2yed2piqy7q4ve5sf4kjyh4lvwnqaqg2tsawomwpcjr2oe" alt="托菲和斯派克的梨核早餐时光：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
-</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
-</div>
-<!-- hz-media:end -->
-
-<p>姨姨今天特地去找醒托菲，那个老小子居然还得叫醒才能排到第一！不过一醒来就开始大口吃梨核，斯派克也不甘示弱，认真啃着梨核边边，俩小宝贝真是太乖啦，姨姨的心都要化啦，慢点吃没人抢哦 (っ˘ω˘ς ) 救命！</p>
-
-<p>bluesky · Bluesky · #petrats · 11月19日 15:49</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#pet rats</code>, <code class="language-plaintext highlighter-rouge">#feeding</code>, <code class="language-plaintext highlighter-rouge">#cute behavior</code>, <code class="language-plaintext highlighter-rouge">#daily life</code>, <code class="language-plaintext highlighter-rouge">#pear cores</code></p>
-
-<hr />
-
-<p><a id="item-cute-mice-2"></a></p>
-<h3 id="宠物鼠的温馨时刻-️-2010"><a href="https://bsky.app/profile/fareville.bsky.social/post/3n2p2cdg5wk2n">宠物鼠的温馨时刻</a> ⭐️ 2.0/10</h3>
-
-<!-- hz-media:start -->
-<div class="hz-media">
-<figure class="hz-media-figure"><a href="https://bsky.app/profile/fareville.bsky.social/post/3n2p2cdg5wk2n" target="_blank" rel="noopener noreferrer">
-<img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:5tluifv5h3p4h2o3su2sp346/bafkreidnqcn7txo5jqtqb2ra3f5rkr7qzqn4wfqixmopfqjwvey2h5nm5e" alt="宠物鼠的温馨时刻：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
-</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
-</div>
-<!-- hz-media:end -->
-
-<p>这两只小宠物鼠依偎在一起，真是太温馨了！希望它们玩得开心，跳进小小的乐趣里☺️🙏救命</p>
-
-<p>bluesky · Bluesky · pet rats · 11月19日 21:46</p>
-
-<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#pet rats</code>, <code class="language-plaintext highlighter-rouge">#snuggling</code>, <code class="language-plaintext highlighter-rouge">#cozy</code>, <code class="language-plaintext highlighter-rouge">#negative comment</code></p>
 
 <hr />
 

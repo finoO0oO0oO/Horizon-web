@@ -1,4 +1,138 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://finoo0oo0oo.github.io/Horizon-web/feed.xml" rel="self" type="application/atom+xml" /><link href="https://finoo0oo0oo.github.io/Horizon-web/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2026-11-26T14:31:21+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/feed.xml</id><title type="html">Fino 的晨间地平线</title><subtitle>AI Agent 开发 · 独立游戏 · 本季日本动画 · 可爱老鼠</subtitle><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-26 (ZH)</title><link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/26/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-26 (ZH)" /><published>2026-11-26T00:00:00+09:00</published><updated>2026-11-26T00:00:00+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/26/summary-zh</id><content type="html" xml:base="https://finoo0oo0oo.github.io/Horizon-web/2026/11/26/summary-zh.html"><![CDATA[<blockquote>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="https://finoo0oo0oo.github.io/Horizon-web/feed.xml" rel="self" type="application/atom+xml" /><link href="https://finoo0oo0oo.github.io/Horizon-web/" rel="alternate" type="text/html" hreflang="zh-CN" /><updated>2026-11-27T08:12:17+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/feed.xml</id><title type="html">Fino 的晨间地平线</title><subtitle>AI Agent 开发 · 独立游戏 · 本季日本动画 · 可爱老鼠</subtitle><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-27 (ZH)</title><link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/27/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-27 (ZH)" /><published>2026-11-27T00:00:00+09:00</published><updated>2026-11-27T00:00:00+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/27/summary-zh</id><content type="html" xml:base="https://finoo0oo0oo.github.io/Horizon-web/2026/11/27/summary-zh.html"><![CDATA[<blockquote>
+  <p>从 39 条内容中筛选出 7 条重要资讯。</p>
+</blockquote>
+
+<hr />
+
+<p><strong>AI Agent 开发</strong></p>
+<ol>
+  <li><a href="#item-agent-dev-1">sqlite3_rsync：SQLite 数据库远程复制工具</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-agent-dev-2">引用 Scott Aaronson 关于复杂性理论的新视角</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-agent-dev-3">阿里开源 Spring AI Alibaba：Java 开发者构建 AI Agent 的实战指南</a> ⭐️ 6.0/10</li>
+  <li><a href="#item-agent-dev-4">AI Agent 安全：恶意 llms.txt 导致任意代码执行及防御指南 - CSDN</a> ⭐️ 6.0/10</li>
+</ol>
+
+<p><strong>独立游戏</strong></p>
+<ol>
+  <li><a href="#item-indie-games-1">《咒语旅团》土豆兄弟联动 DLC 杀进泥沼，免费内容要素拉满！</a> ⭐️ 7.0/10</li>
+</ol>
+
+<p><strong>可爱老鼠</strong></p>
+<ol>
+  <li><a href="#item-cute-mice-1">白鼠小宝贝藏袖中，红眼睛闪闪惹人爱</a> ⭐️ 7.0/10</li>
+  <li><a href="#item-cute-mice-2">三只小宝贝的摇篮时光</a> ⭐️ 7.0/10</li>
+</ol>
+
+<hr />
+
+<h2 id="ai-agent-开发">AI Agent 开发</h2>
+
+<p><a id="item-agent-dev-1"></a></p>
+<h3 id="sqlite3_rsyncsqlite-数据库远程复制工具-️-7010"><a href="https://simonwillison.net/2026/Nov/26/sqlite3-rsync/">sqlite3_rsync：SQLite 数据库远程复制工具</a> ⭐️ 7.0/10</h3>
+
+<p>sqlite3_rsync 是 SQLite 官方提供的一个实验性工具，自 SQLite 3.47.0 版本（2024 年 10 月）起引入，并在 3.50.0 版本（2025 年 5 月）得到增强。该工具允许通过 SSH 连接远程复制数据库快照，无需先在本地创建完整副本，适合磁盘空间有限的环境。它采用类似 rsync 的协议，通过交换数据库页面的加密哈希值，仅传输差异数据，实现高效同步和远程备份。</p>
+
+<p>rss · Simon Willison · 11月26日 06:08</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#sqlite</code>, <code class="language-plaintext highlighter-rouge">#database backup</code>, <code class="language-plaintext highlighter-rouge">#remote synchronization</code>, <code class="language-plaintext highlighter-rouge">#sqlite3\_rsync</code>, <code class="language-plaintext highlighter-rouge">#tools</code></p>
+
+<hr />
+
+<p><a id="item-agent-dev-2"></a></p>
+<h3 id="引用-scott-aaronson-关于复杂性理论的新视角-️-6010"><a href="https://simonwillison.net/2026/Nov/25/scott-aaronson/">引用 Scott Aaronson 关于复杂性理论的新视角</a> ⭐️ 6.0/10</h3>
+
+<p>Scott Aaronson 用显微镜和望远镜的比喻形象地描述了复杂性理论和数学真理理解上的重大飞跃，强调这不仅是解决单一问题，而是开启了一个全新的数学真理领域。该观点提供了对理论进展的深刻洞察，但未涉及具体的开发实现或代码示例。</p>
+
+<p>rss · Simon Willison · 11月25日 23:26</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#mathematics</code>, <code class="language-plaintext highlighter-rouge">#complexity theory</code>, <code class="language-plaintext highlighter-rouge">#theoretical insight</code>, <code class="language-plaintext highlighter-rouge">#ai</code>, <code class="language-plaintext highlighter-rouge">#generative-ai</code></p>
+
+<hr />
+
+<p><a id="item-agent-dev-3"></a></p>
+<h3 id="阿里开源-spring-ai-alibabajava-开发者构建-ai-agent-的实战指南-️-6010"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnWG5zSzdScm9IajJCV0pjSzExWHlPeWZkQ0dGSXp3QzctVnhuYmh1aUpWR1RCamJtbnJtQ3BkYVpoR0NlZTR1a2p0Qk1iLXItUS13V1dfYWxfeUZIcnJJ?oc=5">阿里开源 Spring AI Alibaba：Java 开发者构建 AI Agent 的实战指南</a> ⭐️ 6.0/10</h3>
+
+<p>阿里巴巴开源了 Spring AI Alibaba 项目，旨在为 Java 开发者提供构建 AI Agent 的实战指导。该项目基于 Spring 框架，方便 Java 开发者集成和开发智能代理应用，提升开发效率和应用智能化水平。文中主要介绍了项目的应用场景和基本实现方法，但未详细披露具体技术细节和性能数据。</p>
+
+<p>rss · Agent 开发新闻 · 11月26日 01:02</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#Java</code>, <code class="language-plaintext highlighter-rouge">#AI Agent</code>, <code class="language-plaintext highlighter-rouge">#Open Source</code>, <code class="language-plaintext highlighter-rouge">#Spring Framework</code>, <code class="language-plaintext highlighter-rouge">#Alibaba</code></p>
+
+<hr />
+
+<p><a id="item-agent-dev-4"></a></p>
+<h3 id="ai-agent-安全恶意-llmstxt-导致任意代码执行及防御指南---csdn-️-6010"><a href="https://news.google.com/rss/articles/CBMiX0FVX3lxTE9BS1VGdFExdldzZzY4TXJ3NF9Xd1oxQndnWjhJNmstQWFfT3ZObGoyWFNiT0pRNHlOaThXaF9mRkJ0eGJTSXlPdUNGZmZJOEZvOEJ6LUhGUTRwcm1Kc0dV?oc=5">AI Agent 安全：恶意 llms.txt 导致任意代码执行及防御指南 - CSDN</a> ⭐️ 6.0/10</h3>
+
+<p>该文章讨论了恶意大型语言模型文件（llms.txt）如何引发任意代码执行的安全风险，并提供了相应的防御策略。文章重点分析了攻击的实现方式及其对 AI Agent 安全的影响，旨在帮助开发者理解并防范此类威胁。由于内容细节有限，具体实现方法和实测效果尚不明确。</p>
+
+<p>rss · Agent 开发新闻 · 11月26日 01:51</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#AI Security</code>, <code class="language-plaintext highlighter-rouge">#LLM Vulnerabilities</code>, <code class="language-plaintext highlighter-rouge">#Code Execution</code>, <code class="language-plaintext highlighter-rouge">#Defense Guide</code>, <code class="language-plaintext highlighter-rouge">#CSDN</code></p>
+
+<hr />
+
+<h2 id="独立游戏">独立游戏</h2>
+
+<p><a id="item-indie-games-1"></a></p>
+<h3 id="咒语旅团土豆兄弟联动-dlc-杀进泥沼免费内容要素拉满-️-7010"><a href="https://www.gcores.com/articles/222783">《咒语旅团》土豆兄弟联动 DLC 杀进泥沼，免费内容要素拉满！</a> ⭐️ 7.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://www.gcores.com/articles/222783" target="_blank" rel="noopener noreferrer">
+<img src="https://image.gcores.com/8ddbbde8e1dad51de8b6daf1ba85da85-602-338.webp?x-oss-process=image/resize,limit_1,m_fill,w_626,h_292/quality,q_90" alt="《咒语旅团》土豆兄弟联动 DLC 杀进泥沼，免费内容要素拉满！：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>本报讯：《咒语旅团》携手《土豆兄弟》推出免费联动 DLC，新增近战巫师斯帕德、两大特色咒语和五件遗物，拳拳到肉的战斗风格让人眼前一亮。与此同时，“沉沦泥沼”免费更新带来全新沼泽地图和感染怪物，挑战感十足。更劲爆的是，无尽模式“永恒之约”难度升级，还加入了可自选起始咒语的恩赐系统。小编只能说，这波联动和更新，既满足了土豆粉也让老玩家有了新理由组队开黑，属实有点东西(・∀・)</p>
+
+<p>rss · 机核 · 11月26日 01:15</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#游戏更新</code>, <code class="language-plaintext highlighter-rouge">#联动DLC</code>, <code class="language-plaintext highlighter-rouge">#免费内容</code>, <code class="language-plaintext highlighter-rouge">#独立游戏</code>, <code class="language-plaintext highlighter-rouge">#合作弹幕生存</code></p>
+
+<hr />
+
+<h2 id="可爱老鼠">可爱老鼠</h2>
+
+<p><a id="item-cute-mice-1"></a></p>
+<h3 id="白鼠小宝贝藏袖中红眼睛闪闪惹人爱-️-7010"><a href="https://mindly.social/@otterX/117680914227017605">白鼠小宝贝藏袖中，红眼睛闪闪惹人爱</a> ⭐️ 7.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://mindly.social/@otterX/117680914227017605" target="_blank" rel="noopener noreferrer">
+<img src="https://a.mindlycdn.com/media_attachments/files/117/680/885/970/892/744/original/79fff1472b62995b.jpeg" alt="白鼠小宝贝藏袖中，红眼睛闪闪惹人爱：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>哎哟喂，我的小宝贝 Helena 居然从姨姨的摇粒绒袖子里探出头来，红宝石般的眼睛闪闪发光，连那点点暹罗色的浅棕印记都萌得姨姨心都要化啦！这小胡须在深蓝色绒布上简直是艺术品，姨姨看着镜子里的你，忍不住想说：慢点探头，没人抢你的位置呀！(っ˘ω˘ς )救命，这么可爱，姨姨要抱紧了！</p>
+
+<p>rss · Mastodon · #rats · 11月26日 04:44</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#pet rat</code>, <code class="language-plaintext highlighter-rouge">#cute</code>, <code class="language-plaintext highlighter-rouge">#daily life</code>, <code class="language-plaintext highlighter-rouge">#whiskers</code>, <code class="language-plaintext highlighter-rouge">#mirror selfie</code></p>
+
+<hr />
+
+<p><a id="item-cute-mice-2"></a></p>
+<h3 id="三只小宝贝的摇篮时光-️-7010"><a href="https://bsky.app/profile/mwl.io/post/3n37uajeefs2d">三只小宝贝的摇篮时光</a> ⭐️ 7.0/10</h3>
+
+<!-- hz-media:start -->
+<div class="hz-media">
+<figure class="hz-media-figure"><a href="https://bsky.app/profile/mwl.io/post/3n37uajeefs2d" target="_blank" rel="noopener noreferrer">
+<img src="https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:kycoixb2auymghmpm7i266i7/bafkreiey3lt435kvk4lhmmw5fzhf45z2yoeoxpsrabwh2e43ba44hsgd4y" alt="三只小宝贝的摇篮时光：来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+</a><figcaption>来源配图 · 点击打开原文</figcaption></figure>
+</div>
+<!-- hz-media:end -->
+
+<p>哎哟喂，我家的三只小宝贝竟然挤在那个吊篮里团团坐，真是太暖心啦！姨姨看着你们紧紧相依，心都要化啦，慢点挤，别把小篮子撑坏了呀，姨姨的心都要被你们的亲亲抱抱融化了，救命～(っ˘ω˘ς )</p>
+
+<p>bluesky · Bluesky · #petrats · 11月26日 14:13</p>
+
+<p><strong>标签</strong>: <code class="language-plaintext highlighter-rouge">#pet rats</code>, <code class="language-plaintext highlighter-rouge">#snuggling</code>, <code class="language-plaintext highlighter-rouge">#cozy</code>, <code class="language-plaintext highlighter-rouge">#hanging basket</code>, <code class="language-plaintext highlighter-rouge">#family</code></p>
+
+<hr />
+
+<!-- horizon-media:1 -->]]></content><author><name></name></author><summary type="html"><![CDATA[从 39 条内容中筛选出 7 条重要资讯。]]></summary></entry><entry xml:lang="zh"><title type="html">Horizon Summary: 2026-11-26 (ZH)</title><link href="https://finoo0oo0oo.github.io/Horizon-web/2026/11/26/summary-zh.html" rel="alternate" type="text/html" title="Horizon Summary: 2026-11-26 (ZH)" /><published>2026-11-26T00:00:00+09:00</published><updated>2026-11-26T00:00:00+09:00</updated><id>https://finoo0oo0oo.github.io/Horizon-web/2026/11/26/summary-zh</id><content type="html" xml:base="https://finoo0oo0oo.github.io/Horizon-web/2026/11/26/summary-zh.html"><![CDATA[<blockquote>
   <p>从 34 条内容中筛选出 8 条重要资讯。</p>
 </blockquote>
 
